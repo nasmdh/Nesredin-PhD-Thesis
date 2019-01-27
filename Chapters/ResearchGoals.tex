@@ -1,1 +1,188 @@
 \chapter{Research Goals}
+The research is motivated by problems encountered in the development of automotive systems from Volvo Group Trucks Technology (VGTT) and Scania, which are among the leading trucks and heavy-duty vehicles producers in the market. In particular, the problems related to requirements specification of automotive systems, and analysis of architectural and behavioral automotive systems. In this spirit, the research problem is articulated under the VeriSpec project\footnote{http://www.es.mdh.se/projects/343-VeriSpec\_\_\_Structured\_Specification\_and\_Automated\_Verification\_for\_Automotive\_Functional\_Safety} with the aim of addressing the problems with relevance and usability in consideration, that is besides effectiveness, we consider scalability of methods, and engineer-friendliness and seamless integration of tools into the industrial tool chains of VGTT and Scania.
+
+Based on preliminary study of automotive software development processes, methods and tools employed in the partner companies, we identify three main findings (or issues), which are briefly summarized as follows: i) in both companies, software and systems specifications are written via domain-specific platforms, e.g., at VGTT via a variant of EATOP (with support for AUTOSAR) and SystemWeaver. Although, the platform enables integration of various development artifacts, robust integration of system architectures to their requirements specification is lacking. Furthermore, the specifications are expressed in natural language, which is intuitive and expressive but sometimes not a better choice for safety-critical systems mainly due to its inherent ambiguity and lack of support for rigorous analysis, ii) due to the safety-critical nature of many automotive systems, intermediate but rigorous verification of software applications based on formal methods is needed at the design level before implementation (or code generation), which is mostly performed from Simulink models,
+
+The research also takes into account the problem of managing the increasing automotive applications running on the electrical/electronics vehicular architecture of modern vehicle, e.g., autonomous, electric vehicle, which demand powerful computation platform and efficient use of critical system resources such as power and energy.
+
+The above problems have laid the ground for the research in the Ph.D. thesis. In light of the problems discussed above, the overall research goal of the thesis is to:
+
+\begin{researchgoal}
+Provide assurance of functionality and quality of embedded software systems, at various levels of abstraction, via formal analysis and optimization of critical system resources.
+\end{researchgoal}
+
+The overall research goal is refined into five research goals in order to simplify addressing the research problems by targeting specific parts
+
+\section{Research Goals}\label{research_challenges}
+The first research goal addresses the need for improved method of requirements specification that relays on natural language, which is the de facto standard to specify requirements in industry. It is intuitive, expressive, and flexible (that is different syntax can be used to describe the same requirement), hence easy to use. However it is inherently ambiguous and therefore could lead to undesirable (or bad quality specifications), that is incomprehensible and ambiguous. Although template-based specification methods, e.g., requirement boilerplates, specification pattern systems, can reduce ambiguity and also improve readability, they are usually rigid and selecting appropriate templates is difficult. Likewise, existing controlled natural languages do not effectively specify embedded systems requirements due to lack of domain knowledge in their language design, e.g., Attempto, PING, etc. Therefore, the first research goal is to:
+\begin{researchgoal}
+\rgl{Improve the effectiveness and flexibility of natural language requirements specification by employing system-level and domain-specific knowledge.}
+\end{researchgoal}
+
+One of the mechanisms to improve natural language specifications is by constraining the language, including its syntax, semantics and the lexicon \cite{Kuhn2014ALanguages}. The design of a constrained natural language for the specification of requirements is not trivial mainly because: i) natural language possesses conflicting properties (or metrics) \cite{ieereqspecstandard}, for instance by constraining natural language, its expressiveness and flexibility \cite{Myachykov2013SyntacticRussian} can be impaired. Furthermore, it could lose its intuitiveness. Therefore, appropriate trade offs should be made in the design in order to have a robust and effective specification language; ii) in order to achieve a usable constrained natural language, the latter should be tailored to a specific domain of application, which requires expertise in the field; iii) usually requirements are specified before the system architecture is developed, so the constrained natural language should provide support to analyze requirements in the absence of architectural models.
+
+Besides assuring the quality of requirements specifications individually, the latter should be should be analyzed in ensemble in order to detect errors that span multiple specifications, e.g., logical inconsistencies within specifications. In essence, the specifications should possess rich semantics that relate individual specifications to each other. In this regard, the second research goal is to:
+
+\begin{researchgoal}
+ \rgl{Facilitate rigorous analysis of requirements specifications through transformation to formal specifications.}
+\end{researchgoal}
+
+Natural language requirements specifications are constructed from syntactic units, such as words, phrases, clauses, statements, etc. Consequently, rigorous analysis of specifications involve parsing and interpreting the syntactic units, which is a complex problem in computational linguistics, mainly due to the multitude of  interpretation (or semantics) paradigms \cite{Clark2010TheProcessing}. Model-theoretic semantics is a widely-applied paradigm in computational semantics which computes truth values of sentences by inductively applying interpretation functions on the syntactic units (or structures) of the sentences in relation to mathematical systems, e.g., propositional, first-order systems. The depth of the interpretation greatly affects the use and applicability of the interpretation approach. For instance, with the assumption that a proposition equates to a clause in a sentence, propositional logic elegantly represents sentences and scales well to find truth values, albeit it provides a shallow interpretation of the sentences. In contrast, first-order logic representations provide rich semantics, and thus enable rigorous yet less tractable analysis. Therefore, the type of analysis and level of rigor needed drives the type of semantics.
+
+The task of verification and validation is vital in the development of safety-critical systems. Basically, for correct functionality, verifying the timing behavior of safety-critical systems is as important as their functional behavior counterpart which include checking for time-bounded response of actions, timing constraints on sequence of actions, etc. In this thesis, we focus on systems developed using Simulink as it is among (if not the most) widely-used model-based design, analysis, simulation and code-generation environment for safety-critical and real-time embedded system. It is frequently used at VGTT and Scania, but also is used in similar embedded systems industries, e.g., automation, avionics, etc. In this thesis, we target Simulink models that are hybrid (that is, use continuous and discrete Simulink blocks), and contains discrete Simulink blocks that are triggered using different sampling events. The latter cases causes under sampling and over sampling effects of signals that make synchronization of blocks difficult.
+
+Existing  Simulink analysis techniques, e.g., by type checking, simulation, and formal verification via Simulink Design Verifier (based Prover model-checker) (SDV\footnote{https://se.mathworks.com/products/sldesignverifier.html}.) are not sufficient to address the full correctness of safety-critical real-time Simulink models, e.g., it lacks support for checking temporal correctness as specified in timed properties specified in TCTL, and also lacks support for verifying continuous models and suffers from scalability due to its reliance on exact model-checking \cite{Leitner2008SimulinkStudy}. Further, the relevance of rigorous analysis of safety-critical Simulink models is crucial as it is the case that Simulink generates code for real-time applications that directly run on hardware platforms as it reduces maintenance cost by detecting the modeling errors before code generation. In this regard, the fourth research goal is to:
+\begin{researchgoal}
+\rgl{Enable scalable formal analysis of multirate software applications modeled in Simulink.}
+\end{researchgoal}
+
+Simulink consists of connected and hierarchical Simulink blocks, which encode mathematical functions. For industrial systems, the number of blocks in a Simulink model can be in the order of thousands, and the blocks can be triggered with different sampling frequencies for discrete blocks and without any sampling frequency 
+for continuous blocks. Therefore, typical industrial Simulink models are usually complex and comprise mixed signals, multiple rates, discrete and continues Simulink blocks, making formal analysis challenging.
+
+Afterwards, the specifications are used to create the high-level system design (or architecture) that realizes the required functionality. The system architecture consists of software and hardware logical components, as well as mappings from the software components to the hardware components (or computation nodes). The latter activity of the system design, also known as \textit{software allocation}, should be handled effectively in order to preserve the functionality of the software architecture, including functional correctness and extra-functional attributes such as timing and reliability. Furthermore, the allocation should be efficient in order to conserve critical system resources while satisfying requirements as well as design and hardware constraints.
+
+Effective and efficient allocation of multirate software applications is highly needed, as it is crucial to safety-critical systems such as automotive systems, aircrafts, etc. Many multirate applications are deployed on several computation nodes, which are possibly heterogeneous, over shared communication networks. Therefore, the third research goal is as follows:
+ 
+\begin{researchgoal}
+ \rgl{Find an effective and efficient allocation of multirate software applications on a  network of heterogeneous computing nodes, with respect to critical system resources.}
+\end{researchgoal}
+
+Allocation of multirate software applications on a network of computation nodes is challenging mainly due to the complex timing analysis that needs to be considered during the allocation process \cite{Mahmud5222, mubeen2013support}. The timed paths of multirate applications increasing the search space, and therefore finding an efficient allocation becomes exponential. Furthermore, the heterogeneity of the computation nodes forces the search method to consider every computation node for better result, thus increasing the optimization time, as opposed to considering homogeneous nodes. Since the software allocation could be intractable especially for large systems, methods based on heuristics and approximation should be provided instead of exact ones.
+
+Addressing research goal 3 ensures that the software applications are deployed with minimal resource utilization at the same time assuring the satisfaction of extra-functional requirements such as timing and reliability. Furthermore, it ensures that the design and hardware constraints are met. 
+
+The system architecture, in particular the software architecture is further refined via software unit designs that capture the behavior of the software. We assume that the latter is captured by models in Simulink \cite{JamesB.Dabney2003MasteringSimulink}, which is one of the most popular and robust component-based software development environment employed in industry. 
+
+
+
+In order to show the validity of our proposed solutions, a working prototype should be developed and should be applied on industrial uses cases. Our proposed specification and analysis methods and tools should be engineering friendly in order to facilitate their adoption in industry, for instance they should embody intuitiveness and seamless integration into industrial practices. Therefore, the last research goal is as follows:
+\begin{researchgoal}
+ \rgl{Provide automated and engineering-friendly support for the requirements specification, software allocation of embedded  and formal analysis of Simulink models.}
+\end{researchgoal}
+
+Seamless integration of new development methods and tools require appropriate interfaces to plug into existing development methods and tools in order to facilitate adoption of formal techniques, by lowering the required effort and cost. In particular, formal methods should be accompanied by engineering-friendly interfaces, as the syntax of the formal notations is not familiar to most engineers, likewise, understanding the underlying semantics requires a substantial shift from traditional software development paradigms. In order to tackle these challenges, very close cooperation with engineers and know-how of domain-specific industrial tools and practices are paramount.
+
+\section{Papers Included in the Thesis}\label{papersincl}
+The papers to be included in the PhD thesis are listed as follows.
+
+\subsection{Paper A}
+\begin{tabular}{p{\textwidth}}
+\textbf{ReSA: An Ontology-based Requirement Specification Language Tailored to Automotive Systems} \\
+Nesredin~Mahmud, Cristina~Seceleanu, Ljungkrantz~Oscar\\[6pt]
+\textbf{Abstract:} \textit{Automotive systems are developed using multi-leveled architectural abstractions in an attempt to manage the increasing complexity and criticality of automotive functions. Consequently, well-structured and unambiguously specified requirements are needed on all levels of abstraction, in order to enable early detection of possible design errors. However, automotive industry often relies on requirements specified in ambiguous natural language, sometimes in large and incomprehensible documents. Semi-formal requirements specification approaches (e.g., requirement boilerplates, pattern-based specifications, etc.) aim to reduce requirements ambiguity, without altering their readability and expressiveness. Nevertheless, such approaches do not offer support for specifying requirements in terms of multi-leveled architectural concepts, nor do they provide means for early-stage rigorous analysis of the specified requirements. In this paper, we propose a language, called ReSA, which allows requirements specification at various levels of abstraction, modeled in the architectural language of EAST-ADL. ReSA uses an automotive systems' ontology that offers typing and syntactic axioms for the specification. Besides enforcing structure and more rigor in specifying requirements, our approach enables checking refinement as well as consistency of requirements, by proving ordinary boolean implications. To illustrate ReSA's applicability, we show how to specify some requirements of the Adjustable Speed Limiter, which is a complex, safety-critical Volvo Trucks user function.}\\[6pt]
+\textbf{Status:} Published in \textit{10th IEEE International Symposium on Industrial Embedded Systems (SIES), 2015, IEEE}\\
+\textbf{My Contribution: }I was the main driver of the paper. I developed the ReSA language including its syntax and semantics, and Cristina Seceleanu proposed a consistency analysis technique besides giving useful comments and ideas on the design of the language. Oscar Ljungkrantz provided useful materials from VGTT that were eventually analyzed for the language development, and gave feedback on the language design and implementation from an industrial viewpoint.
+\end{tabular}
+
+\subsection{Paper B}
+\begin{tabular}{p{\textwidth}}
+\textbf{ReSA Tool: Structured Requirements Specification and SAT-based Consistency-checking}\\%titile
+Nesredin~Mahmud, Cristina~Seceleanu, Ljungkrantz~Oscar\\[6pt]%authors
+\textbf{Abstract:} \textit{Most industrial embedded systems requirements are
+specified in natural language, hence they can sometimes be
+ambiguous and error-prone. Moreover, employing an early-stage
+model-based incremental system development using multiple
+levels of abstraction, for instance via architectural languages
+such as EAST-ADL, calls for different granularity requirements
+specifications described with abstraction-specific concepts that
+reflect the respective abstraction level effectively.
+In this paper, we propose a toolchain for structured requirements
+specification in the ReSA language, which scales to multiple
+EAST-ADL levels of abstraction. Furthermore, we introduce
+a consistency function that is seamlessly integrated into the
+specification toolchain, for the automatic analysis of requirements
+logical consistency prior to their temporal logic formalization
+for full formal verification. The consistency check subsumes
+two parts: (i) transforming ReSA requirements specification into
+boolean expressions, and (ii) checking the consistency of the
+resulting boolean expressions by solving the satisfiability of their
+conjunction with the Z3 SMT solver. For validation, we apply
+the ReSA toolchain on an industrial vehicle speed control system,
+namely the Adjustable Speed Limiter.}\\[6pt]%abstract
+\textbf{Status: }Published in \textit{Federated Conference on Computer Science and Information Systems (FedCSIS), 2016, IEEE}\\%status
+\textbf{My Contribution: }I was the main driver of the paper. I developed the ReSA toolchain that consists of the editor and the consistency checker including the integration with the Z3 SAT solver in the backend. Cristina Seceleanu formulated the consistency checking and together with Oscar Ljungkrantz, they contributed to the paper with useful comments and ideas.\\%my contribution
+\end{tabular}
+
+\subsection{Paper C}
+\begin{tabular}{p{\textwidth}}
+\textbf{Specification and Semantic Analysis of Embedded Systems Requirements: From  Description Logic to Temporal Logic}\\%titile
+Nesredin~Mahmud, Cristina~Seceleanu, Ljungkrantz~Oscar\\[6pt]%authors
+\textbf{Abstract:} \textit{Due to the increasing complexity of embedded systems, early detection of software/hardware errors has become desirable. In this context, effective yet flexible specification methods that support rigorous analysis of embedded systems requirements are needed. Current specification methods such as pattern-based, boilerplates normally lack meta-models for extensibility and flexibility. In contrast, formal specification languages, like temporal logic, Z, etc., enable rigorous analysis, however, they usually are too mathematical and difficult to comprehend by average software engineers. In this paper, we propose a specification representation of requirements, which considers thematic roles and domain knowledge, enabling deep semantic analysis. The specification is complemented by our constrained natural language specification framework, ReSA, which acts as the interface to the representation. The representation that we propose is encoded in description logic, which is a decidable and computationally-tractable ontology language. By employing the ontology reasoner, Hermit, we check for consistency and completeness of requirements. Moreover, we propose an automatic transformation of the ontology-based specifications into Timed Computation Tree Logic formulas, to be used further in model checking embedded systems.}\\[6pt]%abstract
+\textbf{Status:} \textit{Published in 15th International Conference Software Engineering and Formal Methods (SEFM), 2017, LNCS Springer.}\\%status
+\textbf{My Contribution: } I was the main driver of the language. I developed the ReSA language semantics using event-base approach, which is encoded in description logic. Cristina~Seceleanu and Ljungkrantz~Oscar provided with useful ideas and comments.\\%my contribution
+\end{tabular}
+
+\subsection{Paper D}
+\begin{tabular}{p{\textwidth}}
+\textbf{Scalable Allocation of Fault-tolerant Multi-rate AUTOSAR Applications}\\%titile
+Nesredin~Mahmud, Guillermo~Rodriguez-Navas, Hamid~Faragardi,Saad~Mubeen, Cristina~Seceleanu\\[6pt]%authors
+\textbf{Abstract:} \textit{Software-to-hardware allocation plays an important
+role in the development of resource-constrained automotive
+embedded systems that are required to meet timing, reliability
+and power requirements. This paper proposes an Integer Linear
+Programming optimization approach for the allocation of fault-tolerant
+embedded software applications that are developed using
+the AUTOSAR standard. The allocation takes into account the
+timing and reliability requirements of the multi-rate cause-effect
+chains in these applications and the heterogeneity of their
+execution platforms. The optimization objective is to minimize the
+total power consumption of the applications that are distributed
+over more than one computing unit. The proposed approach is
+evaluated using a range of different software applications from
+the automotive domain, which are generated using the real world
+automotive benchmark. The evaluation results indicate
+that the proposed allocation approach is effective and scalable
+while meeting the timing, reliability and power requirements in
+small- and medium-sized automotive software applications.
+}\\[6pt]%abstract
+\textbf{Status: }To be submitted to \textit{Journal of Systems and Software (JSS), Elsevier.}\\%status
+\textbf{My Contribution: }I am the main driver of the paper. I developed the system model (including the power consumption, timing, reliability models) and further refined by the co-authors. Hamid~Faragardi and I developed the ILP model, and I implemented the ILP problem (including the system model) and collected experimental results. The co-authors gave useful ideas and comments on respected parts of the paper: Guillermo~Rodriguez-Navas on reliability modeling, Hamid~Faragardi on optimization and related work, Saad~Mubeen on the timing analysis, and Cristina~Seceleanu gave comments and ideas on the main contributions of the paper, including on the optimization objective and constraints.\\%my contribution
+\textbf{In Case of Rejection: }Power-aware Allocation of Fault-tolerant Multi-rate AUTOSAR Applications conference paper\\
+\textbf{Status:} To appear in Proc. of the \textit{25th Asia-Pacific Software Engineering Conference (APSEC), 2018, Japan}, IEEE CS.\\
+\textbf{Note: }The JSS paper is an extension of the APSEC paper.\\
+\end{tabular}
+
+\subsection{Paper E}
+\begin{tabular}{p{\textwidth}}
+\textbf{SIMPPAAL - A Framework For Statistical Model Checking of Industrial Simulink Models}\\%titile
+Predrag~Filipovikj, Nesredin~Mahmud, Raluca~Marinescu, Cristina~Seceleanu, Oscar~Ljungkrantz, Henrik~L\"{o}nn
+\\[6pt]%authors
+\noindent \textbf{Abstract:} \textit{The evolution of automotive systems has been rapid. Nowadays, electronic brains control dozens of functions in vehicles, like
+braking, cruising, etc. Model-based design approaches, in environments such as MATLAB Simulink, seem to help in addressing
+the ever-increasing need to enhance quality, and manage complexity, by supporting functional design from a set of block
+libraries, which can be simulated and analyzed for hidden errors, but also used for code generation. For this reason, providing
+assurance that Simulink models fulfill given functional and timing requirements is desirable. In this paper, we propose a
+pattern-based, execution-order preserving automatic transformation of atomic and composite Simulink blocks into stochastic
+timed automata that can then be formally analyzed with Uppaal Statistical Model Checker (Uppaal SMC). To enable this, we
+first define the formal syntax and semantics of Simulink blocks and their composition, and show that the transformation is
+provably correct for a certain class of Simulink models. Our method is supported by the SIMPPAAL tool, which we introduce
+and apply on two industrial Simulink models, a prototype called the Brake-by-Wire and an operational Adjustable Speed
+Limiter system. This work enables the formal analysis of industrial Simulink models, by automatically generating stochastic
+timed automata counterparts.}
+\\[6pt]%abstract
+\noindent \textbf{Status:} To be submitted (by 15th October 2018)  to the ACM Transactions on Software Engineering and Methodology (TOSEM) Journal, ACM. 
+\\%status
+\textbf{My Contribution: } The three co-authors contributed equally to writing the paper. Technically, I equally contributed with proposing the pattern-based semantics of Simulink blocks, together with Predrag Filipovikj. I introduced a mechanism to enforce the execution order of the blocks using inter-arrival times. Predrag implemented the flattening algorithm and the tool for the automatic transformation of Simulink models into a network of timed automata with stochastic semantics. Raluca Marinescu contributed with analyzing the BBW system, Cristina Seceleanu contributed with defining the methodology, and with useful ideas and comments. Guillermo Rodriguez-Navas wrote the related work section. The industrial coauthors provided the use cases and commented on the final draft.\\%my contribution
+\textbf{In Case of Rejection: } It will be included as a technical report \cite{Filipovikj4714}. \\
+\end{tabular}
+
+% \subsubsection{Paper F}
+% \begin{tabular}{p{\textwidth}}
+% \noindent \textbf{SIMPPAAL meets ReSA: From Automated Requirements Specifications to Automated Formal Analysis of Simulink Models.}\\%titile
+% \noindent Nesredin~Mahmud, ~Cristina~Seceleanu\\[6pt]%authors
+% \noindent \textbf{Abstract:} \textit{Several temporal logic languages are employed for the specification of properties, to be used in model checking. Due their syntax and semantics, they are not intuitive to practitioners in the domain of software engineers. Most engineers are adapted to (constrained) natural language to specify requirements, however, temporal logic usually employ symbols even worse their interpretation is not intuitive especially as the properties get complex. Therefore, to the practitioners, they are difficult to write in them and also are challenging to comprehend their specifications. To facilitate the adoption of formal methods in industry, several patterns and templates-based statements are proposed that abstract temporal logic complexities. However, patterns and template-based approaches are ad hoc and normally lack reference models (or meta-models). In this paper, we propose a translation from the constrained natural language ReSA specifications to Timed Computational Temporal Logic and Weighted Metric Temporal Logic, which are properties specification input languages to UPPAAL and UPPAAL SMC, respectively.}\\[6pt]%abstract
+% \textbf{Status: }In Progress, to be submitted to TACAS 2018 (COMPSAC 2018)\\%status
+% \textbf{My contribution: }I will be the main driver of the paper. Cristina will contribute with important ideas and comments.
+% \\%my contribution
+% \end{tabular}
+
+\subsection{Paper F}
+\begin{tabular}{p{\textwidth}}
+\noindent \textbf{SIMPPAAL meets ReSA: From Automated Requirements Specifications to Automated Formal Analysis of Simulink Models.}\\%titile
+\noindent [authors part]\\[6pt]%authors
+\noindent \textbf{Abstract:} \textit{The main objective of this work is to extend the validation of our contributions, that is the SIMPPAAL method and tool \cite{Filipovikj4714} for the verification of Simulink models based on SMC, for which the properties will be automatically generated by employing the structured requirements specification framework called ReSA \cite{resatool}. The verification will be applied on a set of Simulink models that are part of the Adjustable Speed Limiter system, which is an operational system installed in all Volvo Trucks.}\\[6pt]%abstract
+\textbf{Status: }Candidate venue for submission: \textit{``NFM 2019: 11\textsuperscript{th} Annual NASA Formal Methods Symposium"} Submission deadline: 2018-12-14. Notification Date: 2019-02-22.\\%status
+\textbf{In Case of Rejection: }SEKE 2019: International Conference on Software Engineering and Knowledge Engineering. Submission Deadline: 2019-03-01. Notification date: 2019-04-20.\\%my contribution
+\end{tabular}
+
+Last but not least we show how to transform structured requirements into temporal logics for exhaustive and statistical verification of models, and integrate the developed tool support for requirements specification and analysis, and model checking of Simulink models into the VeriSpec framework. 
