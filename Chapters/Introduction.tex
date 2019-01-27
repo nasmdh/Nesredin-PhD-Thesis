@@ -17,6 +17,15 @@ Over the last decades, the complexity of networked embedded systems has increase
 In this thesis, we propose methods to assist rigorous analysis of specifications and systems models at different levels of systems abstraction following the EAST-ADL and AUTOSAR architectures. Moreover, we propose a distributed architecture that entertains the timing and reliability requirements of software applications via efficient deployment on heterogeneous computation nodes (with respect to  processor speed, power consumption). In summary, the contributions of thesis are described as follows:
 
 \section{Research Contributions Overview}
+    \begin{figure}[t]
+        \centering
+        \ifpdf
+            \includegraphics[width=\linewidth]{images/softdevflow}
+        \else
+        		\includegraphics[width=1.0\linewidth]{images/softdevflow.eps}
+		\fi
+	\caption{Thesis Contributions Workflow.} 
+    \end{figure}
 \begin{itemize}
     \item \textbf{Formal Analysis of natural language requirements: } Most software and system requirements \cite{ieereqspecstandard} of embedded systems are specified in natural language, in fact it has become the de facto standard in industry, which is mainly because it is intuitive as opposed to computer languages, but also is expressive and flexible that many software engineers and other stakeholders find it easy to use. However, it is inherently ambiguous and therefore could lead to ambiguous and incomprehensible specifications. 
     As opposed to the use of templates \cite{Hull2011RequirementsEngineering}, specification patter systems\cite{Gruhn2006PatternsSpecifications,Konrad2005Real-timePatterns} , we propose a fairly expressive, flexible yet structured and domain domain-specific language, called \textit{ReSA} [ref] that utilizes the EAST-ADL architectural language to improve its effectiveness by reducing syntactic and semantic ambiguities of specifications. The language has translation in Boolean and description logic to support rigorous analysis using existing formal method tools, e.g., SMT solving, reasoners (inference engines) to detect, e.g., logical inconsistencies. Moreover, by translating interesting specifications to TCTL and WMTL properties, the language can be used to abstract syntactic complexity there by simplifying properties specification, e.g., for use in the model checking of Simulink model, after translation to formal model as briefly discussed  in the next contribution.
