@@ -40,6 +40,12 @@
 % Nas styles
 \usepackage{nasutilsp}
 
+% Make the first letter of a paragraph bigger, spans over multiple lines
+\usepackage{lettrine}
+
+% enumerate inline
+\usepackage[inline]{enumitem}
+
 % Bibliographic information
 \input{BiblioInfo.tex} % This file should be edited by the author.
 
@@ -75,8 +81,8 @@
     % References
     % No restriction is set to the reference styles
     % Save your references in References.bib
-    \nocite{*} % Remove this for your own citations
+    %\nocite{*} % Remove this for your own citations
     \bibliographystyle{plain}
-    \bibliography{References}
+    \bibliography{reference}
 
 \end{document}

@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+
+\bibitem{ieereqspecstandard}
+{ISO/IEC/IEEE International Standard - Systems and software engineering -- Life
+  cycle processes --Requirements engineering}.
+\newblock {\em ISO/IEC/IEEE 29148:2011(E)}, pages 1--94, 12 2011.
+
+\bibitem{Abrial2006FormalFuture}
+Jean-Raymond Abrial.
+\newblock {Formal Methods in Industry: Achievements, Problems, Future}.
+\newblock {\em Proceedings of the 28th International Conference on Software
+  Engineering}, 2006.
+
+\bibitem{Bulychev2012UPPAAL-SMC:Automata}
+Peter Bulychev, Alexandre David, Kim~Gulstrand Larsen, Marius Miku{\v{c}}ionis,
+  Danny B{\o}gsted~Poulsen, Axel Legay, and Zheng Wang.
+\newblock {UPPAAL-SMC: Statistical Model Checking for Priced Timed Automata}.
+\newblock {\em Electronic Proceedings in Theoretical Computer Science}, 2012.
+
+\bibitem{Clark2010TheProcessing}
+Alexander Clark, Chris Fox, and Shalom Lappin.
+\newblock {\em {The Handbook of Computational Linguistics and Natural Language
+  Processing}}.
+\newblock 2010.
+
+\bibitem{Filipovikj2016SimulinkSystems}
+P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
+  H.~L{\"{o}}nn.
+\newblock {\em {Simulink to UPPAAL statistical model checker: Analyzing
+  automotive industrial systems}}, volume 9995 LNCS.
+\newblock 2016.
+
+\bibitem{Filipovikj4714}
+Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guillermo
+  Rodriguez-Navas, Cristina Seceleanu, Oscar Ljungkrantz, and Henrik
+  L{\"{o}}nn.
+\newblock {Analyzing Industrial Simulink Models by Statistical Model Checking}.
+\newblock Technical report, 3 2017.
+
+\bibitem{Fuchs2008AttemptoRepresentation}
+Norbert~E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
+\newblock {Attempto Controlled English for Knowledge Representation}.
+\newblock pages 104--124. Springer, Berlin, Heidelberg, 2008.
+
+\bibitem{attempto96}
+Norbert~E Fuchs and Rolf Schwitter.
+\newblock {Attempto Controlled English {\{}(ACE){\}}}.
+\newblock {\em CoRR}, cmp-lg/960, 1996.
+
+\bibitem{Gruhn2006PatternsSpecifications}
+Volker Gruhn and Ralf Laue.
+\newblock {Patterns for Timed Property Specifications}.
+\newblock {\em Electronic Notes in Theoretical Computer Science}, 2006.
+
+\bibitem{Hull2011RequirementsEngineering}
+Elizabeth Hull, Ken Jackson, and Jeremy Dick.
+\newblock {\em {Requirements Engineering}}.
+\newblock Springer London, London, 2011.
+
+\bibitem{lightweigh2001}
+Daniel Jackson.
+\newblock {Lightweight Formal Methods}.
+\newblock In José~Nuno Oliveira and Pamela Zave, editors, {\em FME 2001:
+  Formal Methods for Increasing Software Productivity}, page~1, Berlin,
+  Heidelberg, 2001. Springer Berlin Heidelberg.
+
+\bibitem{JamesB.Dabney2003MasteringSimulink}
+Thomas L.~Harman James B.~Dabney.
+\newblock {\em {Mastering Simulink}}.
+\newblock Pearson, 2003.
+
+\bibitem{Konrad2005Real-timePatterns}
+Sascha Konrad and Betty H.~C. Cheng.
+\newblock {Real-time specification patterns}.
+\newblock In {\em Proceedings of the 27th international conference on Software
+  engineering - ICSE '05}, page 372, New York, New York, USA, 2005. ACM Press.
+
+\bibitem{Kuhn2014ALanguages}
+Tobias Kuhn.
+\newblock {A Survey and Classification of Controlled Natural Languages}.
+\newblock {\em Computational Linguistics}, 40(1):121--170, 3 2014.
+
+\bibitem{Lee2011IntroductionApproach}
+Edward~Ashford Lee and Sanjit~Arunkumarr Seshia.
+\newblock {\em {Introduction to Embedded Systems: A Cyber-Physical Systems
+  Approach}}.
+\newblock 2011.
+
+\bibitem{Legay2010StatisticalOverview}
+Axel Legay, Benoît Delahaye, and Saddek Bensalem.
+\newblock {Statistical Model Checking: An Overview}.
+\newblock pages 122--135. Springer, Berlin, Heidelberg, 2010.
+
+\bibitem{Leitner2008SimulinkStudy}
+Florian Leitner and Stefan Leue.
+\newblock {Simulink Design Verifier vs. SPIN a Comparative Case Study}.
+\newblock {\em Proceedings of FMICS}, 2008.
+
+\bibitem{resatool}
+N~Mahmud, C~Seceleanu, and O~Ljungkrantz.
+\newblock {ReSA Tool: Structured requirements specification and SAT-based
+  consistency-checking}.
+\newblock In {\em 2016 Federated Conference on Computer Science and Information
+  Systems (FedCSIS)}, pages 1737--1746, 9 2016.
+
+\bibitem{Mahmud5222}
+Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
+  and Cristina Seceleanu.
+\newblock {Power-aware Allocation of Fault-tolerant Multi-rate AUTOSAR
+  Applications}.
+\newblock In {\em 25th Asia-Pacific Software Engineering Conference}, 12 2018.
+
+\bibitem{mubeen2013support}
+Saad Mubeen, Jukka M{\"{a}}ki-Turja, and Mikael Sj{\"{o}}din.
+\newblock {Support for End-to-end Response-time and Delay Analysis in the
+  Industrial Tool Suite: Issues, Experiences and A Case Study}.
+\newblock {\em Computer Science and Information Systems}, 10(1):453--482, 2013.
+
+\bibitem{Myachykov2013SyntacticRussian}
+Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
+  Fedorova.
+\newblock {Syntactic flexibility and competition in sentence production: The
+  case of English and Russian}.
+\newblock {\em Quarterly Journal of Experimental Psychology}, 2013.
+
+\bibitem{o2017concise}
+Gerard O’Regan.
+\newblock {Concise guide to formal methods}, 2017.
+
+\bibitem{Sangiovanni-Vincentelli2004BenefitsDesign}
+Alberto Sangiovanni-Vincentelli, Luca Carloni, Fernando De~Bernardinis, and
+  Marco Sgroi.
+\newblock {Benefits and Challenges for Platform-based Design}.
+\newblock In {\em Proceedings of the 41st annual conference on Design
+  automation - DAC '04}, page 409, New York, USA, 2004. ACM Press.
+
+\bibitem{Siqueira2018ComparingReplication}
+Fábio~Levy Siqueira.
+\newblock {Comparing the comprehensibility of requirements models: An
+  experiment replication}.
+\newblock {\em Information and Software Technology}, 96:1--13, 4 2018.
+
+\end{thebibliography}
