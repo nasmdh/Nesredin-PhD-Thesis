@@ -50,9 +50,9 @@
 \input{BiblioInfo.tex} % This file should be edited by the author.
 
 \begin{document}
-\frontmatter
+%\frontmatter
     %\frontmatterMonograph % Monograph authors use this front matter 
-    \frontmatterCS % Authors of Comprehensive Summaries use this front matter 
+    %\frontmatterCS % Authors of Comprehensive Summaries use this front matter 
     % Creates the front matter (title page(s), abstract, list of papers)
     % for either a Comprehensive Summary or a Monograph.
     
@@ -63,6 +63,13 @@
     %\listoffigures
 
 \mainmatter
+% Safety-critical embedded systems should be analyzed rigorously in order to assure their functional correctness, moreover, they should be analyzed at the system design level, that is before implementation and testing for improved effectiveness and efficiency. In model-based development, the various activities of system design such the requirements specification, software and hardware design, and the mapping of software to hardware are conceptualized using models and abstraction levels, e.g., in SysML, AUTOSAR, EASTADL architectural languages. The requirements specifications should be unambiguous, comprehensible, consistent, etc., and the software should satisfy the specifications such as the timing constraints besides functional behavior. Moreover, as the safety-critical functionality is getting complex, the software is usually distributed on multiple computing processors (or units), in which case, the software functionality should be mapped to hardware efficiently to conserve critical system resources such as power consumption.
+
+% In distributed computing, the risk of failure normal increases, therefore, maximizing the reliability of the safety-critical software is crucial to meet the reliability goals that are set to mitigate the risk. Fault-tolerance is the most common approach to meet reliability demands, which is in odds against the constrained nature of embedded hardware systems such as the power and energy supply of battery-driven systems. So, it is crucial to optimize the total power consumption of the distributed safety-critical software in order to accommodate current and future growth of software functionality.
+
+% In this thesis, we propose formal techniques and optimization methods respectively to assure improved quality of requirements specifications and software design, and the efficient use the total power consumption in the distributed system. The formal language we propose is ReSA, which is a domain-specific, constrained natural language, and has formal semantics in Boolean and description logic. We also propose statistical model-checking of software that is modeled in Simulink, a de facto development environment of safety-critical embedded systems in industry. Finally, we propose an integrated mapping of software to hardware that optimizes the total power consumption and preserves the timing and reliability constraints of the safety-critical software, which is modeled in AUTOSAR, via the integer-linear programming and meta-heuristic methods.
+
+% Our proposed domain-specific language and the statistical model checking of Simulink models is evaluated on automotive use cases from Volvo Group Trucks Technology (VGTT), which consist of the adjustable-speed limiter (ASL) and the brake-by-wire (BBW) systems. The proposed power optimization methods are evaluated on automotive benchmark from Bosch.
     % This includes the "Instruction", "Problem and Solutions" and "Example" files. After reading it, remove it from Thesis.tex. 
     \input{Chapters/Introduction.tex}
     \input{Chapters/Preliminary.tex}
