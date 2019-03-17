@@ -5,12 +5,6 @@
   cycle processes --Requirements engineering}.
 \newblock {\em ISO/IEC/IEEE 29148:2011(E)}, pages 1--94, 12 2011.
 
-\bibitem{Abrial2006FormalFuture}
-Jean-Raymond Abrial.
-\newblock {Formal Methods in Industry: Achievements, Problems, Future}.
-\newblock {\em Proceedings of the 28th International Conference on Software
-  Engineering}, 2006.
-
 \bibitem{Bulychev2012UPPAAL-SMC:Automata}
 Peter Bulychev, Alexandre David, Kim~Gulstrand Larsen, Marius Miku{\v{c}}ionis,
   Danny B{\o}gsted~Poulsen, Axel Legay, and Zheng Wang.
@@ -30,13 +24,6 @@ P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
   automotive industrial systems}}, volume 9995 LNCS.
 \newblock 2016.
 
-\bibitem{Filipovikj4714}
-Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guillermo
-  Rodriguez-Navas, Cristina Seceleanu, Oscar Ljungkrantz, and Henrik
-  L{\"{o}}nn.
-\newblock {Analyzing Industrial Simulink Models by Statistical Model Checking}.
-\newblock Technical report, 3 2017.
-
 \bibitem{Fuchs2008AttemptoRepresentation}
 Norbert~E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
 \newblock {Attempto Controlled English for Knowledge Representation}.
@@ -47,33 +34,15 @@ Norbert~E Fuchs and Rolf Schwitter.
 \newblock {Attempto Controlled English {\{}(ACE){\}}}.
 \newblock {\em CoRR}, cmp-lg/960, 1996.
 
-\bibitem{Gruhn2006PatternsSpecifications}
-Volker Gruhn and Ralf Laue.
-\newblock {Patterns for Timed Property Specifications}.
-\newblock {\em Electronic Notes in Theoretical Computer Science}, 2006.
-
 \bibitem{Hull2011RequirementsEngineering}
 Elizabeth Hull, Ken Jackson, and Jeremy Dick.
 \newblock {\em {Requirements Engineering}}.
 \newblock Springer London, London, 2011.
 
-\bibitem{lightweigh2001}
-Daniel Jackson.
-\newblock {Lightweight Formal Methods}.
-\newblock In José~Nuno Oliveira and Pamela Zave, editors, {\em FME 2001:
-  Formal Methods for Increasing Software Productivity}, page~1, Berlin,
-  Heidelberg, 2001. Springer Berlin Heidelberg.
-
 \bibitem{JamesB.Dabney2003MasteringSimulink}
 Thomas L.~Harman James B.~Dabney.
 \newblock {\em {Mastering Simulink}}.
 \newblock Pearson, 2003.
-
-\bibitem{Konrad2005Real-timePatterns}
-Sascha Konrad and Betty H.~C. Cheng.
-\newblock {Real-time specification patterns}.
-\newblock In {\em Proceedings of the 27th international conference on Software
-  engineering - ICSE '05}, page 372, New York, New York, USA, 2005. ACM Press.
 
 \bibitem{Kuhn2014ALanguages}
 Tobias Kuhn.
@@ -110,6 +79,21 @@ Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
   Applications}.
 \newblock In {\em 25th Asia-Pacific Software Engineering Conference}, 12 2018.
 
+\bibitem{Mahmud2015ReSA:Systems}
+Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
+\newblock {ReSA: An ontology-based requirement specification language tailored
+  to automotive systems}.
+\newblock In {\em 2015 10th IEEE International Symposium on Industrial Embedded
+  Systems, SIES 2015 - Proceedings}, pages 1--10, 2015.
+
+\bibitem{Manamcheri2011AModels}
+Karthik Manamcheri, Sayan Mitra, Stanley Bak, and Marco Caccamo.
+\newblock {A step towards verification and synthesis from simulink/stateflow
+  models}.
+\newblock In {\em Proceedings of the 14th international conference on Hybrid
+  systems: computation and control - HSCC '11}, page 317, New York, New York,
+  USA, 2011. ACM Press.
+
 \bibitem{mubeen2013support}
 Saad Mubeen, Jukka M{\"{a}}ki-Turja, and Mikael Sj{\"{o}}din.
 \newblock {Support for End-to-end Response-time and Delay Analysis in the
@@ -127,17 +111,16 @@ Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
 Gerard O’Regan.
 \newblock {Concise guide to formal methods}, 2017.
 
-\bibitem{Sangiovanni-Vincentelli2004BenefitsDesign}
-Alberto Sangiovanni-Vincentelli, Luca Carloni, Fernando De~Bernardinis, and
-  Marco Sgroi.
-\newblock {Benefits and Challenges for Platform-based Design}.
-\newblock In {\em Proceedings of the 41st annual conference on Design
-  automation - DAC '04}, page 409, New York, USA, 2004. ACM Press.
+\bibitem{Sims2007ExperienceReport}
+Steve Sims and Daniel~C. DuVarney.
+\newblock {Experience report}.
+\newblock In {\em Proceedings of the 2007 ACM SIGPLAN international conference
+  on Functional programming - ICFP '07}, page 137, New York, New York, USA,
+  2007. ACM Press.
 
-\bibitem{Siqueira2018ComparingReplication}
-Fábio~Levy Siqueira.
-\newblock {Comparing the comprehensibility of requirements models: An
-  experiment replication}.
-\newblock {\em Information and Software Technology}, 96:1--13, 4 2018.
+\bibitem{WangJiacun2017RES}
+Jiacun Wang.
+\newblock {\em {Real-Time Embedded Systems}}.
+\newblock 2017.
 
 \end{thebibliography}

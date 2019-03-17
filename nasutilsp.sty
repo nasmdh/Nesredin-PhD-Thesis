@@ -15,20 +15,24 @@ Contribution \therccounter}
 
 \newcommand{\ogl}[1]{
 \fcolorbox{gray}{light-gray}{
-          \begin{minipage}[t]{0.8\textwidth}
-    #1
-    \end{minipage}}
+          \begin{minipage}[c]{0.8\textwidth}
+          	\centering
+   \textit{#1}
+    \end{minipage}
+}
 }
 
 % Research goals
 \newcounter{rgcounter}
 \newcommand{\rgl}[1]{
 \fcolorbox{gray}{light-gray}{
-          \begin{minipage}[t]{0.7\textwidth}
-    #1
-    \end{minipage}}
+          \begin{minipage}[c]{0.8\textwidth}
+          \centering
+   \textit{#1}
+    \end{minipage}
 }
-\definecolor{light-gray}{gray}{0.95}
+}
+\definecolor{light-gray}{gray}{1}
 \newenvironment{researchgoal}
 {\begin{center}{RG \thergcounter:}}
 {\end{center} \stepcounter{rgcounter}}
