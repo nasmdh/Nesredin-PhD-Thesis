@@ -39,6 +39,12 @@ Elizabeth Hull, Ken Jackson, and Jeremy Dick.
 \newblock {\em {Requirements Engineering}}.
 \newblock Springer London, London, 2011.
 
+\bibitem{iso201126262}
+ISO26262 ISO.
+\newblock {26262: Road vehicles-Functional safety}.
+\newblock Technical report, ISO/TC 22/SC 32 Electrical and electronic
+  components and general system aspects, 2011.
+
 \bibitem{JamesB.Dabney2003MasteringSimulink}
 Thomas L.~Harman James B.~Dabney.
 \newblock {\em {Mastering Simulink}}.
@@ -72,13 +78,6 @@ N~Mahmud, C~Seceleanu, and O~Ljungkrantz.
 \newblock In {\em 2016 Federated Conference on Computer Science and Information
   Systems (FedCSIS)}, pages 1737--1746, 9 2016.
 
-\bibitem{Mahmud5222}
-Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
-  and Cristina Seceleanu.
-\newblock {Power-aware Allocation of Fault-tolerant Multi-rate AUTOSAR
-  Applications}.
-\newblock In {\em 25th Asia-Pacific Software Engineering Conference}, 12 2018.
-
 \bibitem{Mahmud2015ReSA:Systems}
 Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
 \newblock {ReSA: An ontology-based requirement specification language tailored
@@ -93,12 +92,6 @@ Karthik Manamcheri, Sayan Mitra, Stanley Bak, and Marco Caccamo.
 \newblock In {\em Proceedings of the 14th international conference on Hybrid
   systems: computation and control - HSCC '11}, page 317, New York, New York,
   USA, 2011. ACM Press.
-
-\bibitem{mubeen2013support}
-Saad Mubeen, Jukka M{\"{a}}ki-Turja, and Mikael Sj{\"{o}}din.
-\newblock {Support for End-to-end Response-time and Delay Analysis in the
-  Industrial Tool Suite: Issues, Experiences and A Case Study}.
-\newblock {\em Computer Science and Information Systems}, 10(1):453--482, 2013.
 
 \bibitem{Myachykov2013SyntacticRussian}
 Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
@@ -122,5 +115,9 @@ Steve Sims and Daniel~C. DuVarney.
 Jiacun Wang.
 \newblock {\em {Real-Time Embedded Systems}}.
 \newblock 2017.
+
+\bibitem{Wang2016DevelopingDO-178Cb}
+Yanyun Wang.
+\newblock {Developing Safety Critical Embedded Software under DO-178C}, 2016.
 
 \end{thebibliography}

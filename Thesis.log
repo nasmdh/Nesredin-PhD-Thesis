@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  17 MAR 2019 01:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  19 MAR 2019 10:33
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -682,74 +682,36 @@ Package lettrine.sty Info: Targeted height = 18.68002pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.6801pt (R);
 (lettrine.sty)             reported on input line 2.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11.04> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
-Underfull \hbox (badness 6658) in paragraph at lines 4--5
-[]\T1/ptm/m/n/11.04 Safety-critical software have become complex, e.g., hundred
-s of
+LaTeX Warning: Citation `butazzo' on page 3 undefined on input line 2.
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 2--3
+[][] \T1/ptm/m/n/11.04 systems are usually characterized by timely
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 4--5
-\T1/ptm/m/n/11.04 end-to-end functions in modern cars, hybrid and autonomous ve
-hicles,
+Underfull \hbox (badness 7613) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 requirements specifications should be unambiguous, comprehens
+ible,
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 4--5
-\T1/ptm/m/n/11.04 system. In this regard, fault tolerance via redundancy of sof
-tware and
+Underfull \hbox (badness 8170) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 languages are recommended to specify safety-critical requirem
+ents.
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 4--5
-\T1/ptm/m/n/11.04 However, it incurs additional computation, and consumes more 
-power
+Underfull \hbox (badness 2970) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 systems requirements industry because it is intuitive and exp
+ressive.
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 6--7
-[]\T1/ptm/m/n/11.04 In this thesis, we propose formal methods to specify and an
-alyze
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 6--7
-\T1/ptm/m/n/11.04 requirements and software design of safety-critical systems. 
-Formal
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 6--7
-\T1/ptm/m/n/11.04 checking, satisfiability-modulo theories (SMT), etc [[]]. Mor
-eover, we
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 8--9
-[]\T1/ptm/m/n/11.04 In safety-critical development, requirements specifications
- should be
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 8--9
-\T1/ptm/m/n/11.04 requirements of embedded system including safety-critical sys
-tems.
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 8--9
-\T1/ptm/m/n/11.04 Although requirements expressed in natural language are intui
-tive and
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 8--9
-\T1/ptm/m/n/11.04 expressive, natural language is inherently ambiguous, consequ
-ently the
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 8--9
+Underfull \hbox (badness 1178) in paragraph at lines 6--7
 \T1/ptm/m/n/11.04 specifications are sometimes ambiguous, incomprehensible, inc
 onsistent,
  []
@@ -761,21 +723,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 2126) in paragraph at lines 10--11
+Underfull \hbox (badness 2126) in paragraph at lines 8--9
 []\T1/ptm/m/n/11.04 The specifications are employed in subsequent system develo
 pment
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 10--11
+Underfull \hbox (badness 1314) in paragraph at lines 8--9
 \T1/ptm/m/n/11.04 including software design to verify the latter for correct fu
 nctionality.
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 10--11
+Underfull \hbox (badness 6808) in paragraph at lines 8--9
 \T1/ptm/m/n/11.04 development environment for multi-domain, multi-rate, discret
 e and
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 fixed-priority preemptive scheduling of tasks, the end-to-end
+ delay of
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 hundreds of software functions are executed. The software-to-
+hardware
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 We propose formulation of the software allocation as an integ
+er-linear
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 propose hybrid-particle optimization to solve large software 
+allocation
  []
 
 
@@ -787,47 +773,57 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 15.
 
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnf
 ss/omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11.04> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11.04> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
 
-Underfull \hbox (badness 4168) in paragraph at lines 19--20
+Underfull \hbox (badness 4168) in paragraph at lines 15--16
 \T1/ptm/m/n/11.04 a fairly expressive, flexible yet structured and domain-speci
 fic
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 19--20
+Underfull \hbox (badness 5331) in paragraph at lines 15--16
 \T1/ptm/m/n/11.04 and rigorous analysis, respectively. The Boolean specificatio
 ns
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 19--20
+Underfull \hbox (badness 3907) in paragraph at lines 15--16
 \T1/ptm/m/n/11.04 and implements consistency-checking functionality, is integra
 ted
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 23--24
+Underfull \hbox (badness 2012) in paragraph at lines 19--20
 \T1/ptm/m/n/11.04 an integer-linear programming (ILP) model to the allocation o
 f
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 23--24
+Underfull \hbox (badness 1571) in paragraph at lines 19--20
 \T1/ptm/m/n/11.04 distributed software on the network of heterogeneous computin
 g
  []
 
-) (Chapters/Preliminary.tex [5]
+
+Underfull \hbox (badness 1946) in paragraph at lines 33--34
+\T1/ptm/m/n/11.04 requirements specifications in ReSA and the formal analysis o
+f
+ []
+
+[5]) (Chapters/Preliminary.tex
+Underfull \hbox (badness 1348) in paragraph at lines 36--1
+\T1/ptm/m/n/11.04 problem, Simulink, stochastic timed automata, and meta-heuris
+tic
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 6
  []
@@ -843,33 +839,33 @@ Chapter 2.
 ]
 Chapter 3.
 
-Underfull \hbox (badness 1275) in paragraph at lines 23--24
-\T1/ptm/m/n/11.04 its expressiveness and intuitiveness can be impaired [[]][[]]
-, therefore,
+Underfull \hbox (badness 1424) in paragraph at lines 2--3
+\T1/ptm/m/n/11.04 The thesis is motivated by the need for advanced (or rigorous
+)
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 4--6
+[]\T1/ptm/m/n/11.04 It is also inspired by the increasing complexity of automot
+ive
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 15--16
+\T1/ptm/m/n/11.04 therefore is difficult to add new templates effectively, more
+over,
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 15--16
+\T1/ptm/m/n/11.04 natural languages lack effective support of specifying embedd
+ed
  []
 
 [9]
-Underfull \hbox (badness 1540) in paragraph at lines 30--31
-[]\T1/ptm/m/n/11.04 Natural language specifications are constructed from syntac
-tic units,
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 30--31
-\T1/ptm/m/n/11.04 analysis of specifications involve parsing and interpreting t
-he syntactic
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 32--33
-\T1/ptm/m/n/11.04 the software-design units are modeled in Simulink, which is t
-he most
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 32--33
-\T1/ptm/m/n/11.04 systems. Simulink also supports the generation of code from d
-iscrete
+Underfull \hbox (badness 1337) in paragraph at lines 25--26
+\T1/ptm/m/n/11.04 requirements specifications. There are several methods to nat
+ural
  []
 
 LaTeX Font Info:    Calculating math sizes for size <9.03> on input line 35.
@@ -880,21 +876,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.68224> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.41805> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 
-Underfull \hbox (badness 1163) in paragraph at lines 34--36
-\T1/ptm/m/n/11.04 functionality. The de facto Simulink analysis techniques, e.g
-., by type
+Underfull \hbox (badness 2261) in paragraph at lines 34--36
+\T1/ptm/m/n/11.04 lacks support for checking temporal correctness as specified 
+in
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 34--36
-\T1/ptm/m/n/11.04 real-time Simulink models. SDV lacks support for checking tem
-poral
+Underfull \hbox (badness 2894) in paragraph at lines 34--36
+\T1/ptm/m/n/11.04 on the exact model-checking [[]]. In contrast to exact model
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 34--36
+Underfull \hbox (badness 3514) in paragraph at lines 34--36
 \T1/ptm/m/n/11.04 checking, statistical model-checking collects sufficient trac
-es of system
+es of
  []
 
 
@@ -903,12 +898,27 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [10]
-Underfull \hbox (badness 1371) in paragraph at lines 40--42
-\T1/ptm/m/n/11.04 multiple rates, discrete and continues Simulink blocks, makin
-g formal
+Underfull \hbox (badness 1024) in paragraph at lines 40--42
+[]\T1/ptm/m/n/11.04 Simulink consists of connected and hierarchical Simulink bl
+ocks,
  []
 
-[11]) (Chapters/Contributions.tex
+
+Underfull \hbox (badness 1087) in paragraph at lines 40--42
+\T1/ptm/m/n/11.04 which encode mathematical functions [[]]. For industrial syst
+ems,
+ []
+
+
+Overfull \vbox (2.78773pt too high) has occurred while \output is active []
+
+
+[11]
+Underfull \hbox (badness 5022) in paragraph at lines 52--53
+\T1/ptm/m/n/11.04 prototype should be developed and should also evaluated on
+ []
+
+) (Chapters/Contributions.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 12
  []
@@ -937,57 +947,56 @@ Chapter 7.
 
 
 ] (Thesis.bbl
-Underfull \hbox (badness 2368) in paragraph at lines 15--19
-[]\T1/ptm/m/n/10.04 Alexander Clark, Chris Fox, and Shalom Lappin.  \T1/ptm/m/i
-t/10.04 The Handbook of
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\T1/ptm/m/n/10.04 ISO/IEC/IEEE International Standard - Systems and software
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 4--7
+\T1/ptm/m/n/10.04 engineering -- Life cycle processes --Requirements engineerin
+g.
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 9--13
+[]\T1/ptm/m/n/10.04 Peter Bulychev, Alexandre David, Kim Gulstrand Larsen, Mari
+us
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 38--41
+[]\T1/ptm/m/n/10.04 Elizabeth Hull, Ken Jackson, and Jeremy Dick.  \T1/ptm/m/it
+/10.04 Requirements
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 54--57
+[]\T1/ptm/m/n/10.04 Tobias Kuhn.  A Survey and Classification of Controlled Nat
+ural
  []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.04> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
-LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 59.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 65.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.04> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.42964> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.02405> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
 
-Underfull \hbox (badness 1281) in paragraph at lines 69--74
-[]\T1/ptm/m/n/10.04 N Mahmud, C Seceleanu, and O Ljungkrantz.  ReSA Tool: Struc
-tured
- []
-
-
-Underfull \hbox (badness 5331) in paragraph at lines 69--74
-\T1/ptm/m/it/10.04 Federated Conference on Computer Science and Information Sys
-tems
+Underfull \hbox (badness 3179) in paragraph at lines 82--87
+\T1/ptm/m/n/10.04 An ontology-based requirement specification language tailored
+ to
  []
 
 [21
 
 
 ]
-Underfull \hbox (badness 1509) in paragraph at lines 83--88
-[]\T1/ptm/m/n/10.04 Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
-  ReSA:
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 90--96
-\T1/ptm/m/n/10.04 step towards verification and synthesis from simulink/statefl
-ow models.
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 90--96
-\T1/ptm/m/n/10.04 In \T1/ptm/m/it/10.04 Proceedings of the 14th international c
-onference on Hybrid systems:
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 104--109
-\T1/ptm/m/n/10.04 The case of English and Russian.  \T1/ptm/m/it/10.04 Quarterl
-y Journal of Experimental
+Underfull \hbox (badness 1803) in paragraph at lines 97--102
+[]\T1/ptm/m/n/10.04 Andriy Myachykov, Christoph Scheepers, Simon Garrod, Domini
+c
  []
 
 
@@ -998,7 +1007,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 Gerard Oâ€
+l.104 Gerard Oâ€
                 ™Regan.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1011,12 +1020,25 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 Gerard Oâ€™
+l.104 Gerard Oâ€™
                  Regan.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 )
+
+! LaTeX Error: \begin{itemize} on input line 14 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1030,26 +1052,34 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6DC9A301CDD359794326E6AE36E32220;637.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 14 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 8596 strings out of 494865
- 132433 string characters out of 3176629
- 244524 words of memory out of 3000000
- 12004 multiletter control sequences out of 15000+200000
+ 8594 strings out of 494865
+ 132427 string characters out of 3176629
+ 245536 words of memory out of 3000000
+ 12002 multiletter control sequences out of 15000+200000
  69213 words of font info for 98 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 33i,8n,35p,1278b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvi
-ps/base/8r.enc}</Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/nmd02/Library/Application Sup
-port/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/nmd02/Libra
-ry/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb><
-/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on Thesis.pdf (22 pages, 102627 bytes).
+ 33i,8n,35p,1725b,626s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install
+/fonts/enc/dvips/base/8r.enc}</Users/nmd02/Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/nmd02/Library/A
+pplication Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Use
+rs/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/time
+s/utmr8a.pfb></Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (22 pages, 104507 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  57 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: plain.bst
 Database file #1: reference.bib
+Warning--I didn't find a database entry for "butazzo"
 Warning--to sort, need author or key in ieereqspecstandard
 Warning--empty author in ieereqspecstandard
 Warning--empty publisher in Clark2010TheProcessing
@@ -9,4 +10,4 @@ Warning--empty booktitle in Fuchs2008AttemptoRepresentation
 Warning--empty publisher in Lee2011IntroductionApproach
 Warning--empty booktitle in Legay2010StatisticalOverview
 Warning--empty publisher in WangJiacun2017RES
-(There were 8 warnings)
+(There were 9 warnings)
