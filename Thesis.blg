@@ -1,13 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
+White space in argument---line 40 of file Thesis.aux
+ : \citation{Simppaal
+ :                    - A Framework For Statistical Model Checking of Industrial Simulink Models}
+I'm skipping whatever remains of this command
 The style file: plain.bst
-Database file #1: reference.bib
-Warning--I didn't find a database entry for "butazzo"
+Database file #1: references.bib
+Warning--I didn't find a database entry for "borst"
+Warning--I didn't find a database entry for "Mahmud5222-metaheuristic"
 Warning--to sort, need author or key in ieereqspecstandard
 Warning--empty author in ieereqspecstandard
 Warning--empty publisher in Clark2010TheProcessing
 Warning--empty publisher in Filipovikj2016SimulinkSystems
 Warning--empty booktitle in Fuchs2008AttemptoRepresentation
-Warning--empty publisher in Lee2011IntroductionApproach
 Warning--empty booktitle in Legay2010StatisticalOverview
-Warning--empty publisher in WangJiacun2017RES
-(There were 9 warnings)
+Warning--empty publisher in Mirjalili2019ParticleOptimisation
+(There was 1 error message)

@@ -11,11 +11,23 @@ Peter Bulychev, Alexandre David, Kim~Gulstrand Larsen, Marius Miku{\v{c}}ionis,
 \newblock {UPPAAL-SMC: Statistical Model Checking for Priced Timed Automata}.
 \newblock {\em Electronic Proceedings in Theoretical Computer Science}, 2012.
 
+\bibitem{Buttazzo2003HardApplications}
+Giorgio~C Buttazzo.
+\newblock {Hard real-time computing systems: Predictable scheduling algorithms
+  and applications}.
+\newblock {\em Computers {\&} Mathematics with Applications}, 2003.
+
 \bibitem{Clark2010TheProcessing}
 Alexander Clark, Chris Fox, and Shalom Lappin.
 \newblock {\em {The Handbook of Computational Linguistics and Natural Language
   Processing}}.
 \newblock 2010.
+
+\bibitem{Dwyer1999PatternsVerificationb}
+Matthew~B. Dwyer, George~S. Avrunin, and James~C. Corbett.
+\newblock {Patterns in property specifications for finite-state verification}.
+\newblock In {\em Proceedings of the 21st international conference on Software
+  engineering - ICSE '99}, 1999.
 
 \bibitem{Filipovikj2016SimulinkSystems}
 P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
@@ -55,12 +67,6 @@ Tobias Kuhn.
 \newblock {A Survey and Classification of Controlled Natural Languages}.
 \newblock {\em Computational Linguistics}, 40(1):121--170, 3 2014.
 
-\bibitem{Lee2011IntroductionApproach}
-Edward~Ashford Lee and Sanjit~Arunkumarr Seshia.
-\newblock {\em {Introduction to Embedded Systems: A Cyber-Physical Systems
-  Approach}}.
-\newblock 2011.
-
 \bibitem{Legay2010StatisticalOverview}
 Axel Legay, Benoît Delahaye, and Saddek Bensalem.
 \newblock {Statistical Model Checking: An Overview}.
@@ -78,12 +84,25 @@ N~Mahmud, C~Seceleanu, and O~Ljungkrantz.
 \newblock In {\em 2016 Federated Conference on Computer Science and Information
   Systems (FedCSIS)}, pages 1737--1746, 9 2016.
 
+\bibitem{Mahmud5222}
+Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
+  and Cristina Seceleanu.
+\newblock {Power-aware Allocation of Fault-tolerant Multi-rate AUTOSAR
+  Applications}.
+\newblock In {\em 25th Asia-Pacific Software Engineering Conference}, 12 2018.
+
 \bibitem{Mahmud2015ReSA:Systems}
 Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
 \newblock {ReSA: An ontology-based requirement specification language tailored
   to automotive systems}.
 \newblock In {\em 2015 10th IEEE International Symposium on Industrial Embedded
   Systems, SIES 2015 - Proceedings}, pages 1--10, 2015.
+
+\bibitem{Malik2009BooleanSuccess}
+Sharad Malik and Lintao Zhang.
+\newblock {Boolean satisfiability from theoretical hardness to practical
+  success}.
+\newblock {\em Communications of the ACM}, 52(8):76, 2009.
 
 \bibitem{Manamcheri2011AModels}
 Karthik Manamcheri, Sayan Mitra, Stanley Bak, and Marco Caccamo.
@@ -92,6 +111,11 @@ Karthik Manamcheri, Sayan Mitra, Stanley Bak, and Marco Caccamo.
 \newblock In {\em Proceedings of the 14th international conference on Hybrid
   systems: computation and control - HSCC '11}, page 317, New York, New York,
   USA, 2011. ACM Press.
+
+\bibitem{Mirjalili2019ParticleOptimisation}
+Seyedali Mirjalili.
+\newblock {Particle swarm optimisation}.
+\newblock In {\em Studies in Computational Intelligence}. 2019.
 
 \bibitem{Myachykov2013SyntacticRussian}
 Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
@@ -103,21 +127,5 @@ Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
 \bibitem{o2017concise}
 Gerard O’Regan.
 \newblock {Concise guide to formal methods}, 2017.
-
-\bibitem{Sims2007ExperienceReport}
-Steve Sims and Daniel~C. DuVarney.
-\newblock {Experience report}.
-\newblock In {\em Proceedings of the 2007 ACM SIGPLAN international conference
-  on Functional programming - ICFP '07}, page 137, New York, New York, USA,
-  2007. ACM Press.
-
-\bibitem{WangJiacun2017RES}
-Jiacun Wang.
-\newblock {\em {Real-Time Embedded Systems}}.
-\newblock 2017.
-
-\bibitem{Wang2016DevelopingDO-178Cb}
-Yanyun Wang.
-\newblock {Developing Safety Critical Embedded Software under DO-178C}, 2016.
 
 \end{thebibliography}
