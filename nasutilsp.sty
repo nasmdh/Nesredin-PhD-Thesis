@@ -23,18 +23,36 @@ Contribution \therccounter}
 }
 
 % Research goals
-\newcounter{rgcounter}
-\newcommand{\rgl}[1]{
-\fcolorbox{gray}{light-gray}{
-          \begin{minipage}[c]{0.75\textwidth}
-          \centering
-   \textit{#1}
-    \end{minipage}
-}
-}
-\definecolor{light-gray}{gray}{1}
-\newenvironment{researchgoal}
-{\begin{center}{RG \thergcounter:}}
-{\end{center} \stepcounter{rgcounter}}
 
+\newcounter{rgcounter}
+\usepackage{tcolorbox}
+\newcommand{\rgl}[1]{
+% \fcolorbox{gray}{light-gray}{
+%           \begin{minipage}[c]{0.75\textwidth}
+%           \centering
+%         \textit{#1}
+%     \end{minipage}
+% }
+
+% \newtcolorbox{rgl}[1]{colback=light-gray,colframe=black!65!white,title=#1,attached boxed title to top center={yshift=-2mm},
+% #1
+% }
+#1
+}
+
+\newtcolorbox{rg}[1]{colback=light-gray,colframe=black!65!white,title=#1,attached boxed title to top center={yshift=-2mm},
+  #1
+}
+
+\definecolor{light-gray}{gray}{.9}
+% \newenvironment{researchgoal}
+% {\begin{center}{RG \thergcounter:}}
+% {\end{center} \stepcounter{rgcounter}}
+\newtcolorbox{mybox}[2][]{colbacktitle=black!10!white,
+colback=black!10!white,coltitle=black!70!black,width=0.92\textwidth,center,boxrule=0.1mm,
+title={#2},fonttitle=\bfseries,#1}
+
+\newenvironment{researchgoal}
+{\begin{mybox}[attach title to upper={\ ---\ }]{RG \thergcounter:}}
+{\end{mybox} \stepcounter{rgcounter}}
 \endinput
