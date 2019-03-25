@@ -1,12 +1,24 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Research Contributions Overview}{5}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Thesis Outline Overview}{6}{section.1.2}% 
-\contentsline {chapter}{\numberline {2}Preliminary}{7}{chapter.2}% 
-\contentsline {chapter}{\numberline {3}Problem Formulation}{9}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Research Goals}{9}{section.3.1}% 
-\contentsline {chapter}{\numberline {4}Contributions}{13}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Research Method}{15}{chapter.5}% 
-\contentsline {chapter}{\numberline {6}Related Work}{17}{chapter.6}% 
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{19}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{21}{chapter*.2}% 
+\contentsline {section}{\numberline {1.2}Thesis Outline Overview}{7}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}Preliminary}{9}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}Problem Formulation}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Research Goals}{11}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Contributions}{15}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}ReSA - a Requirements Specification Language}{16}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Formal Analysis of ReSA Specifications}{17}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}SAT-based Analysis}{17}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Ontology-based Analysis}{17}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Formal and Scalable Analysis of Simulink Models}{18}{section.4.3}% 
+\contentsline {paragraph}{Syntax of a Simulink block}{18}{section*.2}% 
+\contentsline {paragraph}{Semantics of Simulink block}{18}{section*.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Stochastic Timed Automata Transformation Patterns}{18}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Simulink Models Transformation }{18}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}Fault-tolerant AUTOSAR Allocation}{18}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Scalable Fault-tolerant AUTOSAR Allocation }{18}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Validation On Industrial Use Cases}{18}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Research Method}{21}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Related Work}{23}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{25}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{27}{chapter*.4}% 

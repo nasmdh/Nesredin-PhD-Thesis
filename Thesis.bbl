@@ -5,13 +5,24 @@
   cycle processes --Requirements engineering}.
 \newblock {\em ISO/IEC/IEEE 29148:2011(E)}, pages 1--94, 12 2011.
 
+\bibitem{Baruah2011Response-timeSystems}
+S.~K. Baruah, A.~Burns, and R.~I. Davis.
+\newblock {Response-time analysis for mixed criticality systems}.
+\newblock In {\em Proceedings - Real-Time Systems Symposium}, 2011.
+
+\bibitem{f25ea3c6f4b743cd90c150926bbcf3db}
+Willem~Nico Borst and W~N Borst.
+\newblock {\em {Construction of Engineering Ontologies for Knowledge Sharing
+  and Reuse}}.
+\newblock PhD thesis, University of Twente, Netherlands, 1997.
+
 \bibitem{Bulychev2012UPPAAL-SMC:Automata}
 Peter Bulychev, Alexandre David, Kim~Gulstrand Larsen, Marius Miku{\v{c}}ionis,
   Danny B{\o}gsted~Poulsen, Axel Legay, and Zheng Wang.
 \newblock {UPPAAL-SMC: Statistical Model Checking for Priced Timed Automata}.
 \newblock {\em Electronic Proceedings in Theoretical Computer Science}, 2012.
 
-\bibitem{Buttazzo2003HardApplications}
+\bibitem{Buttazzo2003}
 Giorgio~C Buttazzo.
 \newblock {Hard real-time computing systems: Predictable scheduling algorithms
   and applications}.
@@ -23,11 +34,24 @@ Alexander Clark, Chris Fox, and Shalom Lappin.
   Processing}}.
 \newblock 2010.
 
+\bibitem{Davis2007ControllerRevised}
+Robert~I. Davis, Alan Burns, Reinder~J. Bril, and Johan~J. Lukkien.
+\newblock {Controller Area Network (CAN) schedulability analysis: Refuted,
+  revisited and revised}, 2007.
+
 \bibitem{Dwyer1999PatternsVerificationb}
 Matthew~B. Dwyer, George~S. Avrunin, and James~C. Corbett.
 \newblock {Patterns in property specifications for finite-state verification}.
 \newblock In {\em Proceedings of the 21st international conference on Software
   engineering - ICSE '99}, 1999.
+
+\bibitem{Farfeleder2011DODT:Development}
+Stefan Farfeleder, Thomas Moser, Andreas Krall, Tor St{\aa}lhane, Herbert
+  Zojer, and Christian Panis.
+\newblock {DODT: Increasing requirements formalism using domain ontologies for
+  improved embedded systems development}.
+\newblock In {\em Proceedings of the 2011 IEEE Symposium on Design and
+  Diagnostics of Electronic Circuits and Systems, DDECS 2011}, 2011.
 
 \bibitem{Filipovikj2016SimulinkSystems}
 P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
@@ -35,6 +59,15 @@ P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
 \newblock {\em {Simulink to UPPAAL statistical model checker: Analyzing
   automotive industrial systems}}, volume 9995 LNCS.
 \newblock 2016.
+
+\bibitem{Filipovikj2018SimppaalModels}
+Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guillermo
+  Rodriguez-Navas, Cristina Seceleanu, Oscar Ljungkrantz, and Henrik
+  L{\"{o}}nn.
+\newblock {Simppaal - A Framework For Statistical Model Checking of Industrial
+  Simulink Models}.
+\newblock {\em Submitted to Software Engineering and Methodology (TOSEM)
+  Journal}, 2018.
 
 \bibitem{Fuchs2008AttemptoRepresentation}
 Norbert~E. Fuchs, Kaarel Kaljurand, and Tobias Kuhn.
@@ -62,6 +95,12 @@ Thomas L.~Harman James B.~Dabney.
 \newblock {\em {Mastering Simulink}}.
 \newblock Pearson, 2003.
 
+\bibitem{Kopetz2003Real-timeApplications}
+Hermann Kopetz.
+\newblock {Real-time systems: Design principles for distributed embedded
+  applications}.
+\newblock {\em Computers {\&} Mathematics with Applications}, 2003.
+
 \bibitem{Kuhn2014ALanguages}
 Tobias Kuhn.
 \newblock {A Survey and Classification of Controlled Natural Languages}.
@@ -84,12 +123,26 @@ N~Mahmud, C~Seceleanu, and O~Ljungkrantz.
 \newblock In {\em 2016 Federated Conference on Computer Science and Information
   Systems (FedCSIS)}, pages 1737--1746, 9 2016.
 
+\bibitem{Mahmud2017SpecificationLogic}
+N~Mahmud, C~Seceleanu, and O~Ljungkrantz.
+\newblock {Specification and semantic analysis of embedded systems
+  requirements: From description logic to temporal logic}.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 2017.
+
 \bibitem{Mahmud5222}
 Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
   and Cristina Seceleanu.
 \newblock {Power-aware Allocation of Fault-tolerant Multi-rate AUTOSAR
   Applications}.
 \newblock In {\em 25th Asia-Pacific Software Engineering Conference}, 12 2018.
+
+\bibitem{Mahmud2019Power-awareOptimization}
+Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid~Reza Faragardi, Saad Mubeen,
+  and Cristina Seceleanu.
+\newblock {Power-aware Allocation of Fault-tolerant AUTOSARSystems with
+  End-to-end Timing Constraints viaHybrid Particle Swarm Optimization}.
+\newblock Technical report, 2019.
 
 \bibitem{Mahmud2015ReSA:Systems}
 Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
@@ -117,6 +170,12 @@ Seyedali Mirjalili.
 \newblock {Particle swarm optimisation}.
 \newblock In {\em Studies in Computational Intelligence}. 2019.
 
+\bibitem{mubeen2013support}
+Saad Mubeen, Jukka M{\"{a}}ki-Turja, and Mikael Sj{\"{o}}din.
+\newblock {Support for End-to-end Response-time and Delay Analysis in the
+  Industrial Tool Suite: Issues, Experiences and A Case Study}.
+\newblock {\em Computer Science and Information Systems}, 10(1):453--482, 2013.
+
 \bibitem{Myachykov2013SyntacticRussian}
 Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
   Fedorova.
@@ -127,5 +186,10 @@ Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
 \bibitem{o2017concise}
 Gerard O’Regan.
 \newblock {Concise guide to formal methods}, 2017.
+
+\bibitem{WangJiacun2017RES}
+Jiacun Wang.
+\newblock {\em {Real-Time Embedded Systems}}.
+\newblock 2017.
 
 \end{thebibliography}

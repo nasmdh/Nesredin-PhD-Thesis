@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  19 MAR 2019 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  25 MAR 2019 19:30
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -422,7 +422,293 @@ LaTeX Warning: You have requested package `nasutilsp',
 Package: nasutilspe 2018/10/30 NasUtil Package
 \c@rccounter=\count111
 \c@rgcounter=\count112
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tcol
+orbox/tcolorbox.sty"
+Package: tcolorbox 2019/03/02 version 4.20 text color boxes
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgf.sty"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfrcs.sty"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen138
+\pgfutil@tempdimb=\dimen139
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common-lists.tex"))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box29
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ms/e
+veryshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfrcs.code.tex"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/pgf.revision.tex")
+Package: pgfrcs 2019/01/05 v3.1 (3.1)
+))
+Package: pgf 2019/01/05 v3.1 (3.1)
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgfcore.sty"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+systemlayer/pgfsys.sty"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys.code.tex"
+Package: pgfsys 2019/01/05 v3.1 (3.1)
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen140
+\pgf@y=\dimen141
+\pgf@xa=\dimen142
+\pgf@ya=\dimen143
+\pgf@xb=\dimen144
+\pgf@yb=\dimen145
+\pgf@xc=\dimen146
+\pgf@yc=\dimen147
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count113
+\c@pgf@countb=\count114
+\c@pgf@countc=\count115
+\c@pgf@countd=\count116
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count117
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgf.cfg"
+File: pgf.cfg 2019/01/05 v3.1 (3.1)
 )
+Driver file for pgf: pgfsys-pdftex.def
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/01/05 v3.1 (3.1)
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/01/05 v3.1 (3.1)
+)))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/01/05 v3.1 (3.1)
+\pgfsyssoftpath@smallbuffer@items=\count118
+\pgfsyssoftpath@bigbuffer@items=\count119
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/01/05 v3.1 (3.1)
+))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcore.code.tex"
+Package: pgfcore 2019/01/05 v3.1 (3.1)
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathcalc.code.tex"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathutil.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen148
+\pgfmath@count=\count120
+\pgfmath@box=\box30
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.code.tex"
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.basic.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.random.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.comparison.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.base.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.round.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.misc.code.tex")
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count121
+))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@picminx=\dimen149
+\pgf@picmaxx=\dimen150
+\pgf@picminy=\dimen151
+\pgf@picmaxy=\dimen152
+\pgf@pathminx=\dimen153
+\pgf@pathmaxx=\dimen154
+\pgf@pathminy=\dimen155
+\pgf@pathmaxy=\dimen156
+\pgf@xx=\dimen157
+\pgf@xy=\dimen158
+\pgf@yx=\dimen159
+\pgf@yy=\dimen160
+\pgf@zx=\dimen161
+\pgf@zy=\dimen162
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@path@lastx=\dimen163
+\pgf@path@lasty=\dimen164
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@shorten@end@additional=\dimen165
+\pgf@shorten@start@additional=\dimen166
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count122
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/01/05 v3.1 (3.1)
+\pgflinewidth=\dimen167
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@pt@x=\dimen168
+\pgf@pt@y=\dimen169
+\pgf@pt@temp=\dimen170
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
+\pgfarrowsep=\dimen171
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@max=\dimen172
+\pgf@sys@shading@range@num=\count123
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/01/05 v3.1 (3.1)
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/01/05 v3.1 (3.1)
+\pgfexternal@startupbox=\box34
+))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/01/05 v3.1 (3.1)
+)))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/01/05 v3.1 (3.1)
+\pgfnodeparttextbox=\box35
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/01/05 v3.1 (3.1)
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/01/05 v3.1 (3.1)
+\pgf@nodesepstart=\dimen173
+\pgf@nodesepend=\dimen174
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/01/05 v3.1 (3.1)
+))
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tool
+s/verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read2
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/envi
+ron/environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trim
+spaces/trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks32
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoo
+lbox/etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count124
+)
+\tcb@titlebox=\box36
+\tcb@upperbox=\box37
+\tcb@lowerbox=\box38
+\tcb@phantombox=\box39
+\c@tcbbreakpart=\count125
+\c@tcblayer=\count126
+\tcolorbox@number=\count127
+\tcb@temp=\box40
+\tcb@temp=\box41
+\tcb@temp=\box42
+\tcb@temp=\box43
+\tcb@out=\write4
+\tcb@record@out=\write5
+))
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lett
 rine/lettrine.sty"
 File: lettrine.sty 2018-08-28 v2.21 (Daniel Flipo)
@@ -431,33 +717,33 @@ File: lettrine.sty 2018-08-28 v2.21 (Daniel Flipo)
 nifp/minifp.sty"
 Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
 -based programing language.
-\MFP@loopctr=\count113
+\MFP@loopctr=\count128
 )
-\c@DefaultLines=\count114
-\c@DefaultDepth=\count115
-\DefaultFindent=\dimen138
-\DefaultNindent=\dimen139
-\DefaultSlope=\dimen140
-\DiscardVskip=\dimen141
-\L@lbox=\box29
-\L@tbox=\box30
-\c@L@lines=\count116
-\c@L@depth=\count117
-\L@Pindent=\dimen142
-\L@Findent=\dimen143
-\L@Nindent=\dimen144
-\L@lraise=\dimen145
-\L@first=\dimen146
-\L@next=\dimen147
-\L@slope=\dimen148
-\L@height=\dimen149
-\L@novskip=\dimen150
-\L@target@ht=\dimen151
-\L@target@dp=\dimen152
-\L@target@tht=\dimen153
-\LettrineWidth=\dimen154
-\LettrineHeight=\dimen155
-\LettrineDepth=\dimen156
+\c@DefaultLines=\count129
+\c@DefaultDepth=\count130
+\DefaultFindent=\dimen175
+\DefaultNindent=\dimen176
+\DefaultSlope=\dimen177
+\DiscardVskip=\dimen178
+\L@lbox=\box44
+\L@tbox=\box45
+\c@L@lines=\count131
+\c@L@depth=\count132
+\L@Pindent=\dimen179
+\L@Findent=\dimen180
+\L@Nindent=\dimen181
+\L@lraise=\dimen182
+\L@first=\dimen183
+\L@next=\dimen184
+\L@slope=\dimen185
+\L@height=\dimen186
+\L@novskip=\dimen187
+\L@target@ht=\dimen188
+\L@target@dp=\dimen189
+\L@target@tht=\dimen190
+\LettrineWidth=\dimen191
+\LettrineHeight=\dimen192
+\LettrineDepth=\dimen193
 
 Loading lettrine.cfg
 
@@ -467,11 +753,28 @@ rine/lettrine.cfg"))
 item/enumitem.sty"
 Package: enumitem 2019/01/14 v3.7 Customized lists
 \labelindent=\skip47
-\enit@outerparindent=\dimen157
-\enit@toks=\toks20
-\enit@inbox=\box31
-\enit@count@id=\count118
-\enitdp@description=\count119
+\enit@outerparindent=\dimen194
+\enit@toks=\toks33
+\enit@inbox=\box46
+\enit@count@id=\count133
+\enitdp@description=\count134
+)
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subf
+ig/subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count135
+\sf@farskip=\skip48
+\sf@captopadj=\dimen195
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+\c@subfigure=\count136
+\c@subfigure@save=\count137
+\c@lofdepth=\count138
+\c@subtable=\count139
+\c@subtable@save=\count140
+\c@lotdepth=\count141
+\sf@top=\skip51
+\sf@bottom=\skip52
 ) (BiblioInfo.tex) (Thesis.aux)
 \openout1 = `Thesis.aux'.
 
@@ -495,7 +798,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
 ss/t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\big@size=\dimen158
+\big@size=\dimen196
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -544,20 +847,20 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip48
-\RaggedLeftLeftskip=\skip49
-\RaggedRightLeftskip=\skip50
-\CenteringRightskip=\skip51
-\RaggedLeftRightskip=\skip52
-\RaggedRightRightskip=\skip53
-\CenteringParfillskip=\skip54
-\RaggedLeftParfillskip=\skip55
-\RaggedRightParfillskip=\skip56
-\JustifyingParfillskip=\skip57
-\CenteringParindent=\skip58
-\RaggedLeftParindent=\skip59
-\RaggedRightParindent=\skip60
-\JustifyingParindent=\skip61
+\CenteringLeftskip=\skip53
+\RaggedLeftLeftskip=\skip54
+\RaggedRightLeftskip=\skip55
+\CenteringRightskip=\skip56
+\RaggedLeftRightskip=\skip57
+\RaggedRightRightskip=\skip58
+\CenteringParfillskip=\skip59
+\RaggedLeftParfillskip=\skip60
+\RaggedRightParfillskip=\skip61
+\JustifyingParfillskip=\skip62
+\CenteringParindent=\skip63
+\RaggedLeftParindent=\skip64
+\RaggedRightParindent=\skip65
+\JustifyingParindent=\skip66
 )
 Package caption Info: float package v1.2 (or newer) detected on input line 52.
 Package caption Info: listings package v1.2 (or newer) detected on input line 5
@@ -573,17 +876,17 @@ Package caption Info: supertabular package detected on input line 52.
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/context/ba
 se/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen159
-\scratchbox=\box32
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen160
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count142
+\scratchdimen=\dimen197
+\scratchbox=\box47
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen198
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks35
 )
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ober
 diek/epstopdf-base.sty"
@@ -600,7 +903,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box48
 Package hyperref Info: Link coloring ON on input line 52.
 
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
@@ -611,16 +914,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 erdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count126
+\c@section@level=\count148
 )
 LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
  (Thesis.out) (Thesis.out)
-\@outlinefile=\write3
-\openout3 = `Thesis.out'.
+\@outlinefile=\write6
+\openout6 = `Thesis.out'.
 
- (Thesis.toc
+
+ABD: EveryShipout initializing macros (Thesis.toc
 LaTeX Font Info:    Calculating math sizes for size <11.04> on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 2.
 
@@ -663,8 +967,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.16965> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.62405> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 )
-\tf@toc=\write4
-\openout4 = `Thesis.toc'.
+\tf@toc=\write7
+\openout7 = `Thesis.toc'.
 
  [1
 
@@ -683,8 +987,8 @@ Package lettrine.sty Info: Targeted height = 18.68002pt
 (lettrine.sty)             Lettrine height = 18.6801pt (R);
 (lettrine.sty)             reported on input line 2.
 
-Underfull \hbox (badness 2671) in paragraph at lines 2--3
-\T1/ptm/m/n/11.04 which are bounded by \T1/ptm/m/it/11.04 Deadline\T1/ptm/m/n/1
+Underfull \hbox (badness 3138) in paragraph at lines 2--3
+\T1/ptm/m/n/11.04 which are bounded by \T1/ptm/m/it/11.04 deadline\T1/ptm/m/n/1
 1.04 , besides correct results of the
  []
 
@@ -695,32 +999,51 @@ Underfull \hbox (badness 2119) in paragraph at lines 2--3
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 4--5
-\T1/ptm/m/n/11.04 dependability of the system which requires additional critica
-l systems
+Underfull \hbox (badness 1062) in paragraph at lines 2--3
+\T1/ptm/m/n/11.04 26262 ``Road vehicles-Functional safety'' [[]]. The latter st
+andard also
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 4--5
-\T1/ptm/m/n/11.04 resource such as power and energy besides computational resou
-rces.
- []
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11.04> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-
-LaTeX Warning: Citation `borst' on page 3 undefined on input line 6.
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 6--7
-\T1/ptm/m/n/11.04 though inherently ambiguous [[]]. In the context of natural l
-anguage,
+Underfull \hbox (badness 1097) in paragraph at lines 4--5
+[]\T1/ptm/m/n/11.04 In distributed computing [[]], the safety-critical software
+ is mapped
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 6--7
-\T1/ptm/m/n/11.04 property-specification systems [[]], etc., lack meta-model to
- effectively
+Underfull \hbox (badness 1418) in paragraph at lines 4--5
+\T1/ptm/m/n/11.04 improve dependability of the system which requires additional
+ critical
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 etc [[]]. According to the ISO 26262 standard, semi-formal or
+ formal
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 natural language is the de facto method to specify embedded s
+ystems
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 requirements in industry because it is intuitive and expressi
+ve, though
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 e.g., requirements boilerplates [[]], property-specification 
+systems [[]],
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 6--7
+\T1/ptm/m/n/11.04 etc., lack meta-model to effectively create templates, and is
+ usually
  []
 
 
@@ -737,11 +1060,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.68224> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.41805> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-
-
-LaTeX Warning: Citation `Simppaal - A Framework For Statistical Model Checking 
-of Industrial Simulink Models' on page 4 undefined on input line 8.
-
 
 Underfull \hbox (badness 2126) in paragraph at lines 8--9
 []\T1/ptm/m/n/11.04 The specifications are employed in subsequent system develo
@@ -761,25 +1079,39 @@ e and
  []
 
 
-LaTeX Warning: Citation `Mahmud5222-metaheuristic' on page 4 undefined on input
- line 10.
+Underfull \hbox (badness 1019) in paragraph at lines 10--11
+[]\T1/ptm/m/n/11.04 The software design should be mapped to hardware effectivel
+y, that
+ []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 10--11
-\T1/ptm/m/n/11.04 electrical/electronic systems where hundreds of software func
-tions are
+Underfull \hbox (badness 1622) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 is satisfying the timing and reliability requirements of the 
+distributed
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 safety-critical software, but also efficiently to minimize th
+e power
  []
 
 
 Underfull \hbox (badness 1286) in paragraph at lines 10--11
-\T1/ptm/m/n/11.04 software to a network of computing units. Specifically, we pr
-opose a
+\T1/ptm/m/n/11.04 consumption of the distributed system to facilitate extensibi
+lity of the
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 10--11
-\T1/ptm/m/n/11.04 optimization [[]], which is meta-heuristic algorithm, to solv
-e large
+Underfull \hbox (badness 6775) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 software by mapping redundant software functionality on diffe
+rent
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 10--11
+\T1/ptm/m/n/11.04 map the distributed safety-critical software to a network of 
+computing
  []
 
 
@@ -799,6 +1131,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11.04> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11.04> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 
 Underfull \hbox (badness 4168) in paragraph at lines 15--16
 \T1/ptm/m/n/11.04 a fairly expressive, flexible yet structured and domain-speci
@@ -829,17 +1163,22 @@ Underfull \hbox (badness 1571) in paragraph at lines 19--20
 g
  []
 
-[5]) (Chapters/Preliminary.tex
+<images/softdevflow.pdf, id=178, 412.4208pt x 365.44528pt>
+File: images/softdevflow.pdf Graphic file (type pdf)
+<use images/softdevflow.pdf>
+Package pdftex.def Info: images/softdevflow.pdf  used on input line 26.
+(pdftex.def)             Requested size: 341.43306pt x 302.54997pt.
+[5]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 6
  []
 
-[6]
+[6 <./images/softdevflow.pdf>]) (Chapters/Preliminary.tex [7] [8
+
+
+]
 Chapter 2.
-) (Chapters/ResearchGoals.tex [7
-
-
-] [8
+) (Chapters/ResearchGoals.tex [9] [10
 
 
 ]
@@ -851,33 +1190,38 @@ is is
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 12--13
-\T1/ptm/m/n/11.04 Safety-critical automotive systems are developed according to
- the ISO
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+[][]\T1/ptm/b/n/11.04 Overall Goal[] \T1/ptm/m/n/11.04 --- Provide assurance of
+ safety-critical
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 12--13
-\T1/ptm/m/n/11.04 safety-critical requirements to improve quality of the specif
-ications,
+Underfull \hbox (badness 1460) in paragraph at lines 12--13
+\T1/ptm/m/n/11.04 In the context of textual representations, the semi-formal sp
+ecification
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 12--13
-\T1/ptm/m/n/11.04 e.g., by reducing ambiguity and improving comprehensibility. 
-In the
+Underfull \hbox (badness 4144) in paragraph at lines 12--13
+\T1/ptm/m/n/11.04 methods are constrained natural languages, such as templates 
+(e.g.,
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 12--13
-\T1/ptm/m/n/11.04 are constrained natural languages, such as templates (or requ
-irements
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+\T1/ptm/m/n/11.04 of natural-language requirements using domain-specific
  []
 
-[9]
+[11]
 Underfull \hbox (badness 1496) in paragraph at lines 24--25
 \T1/ptm/m/n/11.04 be analyzed in ensemble in order to detect errors that span m
 ultiple
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 27--29
+[][]\T1/ptm/b/n/11.04 RG 2:[] \T1/ptm/m/n/11.04 --- Facilitate formal analysis 
+of the requirements
  []
 
 
@@ -899,118 +1243,229 @@ mbedded
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 35--37
-\T1/ptm/m/n/11.04 functionality. The de facto Simulink analysis techniques, e.g
-., by type
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 35--37
-\T1/ptm/m/n/11.04 real-time Simulink models. SDV lacks support for checking tem
-poral
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 10
- []
-
-[10]
-Underfull \hbox (badness 1189) in paragraph at lines 46--47
-\T1/ptm/m/n/11.04 multiple computing units (or ECU) consequently is exposed to 
-higher
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 46--47
-\T1/ptm/m/n/11.04 widely approach to improve reliability, e.g., using redundant
- software
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 46--47
-\T1/ptm/m/n/11.04 functionality on multiple ECU, however, it requires additiona
-l power
- []
-
-[11]) (Chapters/Contributions.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 12
  []
 
 [12]
+Underfull \hbox (badness 1755) in paragraph at lines 35--36
+[]\T1/ptm/m/n/11.04 The de facto Simulink analysis techniques, e.g., by type ch
+ecking,
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 45--46
+\T1/ptm/m/n/11.04 allocation plays a crucial role to minimize the power consump
+tion of
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 48--50
+[][]\T1/ptm/b/n/11.04 RG 4:[] \T1/ptm/m/n/11.04 --- Minimize the power consumpt
+ion of distributed
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 52--53
+\T1/ptm/m/n/11.04 of schedulability analysis and reliability calculations, whic
+h makes the
+ []
+
+[13]
+Underfull \hbox (badness 4492) in paragraph at lines 57--59
+\T1/ptm/m/n/11.04 for the requirements specification, software allocation of
+ []
+
+) (Chapters/Contributions.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 14
+ []
+
+[14]
 Chapter 4.
-) (Chapters/ResearchMethod.tex [13
+<images/approach_workflow.pdf, id=286, 434.62375pt x 177.66376pt>
+File: images/approach_workflow.pdf Graphic file (type pdf)
+<use images/approach_workflow.pdf>
+Package pdftex.def Info: images/approach_workflow.pdf  used on input line 6.
+(pdftex.def)             Requested size: 341.43306pt x 139.5775pt.
+
+Underfull \hbox (badness 1237) in paragraph at lines 14--15
+\T1/ptm/m/n/11.04 functionality is mapped to the underlying hardware architectu
+re which
+ []
 
 
-] [14
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 20.
+
+LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.04> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.42964> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.02405> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+[15
+
+
+ <./images/approach_workflow.pdf
+
+pdfTeX warning: pdflatex (file ./images/approach_workflow.pdf): PDF inclusion: 
+invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
+.
+>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 36.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 40.
+
+("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnf
+ss/t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 4726) in paragraph at lines 41--42
+[]|\T1/ptm/m/n/10.04 instantiates a compound statement, e.g., \T1/pcr/m/n/10.04
+ Compound :=
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 49.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 16
+ []
+
+[16]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [17]
+Underfull \hbox (badness 1635) in paragraph at lines 73--74
+\T1/ptm/m/n/11.04 A Simulink model consists of functional blocks, which are mod
+eling
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 73--74
+\T1/ptm/m/n/11.04 block, contains atomic blocks, and is used to create hierarch
+y, hence
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 80.
+
+<images/Continuous.pdf, id=328, 948.34299pt x 399.894pt>
+File: images/Continuous.pdf Graphic file (type pdf)
+<use images/Continuous.pdf>
+Package pdftex.def Info: images/Continuous.pdf  used on input line 84.
+(pdftex.def)             Requested size: 170.71652pt x 71.9839pt.
+File: images/Continuous.pdf Graphic file (type pdf)
+<use images/Continuous.pdf>
+Package pdftex.def Info: images/Continuous.pdf  used on input line 87.
+(pdftex.def)             Requested size: 170.71652pt x 71.9839pt.
+
+Overfull \hbox (9.71523pt too wide) in paragraph at lines 84--88
+ [][]  [][] 
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 79--90
+\T1/ptm/m/n/11.04 continuous blocks, respectively, thus providing a generic for
+malization
+ []
+
+) (Chapters/ResearchMethod.tex
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 18
+ []
+
+[18] [19 <./images/Continuous.pdf>] [20
 
 
 ]
 Chapter 5.
-) (Chapters/RelatedWork.tex [15] [16
+) (Chapters/RelatedWork.tex [21] [22
 
 
 ]
 Chapter 6.
-) (Chapters/ConclusionsFutureWork.tex [17] [18
+) (Chapters/ConclusionsFutureWork.tex [23] [24
 
 
 ]
 Chapter 7.
-) [19] [20
+) [25] [26
 
 
 ] (Thesis.bbl
-Underfull \hbox (badness 2368) in paragraph at lines 21--25
+Underfull \hbox (badness 2368) in paragraph at lines 32--36
 []\T1/ptm/m/n/10.04 Alexander Clark, Chris Fox, and Shalom Lappin.  \T1/ptm/m/i
 t/10.04 The Handbook of
  []
 
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.04> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
-LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.04> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.42964> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.02405> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-[21
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
+[]\T1/ptm/m/n/10.04 Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guil
+lermo
+ []
+
+[27
 
 
 ]
-Underfull \hbox (badness 1281) in paragraph at lines 81--86
+Underfull \hbox (badness 1661) in paragraph at lines 99--103
+[]\T1/ptm/m/n/10.04 Hermann Kopetz.  Real-time systems: Design principles for d
+istributed
+ []
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.04> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+
+Underfull \hbox (badness 1281) in paragraph at lines 120--125
 []\T1/ptm/m/n/10.04 N Mahmud, C Seceleanu, and O Ljungkrantz.  ReSA Tool: Struc
 tured
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 81--86
+Underfull \hbox (badness 5331) in paragraph at lines 120--125
 \T1/ptm/m/it/10.04 Federated Conference on Computer Science and Information Sys
 tems
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 95--100
+Underfull \hbox (badness 1509) in paragraph at lines 148--153
 []\T1/ptm/m/n/10.04 Nesredin Mahmud, Cristina Seceleanu, and Oscar Ljungkrantz.
   ReSA:
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 28
+ []
+
+[28]
+Underfull \hbox (badness 2837) in paragraph at lines 161--167
 \T1/ptm/m/n/10.04 step towards verification and synthesis from simulink/statefl
 ow models.
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 108--114
+Underfull \hbox (badness 1314) in paragraph at lines 161--167
 \T1/ptm/m/n/10.04 In \T1/ptm/m/it/10.04 Proceedings of the 14th international c
 onference on Hybrid systems:
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 121--126
+Underfull \hbox (badness 1577) in paragraph at lines 180--185
 \T1/ptm/m/n/10.04 The case of English and Russian.  \T1/ptm/m/it/10.04 Quarterl
 y Journal of Experimental
  []
@@ -1023,7 +1478,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 Gerard Oâ€
+l.187 Gerard Oâ€
                 ™Regan.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1036,49 +1491,41 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 Gerard Oâ€™
+l.187 Gerard Oâ€™
                  Regan.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-)
+) [29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 22
- []
-
-[22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6DC9A301CDD359794326E6AE36E32220;637.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 04FCC226B4DE694C04F330C3B58A0F4C;1543.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 8600 strings out of 494865
- 132544 string characters out of 3176629
- 244589 words of memory out of 3000000
- 12005 multiletter control sequences out of 15000+200000
- 69213 words of font info for 98 fonts, out of 3000000 for 9000
+ 18114 strings out of 494865
+ 342475 string characters out of 3176629
+ 425841 words of memory out of 3000000
+ 21272 multiletter control sequences out of 15000+200000
+ 79048 words of font info for 113 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 33i,8n,35p,1817b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,19n,75p,1822b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvi
 ps/base/8r.enc}</Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/nmd02/Library/Application Sup
-port/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/nmd02/Libra
-ry/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb><
-/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on Thesis.pdf (22 pages, 107436 bytes).
+fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/nmd02/Library/Application Supp
+ort/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/nmd
+02/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/uc
+rr8a.pfb></Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/fonts/
+type1/urw/times/utmb8a.pfb></Users/nmd02/Library/Application Support/MiKTeX/tex
+mfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/nmd02/Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (29 pages, 322413 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
