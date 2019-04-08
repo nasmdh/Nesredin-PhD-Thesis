@@ -5,10 +5,41 @@
   cycle processes --Requirements engineering}.
 \newblock {\em ISO/IEC/IEEE 29148:2011(E)}, pages 1--94, 12 2011.
 
+\bibitem{Baader2010TheApplications}
+Franz Baader, Diego Calvanese, Deborah~L. McGuinness, Daniele Nardi, and
+  Peter~F. Patel-Schneider.
+\newblock {The Description Logic Handbook: Theory, Implementation and
+  Applications}.
+\newblock {\em Kybernetes}, 2010.
+
+\bibitem{bambagini2016energy}
+Mario Bambagini, Mauro Marinoni, Hakan Aydin, and Giorgio Buttazzo.
+\newblock {Energy-aware Scheduling for Real-time Systems: A survey}.
+\newblock {\em ACM Transactions on Embedded Computing Systems (TECS)}, 15(1):7,
+  2016.
+
 \bibitem{Baruah2011Response-timeSystems}
 S.~K. Baruah, A.~Burns, and R.~I. Davis.
 \newblock {Response-time analysis for mixed criticality systems}.
 \newblock In {\em Proceedings - Real-Time Systems Symposium}, 2011.
+
+\bibitem{qualitateiveresearch2012}
+Bruce L (Bruce~Lawrence) Berg and 1962-Author Lune~Howard.
+\newblock {\em {Qualitative research methods for the social sciences}}.
+\newblock Boston Pearson, eighth edi edition, 2012.
+
+\bibitem{10.1007/978-94-017-9297-4_7}
+Mehul Bhatt and Christian Freksa.
+\newblock {Spatial Computing for Design---an Artificial Intelligence
+  Perspective}.
+\newblock In John~S Gero, editor, {\em Studying Visual and Spatial Reasoning
+  for Design Creativity}, pages 109--127, Dordrecht, 2015. Springer
+  Netherlands.
+
+\bibitem{Biere2009HandbookSatisfiability}
+Armin Biere, Marijn Heule, Hans~van Maaren, and Toby Walsh.
+\newblock {Handbook of Satisfiability}.
+\newblock {\em New York}, 185(3):980, 2009.
 
 \bibitem{f25ea3c6f4b743cd90c150926bbcf3db}
 Willem~Nico Borst and W~N Borst.
@@ -28,22 +59,60 @@ Giorgio~C Buttazzo.
   and applications}.
 \newblock {\em Computers {\&} Mathematics with Applications}, 2003.
 
+\bibitem{Carr2004PrototypingApproaches}
+Mahil Carr and June Verner.
+\newblock {Prototyping and Software Development Approaches}.
+\newblock {\em Prototyping and Software Development Approaches}, 2004.
+
 \bibitem{Clark2010TheProcessing}
 Alexander Clark, Chris Fox, and Shalom Lappin.
 \newblock {\em {The Handbook of Computational Linguistics and Natural Language
   Processing}}.
 \newblock 2010.
 
+\bibitem{Creswell2014ResearchApproaches}
+J~W Creswell.
+\newblock {\em {Research Design: Qualitative, Quantitative, and Mixed Methods
+  Approaches}}.
+\newblock 2014.
+
 \bibitem{Davis2007ControllerRevised}
 Robert~I. Davis, Alan Burns, Reinder~J. Bril, and Johan~J. Lukkien.
 \newblock {Controller Area Network (CAN) schedulability analysis: Refuted,
   revisited and revised}, 2007.
+
+\bibitem{DeMoura2008Z3:Solver}
+Leonardo De~Moura and Nikolaj Bj{\o}rner.
+\newblock {Z3: An efficient SMT Solver}.
+\newblock In {\em Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}, 2008.
+
+\bibitem{devadas2012interplay}
+Vinay Devadas and Hakan Aydin.
+\newblock {On the Interplay of Voltage/Frequency Scaling and Device Power
+  Management for Frame-based Real-time Embedded Applications}.
+\newblock {\em IEEE Transactions on Computers}, 61(1):31--44, 2012.
+
+\bibitem{devlin2008satisfiability}
+David Devlin and Barry OSullivan.
+\newblock {Satisfiability as a classification problem}.
+\newblock In {\em Proc. of the 19th Irish Conf. on Artificial Intelligence and
+  Cognitive Science}, 2008.
 
 \bibitem{Dwyer1999PatternsVerificationb}
 Matthew~B. Dwyer, George~S. Avrunin, and James~C. Corbett.
 \newblock {Patterns in property specifications for finite-state verification}.
 \newblock In {\em Proceedings of the 21st international conference on Software
   engineering - ICSE '99}, 1999.
+
+\bibitem{faragardi2013towards}
+Hamid~Reza Faragardi, Aboozar Rajabi, Reza Shojaee, and Thomas Nolte.
+\newblock {Towards Energy-aware Resource Scheduling to Maximize Reliability in
+  Cloud Computing Systems}.
+\newblock In {\em High Performance Computing and Communications {\&} 2013 IEEE
+  International Conference on Embedded and Ubiquitous Computing (HPCC{\_}EUC),
+  2013 IEEE 10th International Conference on}, pages 1469--1479. IEEE, 2013.
 
 \bibitem{Farfeleder2011DODT:Development}
 Stefan Farfeleder, Thomas Moser, Andreas Krall, Tor St{\aa}lhane, Herbert
@@ -53,12 +122,35 @@ Stefan Farfeleder, Thomas Moser, Andreas Krall, Tor St{\aa}lhane, Herbert
 \newblock In {\em Proceedings of the 2011 IEEE Symposium on Design and
   Diagnostics of Electronic Circuits and Systems, DDECS 2011}, 2011.
 
+\bibitem{Feiertag2009ASemantics}
+Nico Feiertag, Kai Richter, Johan Nordlander, and Jan Jonsson.
+\newblock {A Compositional Framework for End-to-end Path Delay Calculation of
+  Automotive Systems under Different Path Semantics}.
+\newblock In {\em IEEE Real-Time Systems Symposium: 30/11/2009-03/12/2009}.
+  IEEE Communications Society, 2009.
+
+\bibitem{Ferrante2012ParallelSystems}
+Orlando Ferrante, Luca Benvenuti, Leonardo Mangeruca, Christos Sofronis, and
+  Alberto Ferrari.
+\newblock {Parallel NuSMV: A NuSMV extension for the verification of complex
+  embedded systems}.
+\newblock In {\em Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}, 2012.
+
 \bibitem{Filipovikj2016SimulinkSystems}
 P.~Filipovikj, N.~Mahmud, R.~Marinescu, C.~Seceleanu, O.~Ljungkrantz, and
   H.~L{\"{o}}nn.
 \newblock {\em {Simulink to UPPAAL statistical model checker: Analyzing
   automotive industrial systems}}, volume 9995 LNCS.
 \newblock 2016.
+
+\bibitem{Filipovikj4714}
+Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guillermo
+  Rodriguez-Navas, Cristina Seceleanu, Oscar Ljungkrantz, and Henrik
+  L{\"{o}}nn.
+\newblock {Analyzing Industrial Simulink Models by Statistical Model Checking}.
+\newblock Technical report, 3 2017.
 
 \bibitem{Filipovikj2018SimppaalModels}
 Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Guillermo
@@ -79,6 +171,24 @@ Norbert~E Fuchs and Rolf Schwitter.
 \newblock {Attempto Controlled English {\{}(ACE){\}}}.
 \newblock {\em CoRR}, cmp-lg/960, 1996.
 
+\bibitem{Goel1985SoftwareApplicability}
+A.L. Goel.
+\newblock {Software Reliability Models: Assumptions, Limitations, and
+  Applicability}.
+\newblock {\em IEEE Transactions on Software Engineering},
+  SE-11(12):1411--1423, 12 1985.
+
+\bibitem{Gorschek2006APractice}
+Tony Gorschek, Per Garre, Stig Larsson, and Claes Wohlin.
+\newblock {A model for technology transfer in practice}.
+\newblock {\em IEEE Software}, 2006.
+
+\bibitem{Hocking2016ProvingModels}
+Ashlie~B. Hocking, M.~Anthony Aiello, John~C. Knight, and Nikos Ar{\'{e}}chiga.
+\newblock {Proving Critical Properties of Simulink Models}.
+\newblock In {\em Proceedings of IEEE International Symposium on High Assurance
+  Systems Engineering}, 2016.
+
 \bibitem{Hull2011RequirementsEngineering}
 Elizabeth Hull, Ken Jackson, and Jeremy Dick.
 \newblock {\em {Requirements Engineering}}.
@@ -95,11 +205,32 @@ Thomas L.~Harman James B.~Dabney.
 \newblock {\em {Mastering Simulink}}.
 \newblock Pearson, 2003.
 
+\bibitem{Kekatos2018ConstructingHybridization}
+Nikolaos Kekatos, Marcelo Forets, and Goran Frehse.
+\newblock {Constructing verification models of nonlinear Simulink systems via
+  syntactic hybridization}.
+\newblock In {\em 2017 IEEE 56th Annual Conference on Decision and Control, CDC
+  2017}, 2018.
+
+\bibitem{Kennedy1995ParticleOptimization}
+J.~Kennedy, R.~Eberhart, Carlos A~Coello Coello, Gregorio~Toscano Pulido,
+  Maximino~Salazar Lechuga, J.~Kennedy, R.~Eberhart, Carlos A~Coello Coello,
+  Gregorio~Toscano Pulido, Maximino~Salazar Lechuga, and From Scholarpedia.
+\newblock {Particle swarm optimization}.
+\newblock {\em Neural Networks, 1995. Proceedings., IEEE International
+  Conference on}, 1995.
+
 \bibitem{Kopetz2003Real-timeApplications}
 Hermann Kopetz.
 \newblock {Real-time systems: Design principles for distributed embedded
   applications}.
 \newblock {\em Computers {\&} Mathematics with Applications}, 2003.
+
+\bibitem{Kramer2015RealFree}
+Simon Kramer, Dirk Ziegenbein, and Arne Hamann.
+\newblock {Real World Automotive Benchmarks for Free}.
+\newblock In {\em 6th International Workshop on Analysis Tools and
+  Methodologies for Embedded and Real-time Systems (WATERS)}, 2015.
 
 \bibitem{Kuhn2014ALanguages}
 Tobias Kuhn.
@@ -165,6 +296,16 @@ Karthik Manamcheri, Sayan Mitra, Stanley Bak, and Marco Caccamo.
   systems: computation and control - HSCC '11}, page 317, New York, New York,
   USA, 2011. ACM Press.
 
+\bibitem{MathWokrksSimulinkVerifier}
+{MathWokrks}.
+\newblock {Simulink Design Verifier}.
+
+\bibitem{Meenakshi2006ToolChecker}
+B.~Meenakshi, Abhishek Bhatnagar, and Sudeepa Roy.
+\newblock {Tool for Translating Simulink Models into Input Language of a Model
+  Checker}.
+\newblock pages 606--620. Springer, Berlin, Heidelberg, 2006.
+
 \bibitem{Mirjalili2019ParticleOptimisation}
 Seyedali Mirjalili.
 \newblock {Particle swarm optimisation}.
@@ -183,13 +324,64 @@ Andriy Myachykov, Christoph Scheepers, Simon Garrod, Dominic Thompson, and Olga
   case of English and Russian}.
 \newblock {\em Quarterly Journal of Experimental Psychology}, 2013.
 
+\bibitem{Nellen2018FormalRecommendations}
+Johanna Nellen, Thomas Rambow, Md~Tawhid~Bin Waez, Erika {\'{A}}brah{\'{a}}m,
+  and Joost-Pieter Katoen.
+\newblock {Formal Verification of Automotive Simulink Controller Models:
+  Empirical Technical Challenges, Evaluation and Recommendations}.
+\newblock pages 382--398. Springer, Cham, 7 2018.
+
 \bibitem{o2017concise}
 Gerard O’Regan.
 \newblock {Concise guide to formal methods}, 2017.
+
+\bibitem{Rector2006}
+Alan Rector and Jeremy Rogers.
+\newblock {Ontological and Practical Issues in Using a Description Logic to
+  Represent Medical Concept Systems: Experience from GALEN}.
+\newblock In Pedro Barahona, François Bry, Enrico Franconi, Nicola Henze, and
+  Ulrike Sattler, editors, {\em Reasoning Web: Second International Summer
+  School 2006, Lisbon, Portugal, September 4-8, 2006, Tutorial Lectures}, pages
+  197--231. Springer Berlin Heidelberg, Berlin, Heidelberg, 2006.
+
+\bibitem{Saidi2015AnArchitectures}
+Salah~Eddine Saidi, Sylvain Cotard, Khaled Chaaban, and Kevin Marteil.
+\newblock {An ILP Approach for Mapping AUTOSAR Runnables on Multi-core
+  Architectures}.
+\newblock In {\em Proceedings of the 2015 Workshop on Rapid Simulation and
+  Performance Evaluation Methods and Tools - RAPIDO '15}, pages 1--8, New York,
+  USA, 2015. ACM Press.
+
+\bibitem{Schwitter2002EnglishLanguage}
+R~Schwitter.
+\newblock {English as a formal specification language}.
+\newblock In {\em Proceedings. 13th International Workshop on Database and
+  Expert Systems Applications}, pages 228--232. IEEE Comput. Soc, 2002.
+
+\bibitem{Sha2004RealPerspective}
+Lui Sha, Tarek Abdelzaher, Karl~Erik {\AA}rz{\'{e}}n, Anton Cervin, Theodore
+  Baker, Alan Burns, Giorgio Buttazzo, Marco Caccamo, John Lehoczky, and
+  Aloysius~K. Mok.
+\newblock {Real time scheduling theory: A historical perspective}, 2004.
+
+\bibitem{vsvogor2014extended}
+Ivan {\v{S}}vogor, Ivica Crnkovic, and Neven Vrcek.
+\newblock {An Extended Model for Multi-Criteria Software Component Allocation
+  on a Heterogeneous Embedded Platform}.
+\newblock {\em Journal of computing and information technology},
+  21(4):211--222, 2014.
 
 \bibitem{WangJiacun2017RES}
 Jiacun Wang.
 \newblock {\em {Real-Time Embedded Systems}}.
 \newblock 2017.
+
+\bibitem{Wozniak2013AnArchitectures}
+Ernest Wozniak, Asma Mehiaoui, Chokri Mraidha, Sara Tucci-Piergiovanni, and
+  Sébastien Gerard.
+\newblock {An Optimization Approach for the Synthesis of AUTOSAR
+  Architectures}.
+\newblock In {\em IEEE International Conference on Emerging Technologies and
+  Factory Automation, ETFA}, 2013.
 
 \end{thebibliography}

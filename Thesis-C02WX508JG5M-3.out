@@ -1,0 +1,33 @@
+\BOOKMARK [0][-]{LOP.0}{List of Papers}{}% 1
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 2
+\BOOKMARK [1][-]{section.1.1}{1.1 Thesis Outline Overview}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{2 Background}{}% 4
+\BOOKMARK [1][-]{section.2.1}{2.1 Logic-based Reasoning}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{2.2 Simulink Analysis}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{2.3 UPPAAL Statistical Model Checking}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{2.4 Integer-linear Programming \(ILP\)}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.5}{2.5 Population-based Metaheuristics}{chapter.2}% 9
+\BOOKMARK [0][-]{chapter.3}{3 Problem Formulation}{}% 10
+\BOOKMARK [1][-]{section.3.1}{3.1 Research Goals}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{4 Thesis Contributions}{}% 12
+\BOOKMARK [1][-]{section.4.1}{4.1 ReSA - a Constrained Requirements Specification Language of Embedded Systems}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Syntax as Requiremernts Boilerplates}{section.4.1}% 14
+\BOOKMARK [1][-]{section.4.2}{4.2 Formal Analysis of ReSA Specifications}{chapter.4}% 15
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 SAT-based Analysis}{section.4.2}% 16
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Ontology-based Analysis}{section.4.2}% 17
+\BOOKMARK [1][-]{section.4.3}{4.3 Formal and Scalable Analysis of Simulink Models}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Semantics of Simulink Model in Network of STA}{section.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Validation on the Brake-by-wire System}{section.4.3}% 20
+\BOOKMARK [1][-]{section.4.4}{4.4 Exact Software Allocation via ILP}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 ILP Model Formulation}{section.4.4}% 22
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Tool Support and Validation on Automotive Benchmark}{section.4.4}% 23
+\BOOKMARK [1][-]{section.4.5}{4.5 Scalable Software Allocation via Hybrid PSO}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Hybrid Particle-swarm Optimization}{section.4.5}% 25
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Validation on the Bosch EMS Benchmark}{section.4.5}% 26
+\BOOKMARK [0][-]{chapter.5}{5 Research Method}{}% 27
+\BOOKMARK [0][-]{chapter.6}{6 Related Work}{}% 28
+\BOOKMARK [1][-]{section.6.1}{6.1 Requirements Specification and Analysis}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{6.2 Formal Analysis of Simulink Models}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.3}{6.3 Software-to-Hardware Allocation}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{7 Conclusions and Future Work}{}% 32
+\BOOKMARK [-1][-]{chapter*.18}{Bibliography}{}% 33

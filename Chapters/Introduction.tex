@@ -9,8 +9,8 @@ The specifications are employed in subsequent system development including softw
 
 The software design should be mapped to hardware effectively, that is satisfying the timing and reliability requirements of the distributed safety-critical software, but also efficiently to minimize the power consumption of the distributed system to facilitate extensibility of the software, and also accommodates the demand from the increasing software functionality. We consider the software is scheduled using a fixed-priority preemptive policy, which is quite common in industry, and posses end-to-end timing requirements, e.g., the time duration between the brake-pedal press and the slow-down (or halt) action. Furthermore,  we consider the fault tolerance as a means to maximize reliability of the distribute safety-critical software by mapping redundant software functionality on different computing units.  We propose  \textit{exact} and \textit{heuristic} optimization methods, which deliver optimal and near-optimal solutions, respectively, to efficiently map the distributed safety-critical software to a network of computing units. Specifically, we propose a formulation of integer-linear programming (ILP)~\cite{Mahmud5222}, which is solved using branch and bound. Furthermore, we propose a hybrid-particle optimization~\cite{Mirjalili2019ParticleOptimisation}, which is a meta-heuristic algorithm, to solve the shortcomings of the exact method for large-scale problems~\cite{Mahmud2019Power-awareOptimization} with trade-off over non-optimality.
 
-\section{Research Contributions Overview}
-In this subsection, we give overview of the thesis contributions, and later in Section x, the contributions are further discussed in detail.
+%\section{Research Contributions Overview}
+%In this subsection, we give overview of the thesis contributions, and later in Section x, the contributions are further discussed in detail.
 \begin{itemize}
 \item \textbf{Formal Analysis of natural language requirements:}  we propose a fairly expressive, flexible yet structured and domain-specific constrained natural language, called \textit{ReSA}~\cite{resatool}\cite{Mahmud2015ReSA:Systems}. The language has semantics in Boolean and description logic to support for shallow and rigorous analysis, respectively. The Boolean specifications are checked for consistency using the satisfiability-modulo theory via the Z3 SMT solver. Whereas, the description logic is used to encode the specification as ontology, where we check consistency of the specifications at the lexical level using Reasoner (Inference engine) such Hermit. The ReSA tool, which consists of an editor and implements consistency-checking functionality, is integrated seamlessly into EATOP, which is an open source EAST-ADL IDE, to complement the requirements modeling. 
 
@@ -20,17 +20,10 @@ In this subsection, we give overview of the thesis contributions, and later in S
 \item \textbf{Validation on industrial use cases: } 
 Our contributions such as its the ReSA language as well as the proposed formal analysis of Simulink model is validated on industrial use cases, which are provided
 \end{itemize}
-\begin{figure}
-	\centering
-	\ifpdf
-	\includegraphics[width=\linewidth]{images/softdevflow}
-	\else
-	\includegraphics[width=1.0\linewidth]{images/softdevflow.eps}
-	\fi
-	\caption{Thesis Contributions Workflow.} 
-\end{figure}
+
 
 Our solutions are evaluated on industrial automotive use cases and on a realistic benchmark. The formal analysis of the natural language requirements specifications in ReSA and the formal analysis of Simulink models are evaluated on the adjustable speed-limiter (ASL) and brake-by-wire (BBW) systems provided by Volvo Group Trucks Technology (VGTT). ASL is a speed-limitation automotive function which controls the vehicle speed of Volvo trucks from speeding up, and is useful in roads where speed-limitation signs are in place. The ASL use case consists of around 300 requirements, which are specified in natural language, architectural models in EAST-ADL and Simulink models. The integrated software allocation is evaluated on the engine management system benchmark provided by Bosch~\cite{} provided for AUTOSAR applications. The benchmark consists of statistics of the schedulable objects, such as mean values, shares of timing specifications and activation mechanisms of the schedulable objects in the system.
 
 \section{Thesis Outline Overview}
 The thesis is divided into two parts. The first part is a summary of our research. It is organized as follows: in Chapter 2, we give the background information on description logic, Boolean satisfiability problem, Simulink, stochastic timed automata, and meta-heuristic optimization. In Chapter 3, we explain the research problem and outline the research goals. The thesis contributions are discussed in Chapter 4, followed by the related work in Chapter 5. In Chapter 3, we describe the research method applied to conduct the research. Finally, in Chapter 7, we conclude the thesis and outline possible directions for future work.
+\input{Chapters/listofpublications.tex}

@@ -8,15 +8,15 @@
 %. Because of this, some of the bibliografic data on this page will not be used.
 
 % Abstract and titelpage
-\newcommand{\authorSurname}{Siira} % Your surname
-\newcommand{\authorFirstName}{Erik} % Your given name
-\newcommand{\authorFirstInitial}{E} % Initial of given name
-\newcommand{\authorEmail}{erik.siira@ub.uu.se} % Your e-mail address
-\newcommand{\dissertationTitle}{Title of dissertation} % The title of the dissertation
+\newcommand{\authorSurname}{Mahmud} % Your surname
+\newcommand{\authorFirstName}{Nesredin} % Your given name
+\newcommand{\authorFirstInitial}{N} % Initial of given name
+\newcommand{\authorEmail}{nesredin.mahmud@mdh.se} % Your e-mail address
+\newcommand{\dissertationTitle}{Design of Assured and Efficient Safety-critical Systems using Formal Methods and Optimization Techniques} % The title of the dissertation
 \newcommand{\dissertationSubtitle}{Subtitle of the dissertation}% The subtitle of the dissertation (if there is any).
-\newcommand{\yearOfPublication}{2008} % Year of publication
-\newcommand{\placeOfDisputation}{Siegbansalen, �ngstr�m Laboratory} % Place of disputation
-\newcommand{\dateOfDisputation}{Friday, February 1, 2008} % Date of disputation (Day, Month, Year)
+\newcommand{\yearOfPublication}{2019} % Year of publication
+\newcommand{\placeOfDisputation}{M\"{a}lardalen University} % Place of disputation
+\newcommand{\dateOfDisputation}{Thursday, June 13, 2019} % Date of disputation (Day, Month, Year)
 \newcommand{\timeOfDisputation}{13:15} % Time of disputation (Swedish time format)
 \newcommand{\disputationLanguage}{English} % Language the examination will be conducted in.
 \newcommand{\numberOfPages}{51} % The page number of the last page
@@ -24,7 +24,7 @@
 \newcommand{\ISBN}{978-91-554-5436-4} % The ISBN number of the dissertation.
 \newcommand{\series}{Uppsala Dissertations from the Faculty of Science and Technology} % The title of the series
 \newcommand{\serialNumber}{1214} % The number in the series.
-\newcommand{\keywords}{ keyword1, keyword2, keyword3, keyword4, keyword5, keyword6,\\ keyword7, keyword8, keyword9, keyword10,...} % Key words separated by comma
+\newcommand{\keywords}{ embedded system, real-time system, safety-critical system, requirements specification, formal method, Simulink, integer-linear programming, metaheuristics} % Key words separated by comma
 \newcommand{\department}{Department of Electronic Publishing} % Name of your department
 \newcommand{\departmentaddress}{Villavagen 14, SE-752 36 Uppsala,
 Sweden} % Address of your department
@@ -35,9 +35,8 @@ Sweden} % Address of your department
 \newcommand{\listofpapers}
 {\cleardoublepage
 \pdfbookmark[0]{List of Papers}{LOP}
-\chapter*{List of Papers}
-\noindent This thesis is based on the following papers, which are referred
-to in the text by their Roman numerals.
+\chapter*{List of Papers Included in the Thesis}
+\noindent This thesis is based on the following papers:
 \vspace{1\baselineskip}
 
         % It is possible to refer to the published papers using labels in the text.
@@ -47,11 +46,32 @@ to in the text by their Roman numerals.
         % Paper subtitle. Name of journal in italics, volume(number):page rage
         % Example
         
-    \begin{romanlist}
-    \item Andersson, K., H�m�l�inen, M., Malmqvist, M. (1999) Identification and Optimization of Regeneration Conditions for Affinity-Based Biosensor Assays. A Multivariate Cocktail\label{p1}
-    \end{romanlist}
+    \begin{description}	
+      \item[Paper A]  ReSA: An ontology-based requirement specification language tailored to automotive systems. Nesredin~Mahmud, Cristina~Seceleanu and Ljungkrantz~Oscar.\textit{In the 10th IEEE International Symposium on Industrial Embedded Systems (SIES)(pp. 1-10). IEEE}.\label{lbl_resa}
+    
+      \item[Paper B]  ReSA tool: Structured requirements specification and SAT-based consistency-checking. Nesredin~Mahmud, Cristina~Seceleanu and Ljungkrantz~Oscar. \textit{In the 2016 Federated Conference on Computer Science and Information Systems (FedCSIS)(pp. 1737-1746). IEEE}.\label{lbl_resatool}
+      
+      \item[Paper C]  Specification and semantic analysis of embedded systems requirements: From description logic to temporal logic. Nesredin~Mahmud, Cristina~Seceleanu and Ljungkrantz~Oscar. \textit{In the International Conference on Software Engineering and Formal Methods (pp. 332-348). Springer, Cham.} Acceptance rate: 26\%.\label{lbl_resadl}
+            
+     \item[Paper D] SIMPPAAL - A Framework For Statistical Model Checking of Industrial Simulink Models. Predrag~Filipovikj, Nesredin~Mahmud, Raluca~Marinescu, Cristina~Seceleanu, Oscar~Ljungkrantz and Henrik~L\"{o}nn. \textit{Submitted to ACM Transaction on Software Engineering and Methodology (TOSEM). ACM Journals.}\label{lbl_simulink_ilp}
+   
+     \item[Paper E] Power-aware Allocation of Fault-tolerant Multirate AUTOSAR Applications. 
+     Nesredin~Mahmud, Guillermo~Rodriguez-Navas, Hamid~Faragardi, Saad~Mubeen and Cristina~Seceleanu. \textit{In the 25th Asia-Pacific Software Engineering Conference (APSEC'18). IEEE.} \label{lbl_resa}. \label{lbl_softwareallocation_ilp}
+     
+	\item[Paper F] Optimized Allocation of Fault-tolerant Embedded Software with End-to-end Timing Constraints\\[6pt]
+	Nesredin~Mahmud, Guillermo~Rodriguez-Navas, Hamid~Faragardi, Saad~Mubeen and Cristina~Seceleanu. Optimized Allocation of Fault-tolerant EmbeddedSoftware with End-to-end Timing Constraints. \textit{M\"{a}lardalen Real-time Research Center Technical Report (MRTC)}. Submitted to Elsevier JSA Journal. \label{lbl_softwareallocation_pso}
+    \end{description}
+\section*{\Large  List of Papers Not Included in the Thesis}
+\vspace{1\baselineskip}
+\begin{itemize}	
+	\item Evaluating industrial applicability of virtualization on a distributed multicore platform. Nesredin Mahmud, Kristian Sandstr{\"o}m, and Aneta Vulgarakis.  \textit{In Proceedings of the 2014 IEEE Emerging Technology and Factory Automation (ETFA), pp. 1-8. IEEE, 2014.}
+	\item The multi-resource server for predictable execution on multi-core platforms. Rafia Inam, Nesredin Mahmud, Moris Behnam, Thomas Nolte, and Mikael Sj{\"o}din. \textit{In 2014 IEEE 19th Real-Time and Embedded Technology and Applications Symposium (RTAS), pp. 1-12. IEEE, 2014.}
+	\item Simulink to UPPAAL statistical model checker: Analyzing automotive industrial systems. Predrag Filipovikj, Nesredin Mahmud, Raluca Marinescu, Cristina Seceleanu, Oscar Ljungkrantz, and Henrik L{\"o}nn. \textit{In International Symposium on Formal Methods, pp. 748-756. Springer, Cham, 2016.}
+\end{itemize}
+
 \vspace{1\baselineskip} \noindent {\small Reprints were made with permission from
 the publishers.}}
+
 
 % Dedication. Dedication is optional. You can enter whatever feels right and use the fonts and images you like as long as they are embedded in the document. The suggested format does not have to be used.
 \newcommand{\dedication}%
@@ -60,7 +80,7 @@ the publishers.}}
 \vspace*{\stretch{3}}
 \begin{flushright}
 		
-{\fontfamily{pzc}\Large\selectfont\emph{my dedication...}}
+{\fontfamily{pzc}\Large\selectfont\emph{To My Parents}}
 
 \end{flushright}
 \vspace*{\stretch{1}}} % 
@@ -111,23 +131,19 @@ the publishers.}}
     \fontsize{9}{11}\selectfont
     \noindent
     \begin{flushleft}{\nohyphens
-    Dissertation at Uppsala University to be publicly examined in \placeOfDisputation{}, \dateOfDisputation{} at \timeOfDisputation{}
-    for the Degree of Doctor of Philosophy. The examination will be conducted in \disputationLanguage{}}\end{flushleft}
+    Dissertation at M\"{a}lardalen University to be publicly examined in \placeOfDisputation{}, \dateOfDisputation{} at \timeOfDisputation{}
+    for the Degree of Doctor of Philosophy. The examination will be conducted in \disputationLanguage{}
+}\end{flushleft}
 
     \noindent\textbf{Abstract}
-    \vspace{-9pt}
-    \begin{flushleft}{\nohyphens\noindent\authorSurname{}, \authorFirstInitial{}. \yearOfPublication{}.
-    \dissertationTitle{}. \dissertationSubtitle{}. Acta Universitatis
-    Upsaliensis. \emph{\series{}} \serialNumber{}. \numberOfPages{}~pp.
-    \placeOfPublication{}. ISBN~\ISBN{}}\end{flushleft}
+%    \vspace{-9pt}
+%    \begin{flushleft}{\nohyphens\noindent\authorSurname{}, \authorFirstInitial{}. \yearOfPublication{}.
+%    \dissertationTitle{}. \dissertationSubtitle{}. Acta Universitatis
+%    Upsaliensis. \emph{\series{}} \serialNumber{}. \numberOfPages{}~pp.
+%    \placeOfPublication{}. ISBN~\ISBN{}}\end{flushleft}
 
 % Type your abstracttext here. Remove the latin text. Try to not type more than 300 words.
-\noindent Qui terempri isuam liam incum aris forteat strudentre quid inculoc iviliaet; nihilius. Catimor demquam tam, senterf rmactum ompec orum, ne culvitimis se constusquam pratastiam porum rem, que poptert batia vidiem, sendum patus? Paturo vis esum inessus, furnimi iliciem ent vidit rebaturei potiu quam ductame teris, conductam me consum retis consuniu ma, speriam rem firisum publi, quam factod norehem et grat. Maesse, se orteliciemus cem.
-Fuidena ilicien ervid C. M. C. me quid rem moente, conimus nit practanti, tabena, Ti. Habunterfer que avoltum quam hinaterniam abem nonside labistiae, intelic vidi ium erce enatici ecturox nulviribem hostio nesimoeritia rei inatis.
-
-Vivehem uoditiem imissili se in te cae ta nihili, que ina, moveres erionihil hi, Casta qui publica ercerissent, tabunici scivenatem inati, pra nest inatus habis obus cris pribus Mul vium horterioc re conduci nterum opublius bonsiliciam esus Catri sulis cons hum nius M. Viviric temnostam deatum acri cavoculatra, noveret renica; nescid C. Marit, dem ne porum pubit, nocus. Sere inatuam et, quonsi pecurori pret, senatatquo convolibus, vat, quondum prestrica amdi, co nitam ina, ad rei pri ina, num ores halarei cavenarbem.
-Fuidepe fenate inimilistret patiliis facchicaet; nihilne con depos, sidemorum pro, Palicaequem pervit; ne nox mo viverfentiam re atin travo, Catquam condum oc, nit.
-Tum sestiu ciemum antius concemo aedius, num il condum inatort ricaedeme fesce te int. At ore ponsula nestoratuus in popubli moveropubit; hoca; hactum perem, quem factum unte autesse ala ia ad ademquodius conducero nontis iam nes hoctum tum iam sulartest vis. Gra ni im quasta rebatui fatia? Nihilium, quitil utem et; notie ad perbis is. Satrae intrae omne imilicas oraccia me tebuncus, uterces uludem publis lia consula der liurena esimove cessupi orenamdiu moverfe terisse tured perbemne ca depons At caecermacte, vivescemur. O taberus hocus consum noxim deorbisquam quam aciis.
+\noindent 
 
     \vspace{11pt}
 
@@ -137,7 +153,7 @@ Tum sestiu ciemum antius concemo aedius, num il condum inatort ricaedeme fesce t
     \vspace{11pt}
 
     \noindent
-    \emph{\authorFirstName{} \authorSurname{}, \department{}, Uppsala University,
+    \emph{\authorFirstName{} \authorSurname{}, \department{}, M\"{a}lardalen University,
     \departmentaddress{}}
 
     \vspace{11pt}
@@ -151,13 +167,15 @@ Tum sestiu ciemum antius concemo aedius, num il condum inatort ricaedeme fesce t
 
     \noindent ISBN \ISBN{}
 
-    \noindent \urn{} (http://urn.kb.se/resolve?urn=\urn)}\end{abstract}}
+    \noindent \urn{} (http://urn.kb.se/resolve?urn=\urn)
+}
+\end{abstract}}
 
 % Title page dummy for Compehensive summaries
 \newcommand{\titlepagedummy}%
 {\newpage
 \newpage\thispagestyle{empty}
-{\noindent\LARGE Titlepage}\vspace{84pt}
+{\noindent\LARGE  Design of Assured and Efficient Safety-critical Embedded Systems}\vspace{84pt}
 
 \noindent This is the title page dummy. This page should be substituted for a real title page. The real title page will be provided by Publishing and Graphic services after having submitted your posting details in DiVA. The DiVA registration form can be found at \\ \href{https://uu.diva-portal.org/dream/}{https://uu.diva-portal.org/dream/}.
 
@@ -171,11 +189,19 @@ Tum sestiu ciemum antius concemo aedius, num il condum inatort ricaedeme fesce t
 {\newpage\thispagestyle{empty}
 {\noindent\LARGE Abstract page}\vspace{84pt}
 
-\noindent This is the abstract dummy. This page should be substituted for real abstract/imprint page. The real abstract page will be provided by Publishing and Graphic services after having submitted your posting details in DiVA. The DiVA registration form can be found at \\ \href{https://uu.diva-portal.org/dream/}{https://uu.diva-portal.org/dream/}.
+\begin{abstract}
+	\noindent\textbf{Abstract}
+	\noindent Safety-critical systems should be analyzed rigorously to avoid undesirable consequences. Thus, the safety-critical requirements specifications should be comprehensible and consistent, and the software design should conform to the specifications. In particular, analyzing the timing specifications is not trivial especially for safety-critical software that is refined by multi-rate periodic tasks, mainly due to the undersampling/oversampling effects. When the multi-rate software is deployed on a distributed architecture, e.g., electrical/electronic vehicular system, its reliability should be maximized to counter the higher risks of failure due to the distributed computing. However, reliability engineering usually requires additional critical system resources such as power and energy. So, to accommodate current and future software functionality, the distributed safety-critical software should be efficiently deployed while meeting the timing and reliability requirements.
+	
+	In this thesis, we propose formal methods and optimization techniques to assure improved quality of requirements specifications and software design, and to efficiently map software functionality to hardware. Contributions of the thesis are: (i) a constrained requirements specifications language of embedded systems, \textit{ReSA}; (ii) a formal analysis of ReSA specifications via SMT and Ontology; (iii) a statistical model checking of a software design, modeled in Simulink, via transformation to a network of stochastic timed automata; (iv) an integrated allocation of fault-tolerant software with end-to-end timing and reliability constraints via integer integer-linear programming and hybrid particle-swarm optimization. Our proposed solutions are evaluated on automotive use cases such as the adjustable-speed limiter (ASL) and the brake-by-wire (BBW) systems from Volvo Group Trucks Technology (VGTT), and on an engine management benchmark from Bosch.
+
+\end{abstract}
+%This is the abstract dummy. This page should be substituted for real abstract/imprint page. The real abstract page will be provided by Publishing and Graphic services after having submitted your posting details in DiVA. The DiVA registration form can be found at \\ \href{https://uu.diva-portal.org/dream/}{https://uu.diva-portal.org/dream/}.
 \vspace{1em}
 
-\noindent More information about the publishing routines can be found at \\
-\href{http://beta.ub.uu.se/pgs}{http://beta.ub.uu.se/pgs}}
+%\noindent More information about the publishing routines can be found at \\
+%\href{http://beta.ub.uu.se/pgs}{http://beta.ub.uu.se/pgs}
+}
 
 % Front matter commands
 \newcommand{\frontmatterMonograph}%

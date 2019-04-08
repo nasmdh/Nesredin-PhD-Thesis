@@ -1,0 +1,33 @@
+\BOOKMARK [2][-]{subsection.0.0.1}{0.0.1 Papers Included in the Thesis}{}% 1
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 2
+\BOOKMARK [1][-]{section.1.1}{1.1 Thesis Outline Overview}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{2 Preliminary}{}% 4
+\BOOKMARK [1][-]{section.2.1}{2.1 Safety-critical Systems Design}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{2.2 SAT Solving}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{2.3 Statistical Model Checking}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{2.4 Optimization Techniques}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{3 Problem Formulation}{}% 9
+\BOOKMARK [1][-]{section.3.1}{3.1 Research Goals}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{4 Contributions}{}% 11
+\BOOKMARK [1][-]{section.4.1}{4.1 Formal Analysis of Embedded Systems Requirements}{chapter.4}% 12
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 ReSA - a Requirements Specification Language}{section.4.1}% 13
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Formal Analysis of ReSA Specifications}{section.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Validation on the Adjustable Speed Limiter System}{section.4.1}% 15
+\BOOKMARK [1][-]{section.4.2}{4.2 Formal and Scalable Analysis of Simulink Models}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Semantics of Simulink Model in Network of STA}{section.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Simulink to NSTA transformation}{section.4.2}% 18
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Tool Support and Validation on the Brake-by-wire System}{section.4.2}% 19
+\BOOKMARK [1][-]{section.4.3}{4.3 Software-to-Hardware Mapping via ILP}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 ILP Model Formulation}{section.4.3}% 21
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Tool Support and Validation on Automotive Benchmark}{section.4.3}% 22
+\BOOKMARK [1][-]{section.4.4}{4.4 Scalable Mapping via Metaheuristics}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 PSO, DE Hybrid PSO Meta-heuristic Methods}{section.4.4}% 24
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Problem Formulation}{section.4.4}% 25
+\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Tool Support and Validation on Automotive Benchmark}{section.4.4}% 26
+\BOOKMARK [0][-]{chapter.5}{5 Research Method}{}% 27
+\BOOKMARK [0][-]{chapter.6}{6 Related Work}{}% 28
+\BOOKMARK [1][-]{section.6.1}{6.1 Requirements Specification and Analysis}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{6.2 Optimal Allocation of Software Architectures}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.3}{6.3 Formal Analysis of Simulink Models}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{7 Conclusions and Future Work}{}% 32
+\BOOKMARK [-1][-]{chapter*.2}{Bibliography}{}% 33
