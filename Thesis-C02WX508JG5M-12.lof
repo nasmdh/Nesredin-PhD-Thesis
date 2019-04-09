@@ -1,0 +1,28 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Brake pedal and global brake controller of the brake-by-wire model.}}{25}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A Subsystem block from the brake-by-wire model, computes vehicle speed. The labes in red color are indexed identifiers and denote of the execution order.}}{26}{figure.2.2}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Thesis contributions workflow.}}{35}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The ReSA specifiactions R1- R4 encoded as Z3 format, and the unsat-core feedback from the Z3 solver, to localize source of the inconsistency.}}{39}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Requirements specification ontology (screenshot from Prot\'eg\'e tool).}}{40}{figure.4.3}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Concepts.}}}{40}{subfigure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Object properties.}}}{40}{subfigure.3.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Individuals.}}}{40}{subfigure.3.3}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces STA transformation pattersn.}}{42}{figure.4.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Continuous.}}}{42}{subfigure.4.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Discrete.}}}{42}{subfigure.4.2}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulink to NSTA Transformation}}{43}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ILP optimization of different sizes of software applications based on the number of software components, cause-effect chains, computing nodes.}}{48}{figure.4.6}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Power consumption of nodes.}}}{48}{subfigure.6.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Allocation times software applications.}}}{48}{subfigure.6.2}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces (Near) Optimal Power Consumption of the Different Software Allocation Problems.}}{51}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Computation time of the various algorithms for solving different instances of the software allocation problem.}}{51}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Effect of approximate algorithm over delay calculations with replication.}}{52}{figure.4.9}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Research Process.}}{53}{figure.5.1}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

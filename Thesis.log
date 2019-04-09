@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  8 APR 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.30)  9 APR 2019 19:48
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1161,6 +1161,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Warning: Label `lbl_resa' multiply defined.
 
 
+LaTeX Warning: Label `fig_discrete' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig_discrete' multiply defined.
+
+
+LaTeX Warning: Label `fig_continuous' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig_continuous' multiply defined.
+
+
+LaTeX Warning: Label `fig_discrete' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig_discrete' multiply defined.
+
+
 LaTeX Warning: Label `lbl_resa' multiply defined.
 
 
@@ -1180,24 +1198,6 @@ LaTeX Warning: Label `lbl_softwareallocation_ilp' multiply defined.
 
 
 LaTeX Warning: Label `lbl_softwareallocation_pso' multiply defined.
-
-
-LaTeX Warning: Label `fig_discrete' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig_discrete' multiply defined.
-
-
-LaTeX Warning: Label `fig_continuous' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig_continuous' multiply defined.
-
-
-LaTeX Warning: Label `fig_discrete' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig_discrete' multiply defined.
 
 )
 \openout1 = `Thesis.aux'.
@@ -1725,302 +1725,12 @@ Underfull \hbox (badness 1571) in paragraph at lines 19--20
 g
  []
 
-[15] (Chapters/listofpublications.tex
-Underfull \hbox (badness 3068) in paragraph at lines 5--9
-\T1/ptm/m/n/11.04 ReSA: An ontology-based requirement specification language ta
-ilored
- []
-
-
-Underfull \hbox (badness 7273) in paragraph at lines 5--9
-\T1/ptm/m/n/11.04 to automotive systems. Nesredin Mahmud, Cristina Seceleanu an
-d
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
-\T1/ptm/b/n/11.04 Abstract: \T1/ptm/m/it/11.04 Automotive systems are developed
- using multi-leveled
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 and criticality of automotive functions. Consequently, well-
-structured
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 and unambiguously specified requirements are needed on all l
-evels of
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 However, automotive industry often relies on requirements sp
-ecified in
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 ambiguous natural language, sometimes in large and incompreh
-ensible
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 documents. Semi-formal requirements specification approaches
- (e.g.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 requirement boilerplates, pattern-based specifications, etc.
-) aim to
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 reduce requirements ambiguity, without altering their readab
-ility and
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 5--9
-\T1/ptm/m/it/11.04 expressiveness. Nevertheless, such approaches do not offer s
-upport for
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 5--9
-\T1/ptm/m/n/11.04 materials from VGTT that were eventually analyzed for the lan
-guage
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[15]) (Chapters/Preliminary.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 16
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 11--35
-\T1/ptm/m/n/11.04 ReSA tool: Structured requirements specification and SAT-base
-d
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--35
-\T1/ptm/m/n/11.04 consistency-checking. Nesredin Mahmud, Cristina Seceleanu and
-
- []
-
-
-Underfull \hbox (badness 3989) in paragraph at lines 11--35
-\T1/ptm/m/it/11.04 in natural language, hence they can sometimes be ambiguous a
-nd
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 11--35
-\T1/ptm/m/it/11.04 requirements specifications described with abstraction-speci
-fic concepts
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 11--35
-\T1/ptm/m/it/11.04 language, which scales to multiple EAST-ADL levels of abstra
-ction.
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 11--35
-\T1/ptm/m/it/11.04 Furthermore, we introduce a consistency function that is sea
-mlessly
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Underfull \hbox (badness 2790) in paragraph at lines 37--41
-\T1/ptm/m/n/11.04 and Ljungkrantz Oscar. \T1/ptm/m/it/11.04 In the Internationa
-l Conference on Software
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 37--41
-\T1/ptm/m/it/11.04 of embedded systems requirements are needed. Current specifi
-cation
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 37--41
-\T1/ptm/m/it/11.04 which considers thematic roles and domain knowledge, enablin
-g deep
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 37--41
-\T1/ptm/m/it/11.04 description logic, which is a decidable and computationally-
-tractable
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 43--58
-\T1/ptm/m/it/11.04 electronic brains control dozens of functions in vehicles, l
-ike braking,
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 43--58
-\T1/ptm/m/it/11.04 to enhance quality, and manage complexity, by supporting fun
-ctional
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 43--58
-\T1/ptm/m/it/11.04 providing assurance that Simulink models fulfill given funct
-ional and
- []
-
-
-Underfull \hbox (badness 7944) in paragraph at lines 43--58
-\T1/ptm/m/it/11.04 execution-order preserving automatic transformation of atomi
-c and
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 43--58
-\T1/ptm/b/n/11.04 Personal Contributions:  \T1/ptm/m/n/11.04 The three co-autho
-rs contributed equally to
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 43--58
-\T1/ptm/m/n/11.04 with analyzing the BBW system, Cristina Seceleanu contributed
- with
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 18
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-\T1/ptm/m/n/11.04 Power-aware Allocation of Fault-tolerant Multirate AUTOSAR
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-\T1/ptm/m/n/11.04 Applications. Nesredin Mahmud, Guillermo Rodriguez-Navas,
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 60--67
-\T1/ptm/m/n/11.04 Hamid Faragardi,Saad Mubeen and Cristina Seceleanu. \T1/ptm/m
-/it/11.04 In the 25th
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 60--67
-\T1/ptm/m/it/11.04 revolutionary computing architectures such as mixed-critical
-ity design,
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 60--67
-\T1/ptm/m/it/11.04 dynamic programming, are prohibitively expensive. We propose
- hybrid
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 60--67
-\T1/ptm/m/it/11.04 applications based a real-world automotive benchmark. The ev
-aluation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-\T1/ptm/m/it/11.04 optimization, integer-linear programming and hybrid particle
--swarm
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 60--67
-\T1/ptm/m/n/11.04 on reliability modeling, Hamid Faragardi on optimization and 
-related
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]))
-(Chapters/Preliminary.tex
-Overfull \hbox (11.07079pt too wide) in paragraph at lines 69--1
-\T1/ptm/m/n/11.04 Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid Faragardi,S
-aad Mubeen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--1
-\T1/ptm/m/n/11.04 and Cristina Seceleanu. Optimized Allocation of Fault-toleran
-t
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 69--1
-\T1/ptm/m/n/11.04 EmbeddedSoftware with End-to-end Timing Constraints. \T1/ptm/
-m/it/11.04 Mälardalen
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 69--1
-\T1/ptm/m/it/11.04 revolutionary computing architectures such as mixed-critical
-ity design,
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 69--1
-\T1/ptm/m/it/11.04 dynamic programming, are prohibitively expensive. We propose
- hybrid
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 69--1
-\T1/ptm/m/it/11.04 applications based a real-world automotive benchmark. The ev
-aluation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--1
-\T1/ptm/m/it/11.04 optimization, integer-linear programming and hybrid particle
--swarm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--1
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 20
- []
-
-[20] [21] [22
-
-
-]
 Chapter 2.
 
 Underfull \hbox (badness 2951) in paragraph at lines 2--3
@@ -2037,19 +1747,22 @@ thes
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-
-LaTeX Warning: Citation `SMT-LIB' on page 24 undefined on input line 10.
+ [17
 
 
-LaTeX Warning: Citation `Rudi Studer' on page 24 undefined on input line 13.
+]
+
+LaTeX Warning: Citation `SMT-LIB' on page 18 undefined on input line 10.
 
 
-LaTeX Warning: Citation `V Richard Benjamins' on page 24 undefined on input lin
+LaTeX Warning: Citation `Rudi Studer' on page 18 undefined on input line 13.
+
+
+LaTeX Warning: Citation `V Richard Benjamins' on page 18 undefined on input lin
 e 13.
 
 
-LaTeX Warning: Citation `and Dieter Fensel. Knowledge En' on page 24 undefined 
+LaTeX Warning: Citation `and Dieter Fensel. Knowledge En' on page 18 undefined 
 on input line 13.
 
 LaTeX Font Info:    Try loading font information for U+eus on input line 13.
@@ -2074,7 +1787,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 13--14
  used
  []
 
-<images/sm.png, id=392, 1437.37pt x 284.06125pt>
+<images/sm.png, id=369, 1437.37pt x 284.06125pt>
 File: images/sm.png Graphic file (type png)
 <use images/sm.png>
 Package pdftex.def Info: images/sm.png  used on input line 20.
@@ -2102,10 +1815,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 24
+\T1/ptm/m/n/11.04 18
  []
 
-[24]
+[18]
 Underfull \hbox (badness 3884) in paragraph at lines 25--26
 \T1/ptm/m/n/11.04 e.g., automotive, avionics, furthermore, it is used to genera
 te code
@@ -2141,15 +1854,15 @@ Underfull \hbox (badness 3189) in paragraph at lines 30--31
 ed
  []
 
-[25 <./images/sm.png>]
-<images/sm_exec_order.png, id=414, 1215.54124pt x 302.12875pt>
+[19 <./images/sm.png>]
+<images/sm_exec_order.png, id=391, 1215.54124pt x 302.12875pt>
 File: images/sm_exec_order.png Graphic file (type png)
 <use images/sm_exec_order.png>
 Package pdftex.def Info: images/sm_exec_order.png  used on input line 37.
 (pdftex.def)             Requested size: 341.43306pt x 84.86285pt.
 
 
-LaTeX Warning: Citation `david2012statistical' on page 26 undefined on input li
+LaTeX Warning: Citation `david2012statistical' on page 20 undefined on input li
 ne 43.
 
 
@@ -2166,10 +1879,10 @@ ions for
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 26
+\T1/ptm/m/n/11.04 20
  []
 
-[26 <./images/sm_exec_order.png>]
+[20 <./images/sm_exec_order.png>]
 Underfull \hbox (badness 2334) in paragraph at lines 60--66
 \T1/ptm/m/n/11.04 transitions from $\OT1/ztmcm/m/n/11.04 (\OML/ztmcm/m/it/11.04
  l; v\OT1/ztmcm/m/n/11.04 )$ \T1/ptm/m/n/11.04 to $\OT1/ztmcm/m/n/11.04 (\OML/z
@@ -2187,9 +1900,9 @@ nential
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [21]
 
-LaTeX Warning: Citation `bulychev2012rewrite' on page 28 undefined on input lin
+LaTeX Warning: Citation `bulychev2012rewrite' on page 22 undefined on input lin
 e 75.
 
 
@@ -2227,19 +1940,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 28
+\T1/ptm/m/n/11.04 22
  []
 
-[28]
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29])
+ [23])
 (Chapters/ResearchGoals.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 30
+\T1/ptm/m/n/11.04 24
  []
 
-[30]
+[24]
 Chapter 3.
 
 Underfull \hbox (badness 1371) in paragraph at lines 2--3
@@ -2270,7 +1983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 \T1/ptm/m/n/11.04 of natural-language requirements using domain-specific
  []
 
-[31
+[25
 
 
 ]
@@ -2308,10 +2021,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 32
+\T1/ptm/m/n/11.04 26
  []
 
-[32]
+[26]
 Underfull \hbox (badness 1755) in paragraph at lines 35--36
 []\T1/ptm/m/n/11.04 The de facto Simulink analysis techniques, e.g., by type ch
 ecking,
@@ -2335,176 +2048,210 @@ Underfull \hbox (badness 1122) in paragraph at lines 52--53
 h makes the
  []
 
-[33]
+[27]
 Underfull \hbox (badness 4492) in paragraph at lines 57--59
 \T1/ptm/m/n/11.04 for the requirements specification, software allocation of
  []
 
 ) (Chapters/Contributions.tex
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 34
+\T1/ptm/m/n/11.04 28
  []
 
-[34]
+[28]
 Chapter 4.
-<images/approach_workflow.pdf, id=506, 434.62375pt x 177.66376pt>
-File: images/approach_workflow.pdf Graphic file (type pdf)
-<use images/approach_workflow.pdf>
-Package pdftex.def Info: images/approach_workflow.pdf  used on input line 6.
-(pdftex.def)             Requested size: 341.43306pt x 139.5775pt.
 
-Underfull \hbox (badness 1237) in paragraph at lines 14--15
-\T1/ptm/m/n/11.04 functionality is mapped to the underlying hardware architectu
-re which
+Underfull \hbox (badness 1158) in paragraph at lines 2--3
+\T1/ptm/m/n/11.04 analysis of large-scale Simulink models [[]] and efficient ma
+pping of
  []
 
-[35
+<images/workflow.pdf, id=484, 572.1375pt x 283.0575pt>
+File: images/workflow.pdf Graphic file (type pdf)
+<use images/workflow.pdf>
+Package pdftex.def Info: images/workflow.pdf  used on input line 8.
+(pdftex.def)             Requested size: 341.43306pt x 168.92015pt.
+
+Underfull \hbox (badness 1097) in paragraph at lines 4--15
+\T1/ptm/m/n/11.04 the automotive software development where Simulink, EAST-ADL 
+and
+ []
+
+[29
 
 
- <./images/approach_workflow.pdf
+ <./images/workflow.pdf
 
-pdfTeX warning: pdflatex (file ./images/approach_workflow.pdf): PDF inclusion: 
-invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
-.
+pdfTeX warning: pdflatex (file ./images/workflow.pdf): PDF inclusion: invalid o
+ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 35.
+Underfull \hbox (badness 3058) in paragraph at lines 18--19
+[]\T1/ptm/m/n/11.04 After the quality of the specifications are improved, i.e.,
+ become
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 18--19
+\T1/ptm/m/n/11.04 maintainance. In this work, we consider the behavior models t
+hat are
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 26--27
+[]\T1/ptm/m/n/11.04 The syntactic rules allow construction of valid statements,
+ reduce
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 30
+ []
+
+[30]
+LaTeX Font Info:    Calculating math sizes for size <10.04> on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.04> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.42964> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.02405> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 32.
 
 ("/Users/nmd02/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnf
 ss/t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 4726) in paragraph at lines 39--40
+Underfull \hbox (badness 4726) in paragraph at lines 33--34
 []|\T1/ptm/m/n/10.04 instantiates a compound statement, e.g., \T1/pcr/m/n/10.04
  Compound :=
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 62--62
+Underfull \hbox (badness 1077) in paragraph at lines 56--56
 []|\T1/ptm/m/n/10.04 if driver selects ``ASL speed control''\T1/ptm/m/it/10.04 
 :mode \T1/ptm/m/n/10.04 then ASL\T1/ptm/m/it/10.04 :system \T1/ptm/m/n/10.04 sh
 all be
  []
 
 
-Overfull \hbox (13.64116pt too wide) in paragraph at lines 48--63
+Overfull \hbox (13.64116pt too wide) in paragraph at lines 42--57
 [] 
  []
 
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 36
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[36]
-<images/z3.png, id=543, 578.16pt x 467.7475pt>
+ [31]
+<images/z3.png, id=527, 578.16pt x 467.7475pt>
 File: images/z3.png Graphic file (type png)
 <use images/z3.png>
-Package pdftex.def Info: images/z3.png  used on input line 81.
+Package pdftex.def Info: images/z3.png  used on input line 75.
 (pdftex.def)             Requested size: 239.00209pt x 193.35504pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `tbl_resa_concepts' on page 37 undefined on input line
- 89.
+LaTeX Warning: Reference `tbl_resa_concepts' on page 32 undefined on input line
+ 83.
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 89--103
+Underfull \hbox (badness 1565) in paragraph at lines 83--97
 \T1/ptm/m/n/11.04 the thematic roles of these arguments are not obvious, so we 
 define
  []
 
-[37]
-Underfull \hbox (badness 4060) in paragraph at lines 104--105
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 32
+ []
+
+[32]
+Underfull \hbox (badness 4060) in paragraph at lines 98--99
 []\T1/ptm/m/n/11.04 A complex requriements specification can be constructed via
  the
  []
 
-<images/ro_concepts.png, id=556, 272.01625pt x 498.86375pt>
+<images/ro_concepts.png, id=539, 272.01625pt x 498.86375pt>
 File: images/ro_concepts.png Graphic file (type png)
 <use images/ro_concepts.png>
-Package pdftex.def Info: images/ro_concepts.png  used on input line 111.
+Package pdftex.def Info: images/ro_concepts.png  used on input line 105.
 (pdftex.def)             Requested size: 102.43095pt x 187.85748pt.
-<images/ro_objects.png, id=557, 217.81375pt x 450.68375pt>
+<images/ro_objects.png, id=540, 217.81375pt x 450.68375pt>
 File: images/ro_objects.png Graphic file (type png)
 <use images/ro_objects.png>
-Package pdftex.def Info: images/ro_objects.png  used on input line 114.
+Package pdftex.def Info: images/ro_objects.png  used on input line 108.
 (pdftex.def)             Requested size: 102.43095pt x 211.9383pt.
-<images/ro_individuals.png, id=558, 232.87pt x 397.485pt>
+<images/ro_individuals.png, id=541, 232.87pt x 397.485pt>
 File: images/ro_individuals.png Graphic file (type png)
 <use images/ro_individuals.png>
-Package pdftex.def Info: images/ro_individuals.png  used on input line 118.
+Package pdftex.def Info: images/ro_individuals.png  used on input line 112.
 (pdftex.def)             Requested size: 102.43095pt x 174.83934pt.
 
-Underfull \hbox (badness 2828) in paragraph at lines 106--121
+Underfull \hbox (badness 2828) in paragraph at lines 100--115
 []\T1/ptm/m/n/11.04 Followoing the event-based semantics, the ReSA specificatio
 ns are
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 106--121
+Underfull \hbox (badness 3189) in paragraph at lines 100--115
 \T1/ptm/m/n/11.04 translated into description logic as ontology, which is a knw
 oledge
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 106--121
+Underfull \hbox (badness 3492) in paragraph at lines 100--115
 \T1/ptm/m/n/11.04 representation approach frequently used in artificial intelli
 gence, and
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 106--121
+Underfull \hbox (badness 2150) in paragraph at lines 100--115
 \T1/ptm/m/n/11.04 information system, e.g., the world-wide web. The ontology co
 ntains
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 106--121
+Underfull \hbox (badness 1838) in paragraph at lines 100--115
 \T1/ptm/m/n/11.04 logical structure of sentences according to the event-based s
 emantics,
  []
 
-
+[33 <./images/z3.png>]
 Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 38
+\T1/ptm/m/n/11.04 34
  []
 
-[38 <./images/z3.png>] [39 <./images/ro_concepts.png> <./images/ro_objects.png>
- <./images/ro_individuals.png>]
-Underfull \hbox (badness 1635) in paragraph at lines 128--129
+[34 <./images/ro_concepts.png> <./images/ro_objects.png> <./images/ro_individua
+ls.png>]
+Underfull \hbox (badness 1635) in paragraph at lines 122--123
 \T1/ptm/m/n/11.04 A Simulink model consists of functional blocks, which are mod
 eling
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 128--129
+Underfull \hbox (badness 1430) in paragraph at lines 122--123
 \T1/ptm/m/n/11.04 block, contains atomic blocks, and is used to create hierarch
 y, hence
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 140--141
+Underfull \hbox (badness 1102) in paragraph at lines 134--135
 []\T1/ptm/m/n/11.04 where: $\OML/ztmcm/m/it/11.04 B[]; B[]; [] ; B[]$ \T1/ptm/m
 /n/11.04 are computational Simulink blocks and $\OMS/ztmcm/m/n/11.04 
 $ \T1/ptm/m/n/11.04 is a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 []\T1/ptm/m/n/11.04 The syntax of a Simulink block is given as a tuple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 \OMS/ztmcm/m/n/11.04 h\OML/ztmcm/m/it/11.04 s[]; V[]; V[]; V[]; \OT1/ztmcm/m/n/
 11.04 \OML/ztmcm/m/it/11.04 ; Init; blockRoutine\OMS/ztmcm/m/n/11.04 i$\T1/ptm
 /m/n/11.04 , where $\OML/ztmcm/m/it/11.04 s[]$ \T1/ptm/m/n/11.04 is the executi
@@ -2512,7 +2259,7 @@ on
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 142--143
+Underfull \hbox (badness 1603) in paragraph at lines 136--137
 \T1/ptm/m/n/11.04 functions are executed. The $\OML/ztmcm/m/it/11.04 Init$ \T1/
 ptm/m/n/11.04 and $\OML/ztmcm/m/it/11.04 blockRoutine$ \T1/ptm/m/n/11.04 functi
 ons performs
@@ -2521,110 +2268,105 @@ ons performs
 
 Underfull \vbox (badness 2418) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 40
- []
-
-[40]
+ [35]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 157.
+               Default added (so using `tbp') on input line 151.
 
-<images/Continuous.pdf, id=584, 948.34299pt x 399.894pt>
+<images/Continuous.pdf, id=567, 948.34299pt x 399.894pt>
 File: images/Continuous.pdf Graphic file (type pdf)
 <use images/Continuous.pdf>
-Package pdftex.def Info: images/Continuous.pdf  used on input line 161.
+Package pdftex.def Info: images/Continuous.pdf  used on input line 155.
 (pdftex.def)             Requested size: 170.71652pt x 71.9839pt.
-<images/discrete-two-locations.pdf, id=585, 515.9275pt x 155.58125pt>
+<images/discrete-two-locations.pdf, id=568, 515.9275pt x 155.58125pt>
 File: images/discrete-two-locations.pdf Graphic file (type pdf)
 <use images/discrete-two-locations.pdf>
 Package pdftex.def Info: images/discrete-two-locations.pdf  used on input line 
-164.
+158.
 (pdftex.def)             Requested size: 170.71652pt x 51.47964pt.
 
-Overfull \hbox (9.71523pt too wide) in paragraph at lines 161--165
+Overfull \hbox (9.71523pt too wide) in paragraph at lines 155--159
  [][]  [][] 
  []
 
 
-LaTeX Warning: Reference `fig:fig_discrete' on page 41 undefined on input line 
-169.
+LaTeX Warning: Reference `fig:fig_discrete' on page 36 undefined on input line 
+163.
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 169--178
+Underfull \hbox (badness 2653) in paragraph at lines 163--164
 []\T1/ptm/m/n/11.04 Each pattern has its own execution mechanism. The execution
  of
  []
 
 
-LaTeX Warning: Citation `leino2010dafny' on page 41 undefined on input line 179
+LaTeX Warning: Citation `leino2010dafny' on page 36 undefined on input line 165
 .
 
 
-LaTeX Warning: Citation `filipovikj17S2UTR' on page 41 undefined on input line 
-179.
+LaTeX Warning: Citation `filipovikj17S2UTR' on page 36 undefined on input line 
+165.
 
-[41 <./images/Continuous.pdf> <./images/discrete-two-locations.pdf>]
-Underfull \hbox (badness 3792) in paragraph at lines 181--183
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 36
+ []
+
+[36 <./images/Continuous.pdf> <./images/discrete-two-locations.pdf>]
+Underfull \hbox (badness 3792) in paragraph at lines 167--169
 \T1/ptm/b/n/11.04 Transformation process: \T1/ptm/m/n/11.04 The network of auto
 mata is automatically
  []
 
-<images/simulinkapproach.pdf, id=599, 728.1908pt x 440.59065pt>
+<images/simulinkapproach.pdf, id=582, 728.1908pt x 440.59065pt>
 File: images/simulinkapproach.pdf Graphic file (type pdf)
 <use images/simulinkapproach.pdf>
-Package pdftex.def Info: images/simulinkapproach.pdf  used on input line 192.
+Package pdftex.def Info: images/simulinkapproach.pdf  used on input line 178.
 (pdftex.def)             Requested size: 204.86191pt x 123.94942pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/11.04 42
- []
-
-[42 <./images/simulinkapproach.pdf>]
-Underfull \hbox (badness 3724) in paragraph at lines 201--202
+[37 <./images/simulinkapproach.pdf>]
+Underfull \hbox (badness 3724) in paragraph at lines 186--187
 []\T1/ptm/m/n/11.04 The brake-by-wire Simulink model contains 320 blocks which 
 is
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 201--202
+Underfull \hbox (badness 2173) in paragraph at lines 186--187
 \T1/ptm/m/n/11.04 blocks. Following the transformation, the model is first simu
 lated in
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 201--202
+Underfull \hbox (badness 3138) in paragraph at lines 186--187
 \T1/ptm/m/n/11.04 Simulink, subsequently, the sorted-order lists is extracted. 
 Then, the
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 206--207
+Underfull \hbox (badness 2460) in paragraph at lines 189--190
 \T1/ptm/m/n/11.04 execution hardware platform has limited computational resourc
 es and
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 208--209
+Underfull \hbox (badness 2529) in paragraph at lines 191--192
 \T1/ptm/m/n/11.04 processing speed. The software has end-to-end timing and reli
 ability
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 208--209
+Underfull \hbox (badness 1478) in paragraph at lines 191--192
 \T1/ptm/m/n/11.04 replicating software components subsequently mapping the repl
 icas on
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 210--211
+Underfull \hbox (badness 1092) in paragraph at lines 193--194
 []\T1/ptm/m/n/11.04 The AUTOSAR software functionality is implemented by Runnab
 les
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 210--211
+Underfull \hbox (badness 1152) in paragraph at lines 193--194
 \T1/ptm/m/n/11.04 periodically and have multiple worst-case execution times as 
 they can
  []
@@ -2632,10 +2374,212 @@ they can
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Underfull \hbox (badness 1845) in paragraph at lines 233--234
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 38
+ []
+
+[38]
+Underfull \hbox (badness 1845) in paragraph at lines 216--217
 []\T1/ptm/m/n/11.04 The logical system is constructed as follows: first we iden
 tify the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \hbox (badness 1675) in paragraph at lines 230--231
+\T1/ptm/m/n/11.04 The reliability constraint refers to the probability that the
+ application
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 230--231
+\T1/ptm/m/n/11.04 functions by the time $\OML/ztmcm/m/it/11.04 t$\T1/ptm/m/n/11
+.04 , i.e $\OT1/ztmcm/m/n/11.04 [0\OML/ztmcm/m/it/11.04 ; t\OT1/ztmcm/m/n/11.04
+ ]$ \T1/ptm/m/n/11.04 [[]]. We assume that the reliability
+ []
+
+
+LaTeX Warning: Citation `ExactMethodstoComputeNetworkRe- liability' on page 40 
+undefined on input line 232.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 40
+ []
+
+[40]
+Underfull \hbox (badness 1259) in paragraph at lines 264--265
+\T1/ptm/m/n/11.04 Our proposed ILP approach is validated on different size of s
+oftware
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 264--265
+\T1/ptm/m/n/11.04 cause-effect chains and degree of replication. The applicatio
+ns are
+ []
+
+[41]
+<images/power.pdf, id=677, 526.2598pt x 316.6751pt>
+File: images/power.pdf Graphic file (type pdf)
+<use images/power.pdf>
+Package pdftex.def Info: images/power.pdf  used on input line 271.
+(pdftex.def)             Requested size: 153.64383pt x 92.45192pt.
+
+
+pdfTeX warning: pdflatex (file ./images/increasing_components.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+<images/increasing_components.pdf, id=678, 752.05215pt x 361.34898pt>
+File: images/increasing_components.pdf Graphic file (type pdf)
+<use images/increasing_components.pdf>
+Package pdftex.def Info: images/increasing_components.pdf  used on input line 2
+74.
+(pdftex.def)             Requested size: 187.78922pt x 90.22675pt.
+
+Overfull \hbox (9.71523pt too wide) in paragraph at lines 271--275
+ [][]  [][] 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 266--277
+[]\T1/ptm/m/n/11.04 We prepared 6 software applications and an execution platfo
+rm that
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 266--277
+\T1/ptm/m/n/11.04 consumption and the computation time, respectively. In genera
+l, the
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 279--280
+\T1/ptm/m/n/11.04 which is ``high-level problem-independent algorithmic framewo
+rk that
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 279--280
+\T1/ptm/m/n/11.04 algorithms''. Meta-heuristic algorithms does not gurantee opt
+imality of
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 279--280
+\T1/ptm/m/n/11.04 e.g., accommodting more and more software applications, impro
+ving
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 42
+ []
+
+[42 <./images/power.pdf> <./images/increasing_components.pdf>]
+
+LaTeX Warning: Citation `Rini2011ParticleChallenges' on page 43 undefined on in
+put line 282.
+
+
+LaTeX Warning: Citation `Sengupta2018ParticlePerspectives' on page 43 undefined
+ on input line 282.
+
+
+LaTeX Warning: Citation `Sailer2013OptimizingAUTOSAR' on page 43 undefined on i
+nput line 282.
+
+
+LaTeX Warning: Citation `yin2007task' on page 43 undefined on input line 282.
+
+
+LaTeX Warning: Citation `Zhao2007ASystem' on page 43 undefined on input line 28
+2.
+
+
+LaTeX Warning: Citation `Tasgetiren2006AProblem' on page 43 undefined on input 
+line 282.
+
+
+LaTeX Warning: Citation `yin2007task' on page 43 undefined on input line 282.
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 282--283
+\T1/ptm/m/n/11.04 The canonical \T1/phv/m/n/10.04 PSO \T1/ptm/m/n/11.04 techniq
+ue uses the constriction factors to balance
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 282--283
+\T1/ptm/m/n/11.04 As compared to the hybridization with genetic, the hybridizat
+ion with
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8.03> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 306.
+
+Underfull \hbox (badness 4291) in paragraph at lines 284--324
+\T1/phv/m/n/10.04 PSO \T1/ptm/m/n/11.04 with the differential evolution techniq
+ue, \T1/phv/m/n/10.04 DEPSO\T1/ptm/m/n/11.04 , to improve
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 284--324
+\T1/ptm/m/n/11.04 diversification by applying the mutation and cross-over opera
+tors of
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 284--324
+\T1/ptm/m/n/11.04 the differential evolution. Algorithm [][]1[][] show the pseu
+docode of the
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 284--324
+\T1/ptm/m/n/11.04 based on the choice of the algorithm, i.e., \T1/phv/m/n/10.04
+ DE\T1/ptm/m/n/11.04 , \T1/phv/m/n/10.04 HCPSO \T1/ptm/m/n/11.04 and \T1/phv/m/
+n/10.04 SHPSO
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 284--324
+\T1/ptm/m/n/11.04 intermittently, i.e., whenever the interval criterion conditi
+on is met.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+
+LaTeX Warning: Reference `sec_system' on page 44 undefined on input line 327.
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 327--328
+\T1/ptm/m/n/11.04 are evaluated against different specifications of automotive 
+software
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 327--328
+\OML/ztmcm/m/it/11.04 g$\T1/ptm/m/n/11.04 . The specifications are synthesized 
+from the automotive benchmark
+ []
+
+
+LaTeX Warning: Reference `tbl_app_ranges' on page 44 undefined on input line 32
+9.
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 329--330
+\T1/ptm/m/n/11.04 software components, runnables, and cause-effect chains. The 
+different
  []
 
 
@@ -2647,163 +2591,190 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [44]
-Underfull \hbox (badness 1675) in paragraph at lines 247--248
-\T1/ptm/m/n/11.04 The reliability constraint refers to the probability that the
- application
+<images/power_consumption.pdf, id=741, 736.7525pt x 471.7625pt>
+File: images/power_consumption.pdf Graphic file (type pdf)
+<use images/power_consumption.pdf>
+Package pdftex.def Info: images/power_consumption.pdf  used on input line 336.
+(pdftex.def)             Requested size: 273.14748pt x 174.90211pt.
+
+Underfull \hbox (badness 1852) in paragraph at lines 333--340
+[]\T1/ptm/m/n/11.04 In the first experiment, as illustrated in Figure [][]4.7[]
+[], we show that
+ []
+
+<images/time_summary.pdf, id=742, 795.97375pt x 491.8375pt>
+File: images/time_summary.pdf Graphic file (type pdf)
+<use images/time_summary.pdf>
+Package pdftex.def Info: images/time_summary.pdf  used on input line 343.
+(pdftex.def)             Requested size: 273.14748pt x 168.77603pt.
+<images/chains_replication_improvements.pdf, id=743, 361.35pt x 217.81375pt>
+File: images/chains_replication_improvements.pdf Graphic file (type pdf)
+<use images/chains_replication_improvements.pdf>
+Package pdftex.def Info: images/chains_replication_improvements.pdf  used on in
+put line 351.
+(pdftex.def)             Requested size: 239.00209pt x 144.06659pt.
+
+Underfull \hbox (badness 1715) in paragraph at lines 348--355
+\T1/ptm/m/n/11.04 the computation time after afer applying the approximation al
+gorithm
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 247--248
-\T1/ptm/m/n/11.04 functions by the time $\OML/ztmcm/m/it/11.04 t$\T1/ptm/m/n/11
-.04 , i.e $\OT1/ztmcm/m/n/11.04 [0\OML/ztmcm/m/it/11.04 ; t\OT1/ztmcm/m/n/11.04
- ]$ \T1/ptm/m/n/11.04 [[]]. We assume that the reliability
+Underfull \hbox (badness 2443) in paragraph at lines 348--355
+\T1/ptm/m/n/11.04 effect of the algorithms can negatively impact the responsive
+ness to
  []
-
-
-LaTeX Warning: Citation `ExactMethodstoComputeNetworkRe- liability' on page 45 
-undefined on input line 249.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-Underfull \hbox (badness 1259) in paragraph at lines 281--282
-\T1/ptm/m/n/11.04 Our proposed ILP approach is validated on different size of s
-oftware
+ [45 <./images/power_consumption.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 360.
+
+(Chapters/listofpublications.tex
+Underfull \hbox (badness 3068) in paragraph at lines 2--6
+\T1/ptm/m/n/11.04 ReSA: An ontology-based requirement specification language ta
+ilored
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 281--282
-\T1/ptm/m/n/11.04 cause-effect chains and degree of replication. The applicatio
-ns are
+Underfull \hbox (badness 7273) in paragraph at lines 2--6
+\T1/ptm/m/n/11.04 to automotive systems. Nesredin Mahmud, Cristina Seceleanu an
+d
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/ptm/b/n/11.04 Abstract: \T1/ptm/m/it/11.04 Automotive systems are developed
+ using multi-leveled
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 and criticality of automotive functions. Consequently, well-
+structured
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 and unambiguously specified requirements are needed on all l
+evels of
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 However, automotive industry often relies on requirements sp
+ecified in
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 ambiguous natural language, sometimes in large and incompreh
+ensible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 documents. Semi-formal requirements specification approaches
+ (e.g.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 requirement boilerplates, pattern-based specifications, etc.
+) aim to
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 reduce requirements ambiguity, without altering their readab
+ility and
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 2--6
+\T1/ptm/m/it/11.04 expressiveness. Nevertheless, such approaches do not offer s
+upport for
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 2--6
+\T1/ptm/m/n/11.04 materials from VGTT that were eventually analyzed for the lan
+guage
+ []
+
+
+Underfull \vbox (badness 6526) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 46
  []
 
-[46]
-<images/power.pdf, id=694, 526.2598pt x 316.6751pt>
-File: images/power.pdf Graphic file (type pdf)
-<use images/power.pdf>
-Package pdftex.def Info: images/power.pdf  used on input line 288.
-(pdftex.def)             Requested size: 153.64383pt x 92.45192pt.
+[46 <./images/time_summary.pdf> <./images/chains_replication_improvements.pdf>]
 
+Underfull \vbox (badness 2119) has occurred while \output is active []
 
-pdfTeX warning: pdflatex (file ./images/increasing_components.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-<images/increasing_components.pdf, id=695, 752.05215pt x 361.34898pt>
-File: images/increasing_components.pdf Graphic file (type pdf)
-<use images/increasing_components.pdf>
-Package pdftex.def Info: images/increasing_components.pdf  used on input line 2
-91.
-(pdftex.def)             Requested size: 187.78922pt x 90.22675pt.
-
-Overfull \hbox (9.71523pt too wide) in paragraph at lines 288--292
- [][]  [][] 
+ [47]
+Underfull \hbox (badness 10000) in paragraph at lines 8--32
+\T1/ptm/m/n/11.04 ReSA tool: Structured requirements specification and SAT-base
+d
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 283--294
-[]\T1/ptm/m/n/11.04 We prepared 6 software applications and an execution platfo
-rm that
+Underfull \hbox (badness 10000) in paragraph at lines 8--32
+\T1/ptm/m/n/11.04 consistency-checking. Nesredin Mahmud, Cristina Seceleanu and
+
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 283--294
-\T1/ptm/m/n/11.04 consumption and the computation time, respectively. In genera
-l, the
+Underfull \hbox (badness 3989) in paragraph at lines 8--32
+\T1/ptm/m/it/11.04 in natural language, hence they can sometimes be ambiguous a
+nd
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 296--297
-\T1/ptm/m/n/11.04 which is ``high-level problem-independent algorithmic framewo
-rk that
+Underfull \hbox (badness 2027) in paragraph at lines 8--32
+\T1/ptm/m/it/11.04 requirements specifications described with abstraction-speci
+fic concepts
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 296--297
-\T1/ptm/m/n/11.04 algorithms''. Meta-heuristic algorithms does not gurantee opt
-imality of
+Underfull \hbox (badness 3312) in paragraph at lines 8--32
+\T1/ptm/m/it/11.04 language, which scales to multiple EAST-ADL levels of abstra
+ction.
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 296--297
-\T1/ptm/m/n/11.04 e.g., accommodting more and more software applications, impro
-ving
- []
-
-[47 <./images/power.pdf> <./images/increasing_components.pdf>]
-
-LaTeX Warning: Citation `Rini2011ParticleChallenges' on page 48 undefined on in
-put line 299.
-
-
-LaTeX Warning: Citation `Sengupta2018ParticlePerspectives' on page 48 undefined
- on input line 299.
-
-
-LaTeX Warning: Citation `Sailer2013OptimizingAUTOSAR' on page 48 undefined on i
-nput line 299.
-
-
-LaTeX Warning: Citation `yin2007task' on page 48 undefined on input line 299.
-
-
-LaTeX Warning: Citation `Zhao2007ASystem' on page 48 undefined on input line 29
-9.
-
-
-LaTeX Warning: Citation `Tasgetiren2006AProblem' on page 48 undefined on input 
-line 299.
-
-
-LaTeX Warning: Citation `yin2007task' on page 48 undefined on input line 299.
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 299--300
-\T1/ptm/m/n/11.04 The canonical \T1/phv/m/n/10.04 PSO \T1/ptm/m/n/11.04 techniq
-ue uses the constriction factors to balance
+Underfull \hbox (badness 3098) in paragraph at lines 8--32
+\T1/ptm/m/it/11.04 Furthermore, we introduce a consistency function that is sea
+mlessly
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 299--300
-\T1/ptm/m/n/11.04 As compared to the hybridization with genetic, the hybridizat
-ion with
- []
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8.03> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 323.
-
-Underfull \hbox (badness 4291) in paragraph at lines 301--341
-\T1/phv/m/n/10.04 PSO \T1/ptm/m/n/11.04 with the differential evolution techniq
-ue, \T1/phv/m/n/10.04 DEPSO\T1/ptm/m/n/11.04 , to improve
+Underfull \hbox (badness 2790) in paragraph at lines 34--38
+\T1/ptm/m/n/11.04 and Ljungkrantz Oscar. \T1/ptm/m/it/11.04 In the Internationa
+l Conference on Software
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 301--341
-\T1/ptm/m/n/11.04 diversification by applying the mutation and cross-over opera
-tors of
+Underfull \hbox (badness 3769) in paragraph at lines 34--38
+\T1/ptm/m/it/11.04 of embedded systems requirements are needed. Current specifi
+cation
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 301--341
-\T1/ptm/m/n/11.04 the differential evolution. Algorithm [][]1[][] show the pseu
-docode of the
+Underfull \hbox (badness 1460) in paragraph at lines 34--38
+\T1/ptm/m/it/11.04 which considers thematic roles and domain knowledge, enablin
+g deep
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 301--341
-\T1/ptm/m/n/11.04 based on the choice of the algorithm, i.e., \T1/phv/m/n/10.04
- DE\T1/ptm/m/n/11.04 , \T1/phv/m/n/10.04 HCPSO \T1/ptm/m/n/11.04 and \T1/phv/m/
-n/10.04 SHPSO
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 301--341
-\T1/ptm/m/n/11.04 intermittently, i.e., whenever the interval criterion conditi
-on is met.
+Underfull \hbox (badness 2512) in paragraph at lines 34--38
+\T1/ptm/m/it/11.04 description logic, which is a decidable and computationally-
+tractable
  []
 
 
@@ -2815,67 +2786,88 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [48]
-
-LaTeX Warning: Reference `sec_system' on page 49 undefined on input line 344.
-
-
-Underfull \hbox (badness 4582) in paragraph at lines 344--345
-\T1/ptm/m/n/11.04 are evaluated against different specifications of automotive 
-software
+Underfull \hbox (badness 1270) in paragraph at lines 40--55
+\T1/ptm/m/it/11.04 electronic brains control dozens of functions in vehicles, l
+ike braking,
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 344--345
-\OML/ztmcm/m/it/11.04 g$\T1/ptm/m/n/11.04 . The specifications are synthesized 
-from the automotive benchmark
+Underfull \hbox (badness 2181) in paragraph at lines 40--55
+\T1/ptm/m/it/11.04 to enhance quality, and manage complexity, by supporting fun
+ctional
  []
 
 
-LaTeX Warning: Reference `tbl_app_ranges' on page 49 undefined on input line 34
-6.
+Underfull \hbox (badness 2134) in paragraph at lines 40--55
+\T1/ptm/m/it/11.04 providing assurance that Simulink models fulfill given funct
+ional and
+ []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 346--347
-\T1/ptm/m/n/11.04 software components, runnables, and cause-effect chains. The 
-different
+Underfull \hbox (badness 7944) in paragraph at lines 40--55
+\T1/ptm/m/it/11.04 execution-order preserving automatic transformation of atomi
+c and
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 40--55
+\T1/ptm/b/n/11.04 Personal Contributions:  \T1/ptm/m/n/11.04 The three co-autho
+rs contributed equally to
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 40--55
+\T1/ptm/m/n/11.04 with analyzing the BBW system, Cristina Seceleanu contributed
+ with
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-<images/power_consumption.pdf, id=758, 736.7525pt x 471.7625pt>
-File: images/power_consumption.pdf Graphic file (type pdf)
-<use images/power_consumption.pdf>
-Package pdftex.def Info: images/power_consumption.pdf  used on input line 353.
-(pdftex.def)             Requested size: 273.14748pt x 174.90211pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 350--357
-[]\T1/ptm/m/n/11.04 In the first experiment, as illustrated in Figure [][]4.7[]
-[], we show that
- []
-
-<images/time_summary.pdf, id=759, 795.97375pt x 491.8375pt>
-File: images/time_summary.pdf Graphic file (type pdf)
-<use images/time_summary.pdf>
-Package pdftex.def Info: images/time_summary.pdf  used on input line 360.
-(pdftex.def)             Requested size: 273.14748pt x 168.77603pt.
-<images/chains_replication_improvements.pdf, id=760, 361.35pt x 217.81375pt>
-File: images/chains_replication_improvements.pdf Graphic file (type pdf)
-<use images/chains_replication_improvements.pdf>
-Package pdftex.def Info: images/chains_replication_improvements.pdf  used on in
-put line 368.
-(pdftex.def)             Requested size: 239.00209pt x 144.06659pt.
-) (Chapters/ResearchMethod.tex
-Underfull \hbox (badness 1715) in paragraph at lines 365--1
-\T1/ptm/m/n/11.04 the computation time after afer applying the approximation al
-gorithm
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+\T1/ptm/m/n/11.04 Power-aware Allocation of Fault-tolerant Multirate AUTOSAR
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 365--1
-\T1/ptm/m/n/11.04 effect of the algorithms can negatively impact the responsive
-ness to
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+\T1/ptm/m/n/11.04 Applications. Nesredin Mahmud, Guillermo Rodriguez-Navas,
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 57--64
+\T1/ptm/m/n/11.04 Hamid Faragardi,Saad Mubeen and Cristina Seceleanu. \T1/ptm/m
+/it/11.04 In the 25th
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 57--64
+\T1/ptm/m/it/11.04 revolutionary computing architectures such as mixed-critical
+ity design,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 57--64
+\T1/ptm/m/it/11.04 dynamic programming, are prohibitively expensive. We propose
+ hybrid
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 57--64
+\T1/ptm/m/it/11.04 applications based a real-world automotive benchmark. The ev
+aluation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+\T1/ptm/m/it/11.04 optimization, integer-linear programming and hybrid particle
+-swarm
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 57--64
+\T1/ptm/m/n/11.04 on reliability modeling, Hamid Faragardi on optimization and 
+related
  []
 
 
@@ -2886,13 +2878,64 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/11.04 50
  []
 
-[50 <./images/power_consumption.pdf>] [51 <./images/time_summary.pdf> <./images
-/chains_replication_improvements.pdf>] [52
+[50])) (Chapters/ResearchMethod.tex
+Overfull \hbox (11.07079pt too wide) in paragraph at lines 66--1
+\T1/ptm/m/n/11.04 Nesredin Mahmud, Guillermo Rodriguez-Navas, Hamid Faragardi,S
+aad Mubeen
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 66--1
+\T1/ptm/m/n/11.04 and Cristina Seceleanu. Optimized Allocation of Fault-toleran
+t
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 66--1
+\T1/ptm/m/n/11.04 EmbeddedSoftware with End-to-end Timing Constraints. \T1/ptm/
+m/it/11.04 Mälardalen
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 66--1
+\T1/ptm/m/it/11.04 revolutionary computing architectures such as mixed-critical
+ity design,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 66--1
+\T1/ptm/m/it/11.04 dynamic programming, are prohibitively expensive. We propose
+ hybrid
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 66--1
+\T1/ptm/m/it/11.04 applications based a real-world automotive benchmark. The ev
+aluation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--1
+\T1/ptm/m/it/11.04 optimization, integer-linear programming and hybrid particle
+-swarm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--1
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/11.04 52
+ []
+
+[52]
 Chapter 5.
-<images/research_process.pdf, id=838, 735.49782pt x 303.38344pt>
+<images/research_process.pdf, id=854, 735.49782pt x 303.38344pt>
 File: images/research_process.pdf Graphic file (type pdf)
 <use images/research_process.pdf>
 Package pdftex.def Info: images/research_process.pdf  used on input line 6.
@@ -2925,7 +2968,10 @@ Underfull \hbox (badness 1540) in paragraph at lines 11--12
 irements
  []
 
-[53 <./images/research_process.pdf>]
+[53
+
+
+ <./images/research_process.pdf>]
 Underfull \hbox (badness 1394) in paragraph at lines 13--16
 \T1/ptm/m/n/11.04 involved concept development, and experimentation with toy ex
 amples
@@ -3203,7 +3249,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2AA90F3E5B72218C274763BE1E6E923A;2561.
+(rerunfilecheck)             Checksum: 6C45F4F06F6864E6B0D31D3BADC5EB9C;2631.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3218,10 +3264,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 30727 strings out of 494865
- 579035 string characters out of 3176629
- 653300 words of memory out of 3000000
- 33581 multiletter control sequences out of 15000+200000
+ 30737 strings out of 494865
+ 579111 string characters out of 3176629
+ 654756 words of memory out of 3000000
+ 33589 multiletter control sequences out of 15000+200000
  647747 words of font info for 193 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  61i,19n,75p,2034b,632s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3248,9 +3294,9 @@ tall/fonts/type1/urw/times/utmr8a.pfb></Users/nmd02/Library/Application Support
 /MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb></Users/nmd02/Library/
 Application Support/MiKTeX/texmfs/install/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
 
-Output written on Thesis.pdf (66 pages, 1703075 bytes).
+Output written on Thesis.pdf (66 pages, 1721367 bytes).
 PDF statistics:
- 1065 PDF objects out of 1200 (max. 8388607)
- 253 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 255 named destinations out of 1000 (max. 500000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
 

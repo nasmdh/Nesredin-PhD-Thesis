@@ -1,0 +1,37 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Thesis Outline Overview}{16}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}Background}{23}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Logic-based Reasoning}{23}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Simulink Analysis}{24}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}UPPAAL Statistical Model Checking}{26}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Integer-linear Programming (ILP)}{28}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Population-based Metaheuristics}{29}{section.2.5}% 
+\contentsline {chapter}{\numberline {3}Problem Formulation}{31}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Research Goals}{31}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Thesis Contributions}{35}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}ReSA - a Constrained Requirements Specification Language of Embedded Systems}{36}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Syntax}{37}{subsection.4.1.1}% 
+\contentsline {section}{\numberline {4.2}Formal Analysis of ReSA Specifications}{37}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}SAT-based Analysis}{37}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Ontology-based Analysis}{39}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Formal and Scalable Analysis of Simulink Models}{40}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Semantics of Simulink Model in Network of STA}{41}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Validation on the Brake-by-wire System}{43}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}Exact Software Allocation via ILP}{44}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}ILP Model Formulation}{44}{subsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.1.1}Tasks Deadline Constraint}{45}{subsubsection.4.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.4.1.2}End-to-end Timing Constraint}{46}{subsubsection.4.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.4.1.3}Software Application Reliability Constraint}{46}{subsubsection.4.4.1.3}% 
+\contentsline {subsubsection}{\numberline {4.4.1.4}ILP Problem}{47}{subsubsection.4.4.1.4}% 
+\contentsline {subsection}{\numberline {4.4.2}Tool Support and Validation on Automotive Benchmark}{47}{subsection.4.4.2}% 
+\contentsline {section}{\numberline {4.5}Scalable Software Allocation via Hybrid PSO}{48}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Hybrid Particle-swarm Optimization}{48}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}Validation on the Bosch EMS Benchmark}{49}{subsection.4.5.2}% 
+\contentsline {chapter}{\numberline {5}Research Method}{53}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Related Work}{55}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Requirements Specification and Analysis}{55}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Formal Analysis of Simulink Models}{56}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Software-to-Hardware Allocation}{57}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{59}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{61}{chapter*.18}% 

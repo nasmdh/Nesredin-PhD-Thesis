@@ -1,37 +1,29 @@
 \chapter{Thesis Contributions}
-The general contribution of the thesis is a safety-critical design approach that employs formal methods at various stages of software development such as requirements specification and software design, and a power-efficient mapping of the fault-tolerant software to hardware while satisfying timing and reliability of the software in a distributed environment. It satisfies the research goals explained in Subsection~\ref{research_challenges} through the following contributions: a requirements specification tailored to embedded systems~\cite{Mahmud2015ReSA:Systems}\cite{resatool}, a formal analysis of the specifications~\cite{resatool}\cite{Mahmud2017SpecificationLogic} via SAT-based and ontology based techniques, a formal analysis of Simulink models~\cite{Filipovikj2018SimppaalModels} and optimization of software mappings in the context of distributed architecture~\cite{Mahmud5222}\cite{Mahmud2019Power-awareOptimization} via integer-linear programming and hybrid particle swarm optimization. 
+The general contribution of the thesis is a safety-critical design approach that employs formal methods at various stages of software development such as requirements specification and software design, and a power-efficient mapping of software to hardware while satisfying timing and reliability of the software in a distributed environment. It satisfies the research goals explained in Subsection~\ref{research_challenges} via the following contributions: a requirements specification language tailored to embedded systems~\cite{Mahmud2015ReSA:Systems}\cite{resatool}, formal analysis of the specifications~\cite{resatool}\cite{Mahmud2017SpecificationLogic} via formal and knowledge-based methods, formal analysis of large-scale Simulink models~\cite{Filipovikj2018SimppaalModels} and efficient mapping of software to hardware in the context of distributed architecture~\cite{Mahmud5222}\cite{Mahmud2019Power-awareOptimization} via integer-linear programming and metaheuristics. 
 
-The workflow of an embedded software development that make of use our contributions are illustrated in Figure~\ref{fig_workflow}. It is contextualized in the automotive software development where EAST-ADL and AUTOSAR architectural language are used. 
+Figure~\ref{fig_workflow} illustrates the workflow of an embedded software development that make of use our contributions. The workflow is contextualized in the automotive software development where Simulink, EAST-ADL and AUTOSAR architectural language are used. 
 \begin{figure}[h]
 	\centering
 	\ifpdf
-	\includegraphics[width=\linewidth]{images/approach_workflow}
+	\includegraphics[width=\linewidth]{images/workflow}
 	\else
-	\includegraphics[width=.8\linewidth]{images/approach_workflow.eps}
+	\includegraphics[width=.8\linewidth]{images/workflow.eps}
 	\fi
 	\caption{Thesis contributions workflow.} 
 	\label{fig_workflow}
 \end{figure}
 
-Initially requirements are specified in our domain-specific language ReSA, which is a constrained natural language, by accessing model elements from an EAST-ADL architecture. The specification, which supports rudimentary syntax and type checking, is followed by formal analysis of the specifications such as to detect and remove logical inconsistencies. We assume the software design is implemented (or modeled) in Simulink, subsequently, Simulink models are formally analyzed against the specifications. Finally, the software functionality is mapped to the underlying hardware architecture which considers optimizing power consumption while meeting timing and reliability constraints of a distributed safety-critical software, modeling in AUTOSAR.
+Initially the textual requirements are specified in our domain-specific language ReSA, which is a constrained natural language that is specific to embedded systems. The ReSA editor supports content completion as it is connected to a system model, which is generic. However, If the ReSA editor is required to be integrated into  domain-specific architetural models, the latter specializes the ReSA concepts, hence enabling domain-specific access. To check the consistency, the ReSA specifications are translated into formal specifications such as Boolean and description logic, subsequently, analyzed via SAT solver and inference engine (or reasoner), respectively.
 
-\section{ReSA - a Constrained Requirements Specification Language of Embedded Systems}
-The language is designed to improve comprehensibility and reduce ambiguity of embedded systems specifications. It is a constrained natural language on both syntax and semantic levels. There are fixed syntactic rules to construct valid statements, and embedded system concepts that dectate the semantic construction of statements as shown in Table x, and relations between instances of the concepts.
-%\subsection*{Embedded System Concepts}
-%\begin{table}[h]\small
-%	\begin{tabular}{@{}lp{0.8\textwidth}@{}}
-%		\toprule
-%		Concept & Description \\ \midrule
-%		System & refers to any physical or logical entity that can process an input and return an output, e.g., the Adjustable Speed Limiter system, Cruise-control system \\
-%		Parameter & refers to the input and output parameters of a system, e.g., vehicle speed, vehicle speed set by the driver, torque force, etc. \\
-%		Device & the input and output devices of a system, e.g., sensors and actuators, human-machine interfaces, etc. \\
-%		State & refers to the operational and dynamic state of a system and its components, e.g., ASL activated, ASL deactivated, ASL enabled, etc. \\
-%		Mode & refers to the collection of operational capabilities and activities to achieve system objective, e.g.,,ASL mode,Cruise-control mode, etc. \\
-%		Entity & refers to internal or external occurrences that need to be handled by a system \\ \bottomrule
-%	\end{tabular}
-%\caption{Embedded system concepts.}\label{tbl_resa_concepts}
-%\end{table}
+After the quality of the specifications are improved, i.e., become unambiguous,  comprehesible, consistent, they can be used in the verification of behaviral software designs, thus reducing later errors detections and maintainance. In this work, we consider the behavior models that are designed in Simulink, which is one of the most widely used environment for modeling, simulation and anlaysis of embedded systems. In order to rigoruously analyze a Simulink model, it is transformed into a formal model, subsequently, the latter is analyzed via statistical model checking against properties initially expressed in ReSA, and manually translated into the query (properties) language of the model checker.
 
+The Simulink model, at the architectural level, is represented by a system architecture, which consists of software and hardware architectures. Note that, the relation between the Simulink model and the system architecture is by refinement, and is mostly manual, which is also the case in this work. The software architecture complements the behaviora model with computational resource specifications, e.g., CPU, memory, and other system critical resouce specifications, e.g., power consumption. In this regard, the software to hardware mapping can be efficiently made via optimization techniques. Our proposed optimization techniques incorporate the timing requirements of the software. Although the input model to the optimization is an AUTOSAR model, the approach can be applied to any component-based embedded software devevelopment through minor modification. 
+
+In the next subsections, we discuss the contributions in detail.
+\section{ReSA - a Constrained Requirements Specification Language of Embedded Systems}\label{rc_resa}
+The language is designed to improve comprehensibility and reduce ambiguity of embedded systems specifications. It is a constrained natural language on both syntax and semantic levels. It employes embedded system concepts such as System, Parameter, Device, State, Mode, Entity, etc, to identify words/phrases of specification and realtions between between instance of the concepts to enforce semantics (or interepretations) at the syntactic level, e.g., the fact is a system can be activated, but not parameters, a user is notified, but not a system. 
+
+The syntactic rules allow construction of valid statements, reduce ambiguity and improve readability. The valid instantiation of the ReSA langage are sentencial forms (or requirements boilerplatrs), as shown in Table~\ref{tbl_boilerplates}. The specification is finalized by filling the vairable elements of the boilerpaltes, which the syntax {\small Word|"Words"}$:Type$, e.g., "ASL speed control"$:parameter$, ASL$:system$, as illustrated by examples in Tables~\ref{fig_resa_examples}. In the ReSA editor, the boilerplates can be created for reuse.
 \subsection{Syntax}
 \begin{table}[h]\small
 	\begin{tabular}{@{}lp{0.75\textwidth}@{}}
@@ -43,7 +35,7 @@ The language is designed to improve comprehensibility and reduce ambiguity of em
 		Nested-Complex & instantiates nested-complex statements, and is constructed from independent clause and complex boilerplate(s), e.g., \texttt{Ncomplex := after Simple, Complex.} \\
 		Conditional & instantiates conditional statements including if, if-else, if-else-if \\ \bottomrule
 	\end{tabular}
-\caption{Requirements boilerplates syntax.}
+\caption{Requirements boilerplates syntax.}\label{tbl_boilerplates}
 \end{table}
 
 \begin{table}[h]
@@ -65,7 +57,7 @@ The language is designed to improve comprehensibility and reduce ambiguity of em
 \caption{Examples of requirments specified in ReSA.}\label{fig_resa_examples}
 \end{table}
 
-\section{Formal Analysis of ReSA Specifications}
+\section{Formal Analysis of ReSA Specifications}\label{rc_resaanalysis}
 The ReSA specifications are transformed into Boolean and propositional logics to conduct rogorous analysis besides syntax and type checking such as consistency checking. The Boolean expressions are check for consistency via a SAT solver, and the description-logic specifications via an ontology enference engine. 
 
 \subsection{SAT-based Analysis}
@@ -126,7 +118,7 @@ In order to strengthen the analysis, lexical relations between arguments are int
  The ontology is consistent if there exists an interpretation (or a model) $M$ that satisfies the terminological assertions $T$ and the concrete assertions $A$, that is, $M \models ax$, where: $ax \in T \cup A$, where $T$ is a set of terminological assertions, such as InParameter $\subset$ Parameter, and A is a set of facts (or concrete assertions).
 \end{definition}
 
-\section{Formal and Scalable Analysis of Simulink Models}
+\section{Formal and Scalable Analysis of Simulink Models}\label{rc_sim}
 A Simulink model consists of functional blocks, which are modeling elements to realize some functionlity, e.g., generate signal, delay a signal, mathematical operations over signals, etc., and lines connecting the blocks. The Simulink block can be either discrete or continuous depending on the block's execution behavior. If the block is executed periodically with a sample time $t_s$, it is descrete, otherwise, it is continuous if it has no sampling time, rather executes over finitely small (or minor) sampling times. The blocks can also be classified into atomic and composite blocks, where the atomic blocks, e.g., a delay block, is atomic schedulable entity that cannot be decomposed further. Whereas, the composite blocks, e.g., the Subsystem block, contains atomic blocks, and is used to create hierarchy, hence improving the visualization or to impose collective execution behavior over a set of atomic blocks. 
 
 \subsection{Semantics of Simulink Model in Network of STA} 
@@ -169,14 +161,6 @@ where $r*\delta\in \mathbb{R}_{\geq 0}$ are the set of sample hits that occur ev
 \end{figure}
 
 Each pattern has its own execution mechanism. The execution of continuous-time patterns presented in Figure~\ref{fig_continuous} proceeds according to an exponential distribution for unbounded delays, whereas the execution of the discrete-time pattern presented in Figure~\ref{fig:fig_discrete} proceeds according to the uniform distribution for time-bounded delays modeled via the invariant.
-The elements of the STA patterns are as follows:
-%\begin{enumerate}[label=(\roman*)]\setlength\itemsep{1em}
-%	\item Location \texttt{Start} - In the \texttt{Start} location the automaton waits for its release according to the order of execution given in the \textit{slist} and, for the discrete-time blocks, the offset parameter;
-%	\item Location \texttt{Operate}-The \texttt{Operate} location models the operational mode of a Simulink block. For the discrete-time pattern, this location is decorated with an invariant connected to the block's period. For the continuous-time pattern, the location is decorated with an exponential rate $\lambda$ that determines the probability of the automaton to remain in this location at each simulation step, according to an exponential distribution, in other words Pr(leaving \texttt{Operate} after $t$)$ = 1-e^{-\lambda t}$. 
-%	
-%	\item Edge \texttt{(Start, Operate)} - The edge is enabled when the guard condition for releasing the block is satisfied. The time for release for continuous blocks (Figure~\ref{fig:continuouspattern}) is given as \texttt{gtime $\geq$ sn*IAT}, where: \texttt{gtime} is the global clock, \texttt{sn} is the block's execution number, and \texttt{IAT} is the constant inter-arrival time between two consecutive releases of automata. For the discrete blocks (Figure~\ref{fig:discretepattern}) the release time depends on the \texttt{offset} parameter that denotes the delay of the first execution of the block. When the edge is traversed, two update actions (modeled as C functions) are executed: \texttt{initialize()}, which initializes the data variables, and \texttt{blockRoutine()} that updates the output.
-%	\item Edge \texttt{(Operate, Operate)} - The edge is taken every time the automaton updates its output. As explained above, the edge is traversed according to exponential distribution for continuous-time patterns, or at discrete-time intervals for the discrete-time patterns.  
-%\end{enumerate}
 
 To check the correctness of the \texttt{blockRoutine} functions, which we implement in the subset of the C language used by \uppaalsmc{}, we use pre-/post-condition verification using the Dafny \cite{leino2010dafny} program verifier. A set of pre-conditions is used to describe the input, output and state variables prior to the execution of the \texttt{blockRoutine}. Given that the pre-condition holds, after the execution of the blockRoutine, the set of post-conditions has to be established. We consider the \texttt{blockRoutine} to be correct if the specified set of postconditions is satisfied for all executions. For complex block routines that contain loops, we use loop invariants and termination conditions. The detailed description of the verification procedure for the \texttt{blockRoutine} using \texttt{Dafny} has been omitted for brevity. For full details, we refer the reader to our technical report \cite{filipovikj17S2UTR}. 
 
@@ -197,15 +181,12 @@ To check the correctness of the \texttt{blockRoutine} functions, which we implem
 \end{figure}
 
 \subsection{Validation on the Brake-by-wire System} 
-%The Simulink model is transformed into the input language of UPPAAL SMC following according to formalization into a network of stochastic timed automata discussed in the previous sections. The requirements (or properties) need to be checked are specified in the query language of the model checker, that is in WMTL. Then, the UPPAAL SMC takes in the automata and the query, then after sufficient simulation of the automata, the model checker collects the simulation traces and applies statistical anlaysis, which results in a probabilistic verdict such as the probablity of satisfying the query and the confidence of the result.
 To validate the proposed approach, we use a brake-by-wire use case that is obtained from Volvo Group Trucks Technology. The brake-by-wire system controls the vehicle speed using sensors and actuators, e.g., by reading the pedal position, vehicle speed, etc., and employs an elctromecahnical control system to compute the proportional torque force that is applied on the wheels. Besides realizing the braking functionality, the model realizes anti-braking functionality to avoid (or minimize) skidding, which occurs when the slip rate of a wheel is greater than its friction coefficient.  The anti-braking feature is activated whenever the vehicle speed is greater than 10km/hr.
 
 The brake-by-wire Simulink model contains 320 blocks which is structured into a 4-level hierarchy, and consists of continuous and discrete blocks. Following the transformation, the model is first simulated in Simulink, subsequently, the sorted-order lists is extracted. Then, the model is transformed into a netwok of stochastic timed automata via the transformation patterns. Note: the timing behavior of the automata complies to the sorted order list, thus preserving the exectuiong semantics of the Simulink model.
 
-\noindent\\ \textbf{Result: } 
-
-\section{Exact Software Allocation  via ILP}
-Safety-critical systems are usually resource constrained, that is, the the execution hardware platform has limited computational resources and power/energy sources. Therefore, the system should be designed efficiently especially critical system resources such as power in order to accommodate complex safety-critical software functionality. In this section, we propose exact method of mapping software to hardware in order to optimize the total power consumption of a distributed safety-critical software via ILP.
+\section{Exact Software Allocation  via ILP}\label{rc_ilp}
+Safety-critical systems are usually resource constrained, that is, the execution hardware platform has limited computational resources and power/energy sources. Therefore, the system should be designed efficiently especially critical system resources such as power in order to accommodate complex safety-critical software functionality. In this section, we propose exact method of mapping software to hardware in order to optimize the total power consumption of a distributed safety-critical software via ILP, which is needed when highly-efficient design is needed especially small-scale sofware applications, e.g., software components not exceeding 10.
 
 We consider an AUTOSAR distributed safety-critical software that can be mapped to multiple computing nodes (or units), which are heterogenous computing systems with respect to power specification, failure rate and processing speed. The software has end-to-end timing and reliability requirements, therefore, the mapping must satisfy the requirements. In order to meet the reliability requirement, the mapping applys fault tolerance by replicating software components subsequently mapping the replicas on different computing units. Moreover, the task and messages that realize the safety-critical software functionality are scheduled using a fixed-priority preemptive scheduling policy and fixed-priority non-preemptive scheduling policy (over a  CAN bus), respectively.
 
@@ -294,7 +275,7 @@ We prepared 6 software applications and an execution platform that consists 8 no
 	\caption{ILP optimization of different sizes of software applications based on the number of software components, cause-effect chains, computing nodes.} \label{fig_ilp_results}
 \end{figure}
 
-\section{Scalable Software Allocation via Hybrid PSO}
+\section{Scalable Software Allocation via Hybrid PSO}\label{rc_pso}
 In the previous contribution, we observe that the ILP approch does not scale well to the large software allocation problems. To address this problem, in this section, we propose approximation algorithms based on metahuristics, which is ``high-level problem-independent algorithmic framework that provides a set of guidelines or strategies to develop heuristic optimization algorithms''. Meta-heuristic algorithms does not gurantee optimality of solutions, neverthless, the solutions can be deemed satisfactory. In the case of minimizing power consumption, what is more appealing to system designers is usually the benefit attained as a result of the power consumption reduction, e.g., accommodting more and more software applications, improving battery-life, rather than optimality. In this spirit, metahuristics can be useful to solve complex and large optimization problems, yet in reasonable time, as compared to exact methods, e.g., branch-and-bound, dynamic programming.
 
 \subsection{Hybrid Particle-swarm Optimization}
@@ -371,3 +352,22 @@ Due to the replication of software components to the reliability goals of the so
 	\caption{Effect of approximate algorithm over delay calculations with replication.}
 	\label{fig_chainsreplicationimprovements}
 \end{figure}
+
+\section{Paper Contributions}
+Tables~\ref{paper_contribution} shows the peer-reiewed papers and their contribution to the thesis.
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\begin{tabular}{@{}llllll@{}}
+		\toprule
+		Paper & Sec\ref{rc_resa} & Sec\ref{rc_resaanalysis}& Sec\ref{rc_sim} & Sec\ref{rc_ilp} & Sec\ref{rc_pso}\\ \midrule
+		A & $\times$ &  &  &  &\\
+		B & $\times$ & $\times$ &  & & \\
+		C &  & $\times$ &  & & \\
+		D &  &  & $\times$ &  &\\
+		E &  &  &  & $\times$ &\\
+		F &  &  &  & $\times$ &$\times$ \\ \bottomrule
+	\end{tabular}
+\caption{List of the peer-reviewed papers and their contribution to the thesis.}\label{paper_contribution}
+\end{table}
+\input{Chapters/listofpublications.tex}
