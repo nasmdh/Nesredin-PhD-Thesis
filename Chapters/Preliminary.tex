@@ -38,6 +38,11 @@ During the initial phase of the simulation in the Simulink environment, the mode
 	\label{fig_sm_exec_order}
 \end{figure}
 
+\section{Stochastic Timed Automata}
+Real-time embedded systems usually interact with the environment through sensors and actuators, and many of the interactions involve continuous-time behavior, e.g., pressing the brake pedal, i.e., the driver can press the brake pedal at any moment. Stochastic timed automata can be used to model the continuous-time behavior of real-time systems among other stochastic behaviors, e.g., waiting time in network communication, uncertainly in input values, soft real-time delays, by extending the timed automata with probabilities on the delay and discrete transitions, $A$. Figure x shows a timed automata of the the brake pedal subsystem. 
+
+
+The delay transitions in  In the case of brake b
 \section{UPPAAL Statistical Model Checking}
 UPPAAL SMC \cite{david2012statistical} is a statistical model checker (implemented as an extension of \uppaal{} toolset) for system models represented as networks of stochastic priced timed automata. In \uppaalsmc{} the automata have a stochastic interpretation based on: (i) the probabilistic choices between multiple enabled transitions, and (ii) the non-deterministic time delays that can be refined based on probability distributions, either uniform distributions for time-bounded delays or user-defined exponential distributions for unbounded delays.
 
