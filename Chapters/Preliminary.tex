@@ -1,18 +1,20 @@
 \chapter{Background}
-In this section, we explain the background about the concepts and technologies employed in the thesis. These includes the logic-based reasoning methods such as the Boolean satisfiability (SAT) and ontology-based on the description logic which are employed to improve quality of requirements specifications, the UPPAAL statistical model checking and stochastic time automata which is employed in the formal analysis of Simulink models, and the integer-linear programming and metaheuristics optimization methods which are employed in the resource optimization  in the software to hardware mapping.
+In this section, we give background on the different concepts and technologies used in this thesis, which include logic-based reasoning Simulink, stochastic timed automata,  statistical model checking, integer-linear programming and population-based metaheuristics.
 \section{Logic-based Reasoning}
-In this thesis, we express requirements specifications in  Boolean logic and apply Boolean satisfiability to detect inconsistencies in the specifications. Moreover, we apply ontology for a more rigorous analysis of these specifications.
-\subsection*{Boolean Satisfiability (SAT)}
-The study of a Boolean formula is generally concerned with the set of truth assignments (assignments of 0 or 1 to each of the variables) that make the formula true. Finding such assignments by answering the simpler question: ``does there exist a truth assignment that satisfies the Boolean formula?'' is called the Boolean satisfiability problem (SAT), which is proven to be NP complete. However, heuristics and approximation algorithms do exist to return the result. A SAT problem is formally defined as follows~\cite{devlin2008satisfiability}.
+In this thesis, we express requirements specifications in  Boolean logic and apply \textit{Boolean satisfiability} (SAT) to detect inconsistencies within the specifications. Furthermore, we use \textit{ontology} to represent the specifications, and conduct rigorous analysis via a linguistic approach.
+\subsection*{Boolean Satisfiability}
+The study of a Boolean formula is generally concerned with the set of truth assignments (assignments of 0 or 1 to each of the variables) that make the formula true. Finding such assignments by answering the simpler question: ``does there exist a truth assignment that satisfies the Boolean formula?'' is called the Boolean satisfiability problem (SAT), which is proven to be NP complete~\cite{devlin2008satisfiability}\cite{Biere2009HandbookSatisfiability}. However, efficient heuristics and approximation algorithms do exist to solve such problems.
 
-Z3 Theorem Prover/ SMT Solver. Satisfiability Modulo Theories (SMT)~\cite{Biere2009HandbookSatisfiability} is a decision problem expressed in the first-order logic which integrates a collection of background theories, e.g., on real numbers, bit vector, array, etc. SAT problems are usually described in terms of satisfiability, which is checked using decision procedures, known as SAT solvers. Z3 is a well-known SMT solver as well as a theorem prover developed by Microsoft Research which integrates several background theories and decision procedures using SAT solver~\cite{DeMoura2008Z3:Solver}. It has been used in the formal verification and reasoning of software and hardware systems. Further, it has a strong support for integration to verification tools using its well-known APIs, written in Java, Phyton, C++, C and .Net.
+SAT problems are usually checked using decision procedures known as SAT solvers. Z3 integrates several background theories (or Satisfiability Module Theories, SMT) and decision procedures based on SAT solvers~\cite{DeMoura2008Z3:Solver}. It is a well known SMT solver and a theorem prover developed by Microsoft Research which has been used in the formal verification and reasoning of software and hardware systems, mainly due to its strong support for integration to verification tools via its well known APIs written in Java, Phyton, C++, C and .Net. 
 
-The Z3's input language is an extension of the SMT-LIB2 standard which is used to assert formulas (expressions) as commands. The formulas can be checked for satisfiability using the command (check-sat). If the formulas are satisfiable, Z3 returns sat; if the formulas are not satisfiable, Z3 returns unsat, or if it cannot decide it returns unknown. In case of unsat, if the unsat-core option is enabled, Z3 returns the unsatisfiable subsets of assertions using the (get-unsat-core) command.
+Z3's input language is an extension of the SMT-LIB2 standard, which are commands used to assert logical statements and instruct the solver to do some action, e.g., to check for satisfiability, the command \textit{(check-sat) }is envoked. Z3 returns \textit{sat} if the formulas are satisfiable. If the formulas are not satisfiable, Z3 returns \textit{unsat}, or if it cannot decide the result, it returns \textit{unknown}. In case of unsat, if the unsat-core option is enabled, Z3 can return the subset of unsatisfiable assertions by envoking the \textit{(get-unsat-core)} command.
 
-\subsection*{Ontology based on Description Logic}
-Ontology is a knowledge-base representation method frequently used in the artificial intelligence and other areas to facilitate decision making. Description Logic (DL)~\cite{Baader2010TheApplications} has its origins in the 1970s, and is intended to address the need for logical support to the representation of knowledge bases, mostly designed by using frames and semantic networks. Currently, the language is predominantly used in web semantics (e.g., OWL)~\cite{conf/owled/ShearerMH08}, artificial intelligence~\cite{10.1007/978-94-017-9297-4_7}, bioinformatics~\cite{Rector2006}, software engineering, natural language processing. The language is designed with practicality in mind; consequently, it is usually backed by solid reasoning services that terminate and deliver results in reasonable time. The language uses Concepts (unary predicates), Roles (binary predicates) and Instances (logical symbols) that are recursively constructed using Constructors. The most common constructor Subconcept (or concept inclusion) $\sqsubseteq$, is used to define concept hierarchies, and the equivalence constructor $\equiv$ defines the equivalence of concepts, through the bidirectional concept inclusions. Other basic constructors of the language include the conjunction (intersection) $\sqcap$, disjunction (union) $\sqcup$, the existential quantifier $\exists$, and the universal quantifier $\forall$. Currently, there are many variants of the language that differ in their expressiveness. $\mathcal{sqsubseteq}$ (Attribute Language Complement) is considered the basis of the many Description Logic variants, for instance, $\mathcal{SROIQ}$ which is implemented in OWL 2 extends $\mathcal{ALC}$ (abbr. $\mathcal{S}$) with the role inclusion ($\mathcal{R}$), nominal ($\mathcal{O}$), inverse role ($\mathcal{I}$), qualified cardinality restrictions ($\mathcal{Q}$). 
+\subsection*{Ontology and Description Logic}
+Ontology is a knowledge representation technique frequently used in the artificial intelligence and other domains to facilitate automated decision making. It is defined as ``a formal specification of a shared conceptualization'' according to Borst \cite{Borst1997ConstructionOntologies}. It employs different modeling entities, e.g., concepts, instances, axioms, which are compared to classes, objects, inheritance in Object-Oriented Progreamming. The ontology is consistent if every axioms and relations (or assertions) hold~\cite{Mankovskii2009OWL:Language}.
 
-\section{Simulink Analysis}
+Description logic (DL)~\cite{Baader2010TheApplications} is a knowledge presentation language, and is the most widely language used to construct ontologies. It is a fragment of first-order logic with many of the core reasoning problems decidable. For this reason, it has several application, e.g., in web semantics (e.g., OWL)~\cite{conf/owled/ShearerMH08}, artificial intelligence~\cite{10.1007/978-94-017-9297-4_7}, bioinformatics~\cite{Rector2006}, software engineering, natural language processing. Thus, it is usually backed by solid reasoning services that terminate and deliver results in reasonable time. 
+
+\section{Simulink}
 Simulink~\cite{JamesB.Dabney2003MasteringSimulink} is a graphical development environment for the modeling, simulation and analysis of embedded systems which is widely used in industry to model and inspect the dynamics of systems before implementation. It is robust as it supports multi-domain, continuous, discrete, hybrid systems, also discrete systems that execute with different sampling times (or multi-rate). Figure~\ref{fig_sm_multi-rate} shows a multi-rate subsystem of the brake-by-wire Simulink model that models the brake pedal (i.e., continuous behavior) and global brake functionality (i.e., discrete behavior), which executes every 10ms and 20ms.  
 \begin{figure}[h]
 	\centering
@@ -39,51 +41,47 @@ During the initial phase of the simulation in the Simulink environment, the mode
 \end{figure}
 
 \section{Stochastic Timed Automata}
-Real-time embedded systems usually interact with the environment through sensors and actuators, and many of the interactions involve continuous-time behavior, e.g., pressing the brake pedal, i.e., the driver can press the brake pedal at any moment. Stochastic timed automata can be used to model the continuous-time behavior of real-time systems among other stochastic behaviors, e.g., waiting time in network communication, uncertainly in input values, soft real-time delays, by extending the timed automata with probabilities on the delay and discrete transitions, $A$. Figure x shows a timed automata of the the brake pedal subsystem. 
+The theory of stochastic timed automata builds upon the timed automata theory via probability to support stochastic behavior in modeling and anlaysis of real-time systems. It can be used to model continuous-time behaviors, e.g., pressing the brake pedal, which occurs at continuous time points, and others, e.g., waiting time in network communication, uncertainly in input values, soft real-time deadlines. 
+
+A timed automaton $\mathcal{A}$ is a finite-state automaton proposed by Alur et al.~\cite{Alur1999TimedAutomata} to model and anlayze real-time systems, i.e., by extending the automaton with real-valued clock variables $X$. It is widely used in the model checking to verify functional and timing requirements, e.g.,liveness, safety properties. The stochastic version automaton $\langle\mathcal{A},\mu,\gamma\rangle$ basically extends the timed automaton with probability, i.e., on the delays between states via the delay density functions $\mu$ and discrete transitions between locations via the output probability functions $\gamma$, where  $\mathcal{A}$ is represented as a tuple $\langle L,l_0,X,\Sigma,E,I\rangle$, and its elements are described as follows: $L$ is a set of locations of which $l_0$ is the initial location, $E$ is the set of edges between locations,  $\Sigma$ is a set of action labels, and $I$ is a set of invariants, which are Boolean constraints over $X$ assinged to locations, i.e., the system (or automaton) can only stay in the location as long as its invariants hold. An edge $(l,g,a,r,l')\in E$ denotes a transition relation from the location $l$ to $l'$, with conjuctions of guards $g$, action $a$ and clock resets $r$. The gaurd is also a Boolean constraint over $X$, and when it holds, the transition on the edge is enabled.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/sta_dummy_example}
+	\caption{STA example.}
+	\label{fig_staexample}
+\end{figure}
+
+\begin{example}[STA Example] Figure~\ref{fig_staexample} is a dummy STA example with three locations A,B and C, where A is the initial location. The guards of the automaton are labeled in Green color, the clock resets in Blue and the constraints in Red.
+\end{example}
+
+%The semantics of a timed auomaton is given as a \textit{timed transiton} system, which are abstract machines to study the computation of real-time system, and consist of states and transitions between states. 
+Assume that, $d(l,v)$ is the infimum delay which satisfies the disjunction of guards on the edge that start from $l$, and assume that, $D(l,v)$ is the superimum delay which satisfies the invariant $I(l)$. If the delay is bounded, i.e., there exists $D(l,v)$, in location $l$, each delay density function in $l$, $\mu_s$, is assumed to be uniformly distributed on the interval $[d(l,v),D(l,v)]$. However, if the location is time unbounded, the delays are assumed to be exponentially distributed with the rate $R(l)$. To illustate this point, consider the same STA example, the delays at the location A are exponentially distributed, i.e., with rate 100, since the the location is time unbounded, and delays at B and C are uniformly distributed on the interval $[4,8]$ and $[10,10]$, respectively. The output probability of locations A and C is 1 and of location B is 1/2. 
+%Note: logical path, and probability of taking the path is purely stochastic
+
+\subsection*{Network of Stochastic Timed Automata}
+Under the assumption of input-enabledness, disjointness of clock sets and output action sets, a network of STA (denoted by NSTA) is parallel composition of $STA_i$, i.e., $(STA||STA2||,...,||STAn)$, where n is the number of STA in the netowrk.  The state of a networked TA is a tuple $\langle s_1,s_2,...,s_n\rangle$, where $s_i=(l,v)\in L_i\times X_i$ . In NSTA, the automata communicate through broadcast channels and globally shared variables. Moreover, the semantics of the NSTA relies on the independent computation of the individual STA (or components), i.e.,  each component automaton, based on the delay density functions and the output probability functions decides repeatedly on which output to generate and at which point in time. In this race, the output will be determined by the component automaton that has chosen to produce the output after the minimum delay~\cite{David2011StatisticalAutomata}.
 
 
-The delay transitions in  In the case of brake b
-\section{UPPAAL Statistical Model Checking}
-UPPAAL SMC \cite{david2012statistical} is a statistical model checker (implemented as an extension of \uppaal{} toolset) for system models represented as networks of stochastic priced timed automata. In \uppaalsmc{} the automata have a stochastic interpretation based on: (i) the probabilistic choices between multiple enabled transitions, and (ii) the non-deterministic time delays that can be refined based on probability distributions, either uniform distributions for time-bounded delays or user-defined exponential distributions for unbounded delays.
+\section{Statistical Model Checking}
+Statistical model checking uses a finite set of randomly selected execution traces (or runs) of the automata, and subsequently checks if the traces satisfies a propery $\varphi$, i.e., $S\in Runs(A)\models \varphi$. It applies statistical techniques such as hypothesis testing and mote carlo simulation the satisfaction of properties. 
 
-\section*{Stochastic Timed Automata}
-A \textit{stochastic priced timed automaton} (SPTA) is defined as the following tuple:
-\begin{equation}
-SPTA=\langle L, l_0, X, \Sigma, E, R, I, \mu, \gamma \rangle,
-\label{eq:STA}
-\end{equation}
-where
-$L$ is a finite set of locations,
-$l_0 \in L$ is the initial location,
-$X$ is a finite set of continuous variables,
-$\Sigma =\Sigma_i \uplus \Sigma_o$ is a finite set of actions partitioned into inputs ($\Sigma_i$) and outputs ($\Sigma_0$),
-$E$ is a finite set of edges of the form $(l,g,a,\varphi, l')$, where $l$ and $l'$ are locations, $g$ is a predicate on
-$\mathbb{R}^X$, action label $a \in \Sigma$, and $\varphi$ is a binary relation on $\mathbb{R}^X$, $R : L \rightarrow \mathbb{N}^X$ assigns a rate vector to each location,
-$I$ assigns an invariant predicate $I(l)$ to any location $l$, $\mu$ is the set of all density delay functions $\mu_s \in L \times R^X$, which can be either uniform or exponential distribution, and $\gamma$ is the set of all output probability functions $\gamma_s$ over the $\Sigma_o$ output edges of the automaton.
-
-The semantics of the probabilistic SPTA is defined over a timed transition system, whose states are pairs $s = (l,v) \in L \times \mathbb{R}^X$, with $v \models I(l)$, and transitions defined as:
-(i) delay transitions ($(l, v)\xrightarrow{d}(l, v')$ with $d \in \mathbb{R}_{\geq 0}$ and $v'= v + d$), and
-(ii) discrete transitions ($(l, v)\xrightarrow{a}(l', v')$ if there is an edge $(l,g,a,Y,l')$ such that $v \models g$ and $v'= v[Y]$, where $Y \subseteq X$, and $v[Y]$ is the valuation assigning 0 when $x \in Y$ and $v(x)$ otherwise).
-We write $(l, v) \leadsto (l', v')$, if there is a finite sequence of delay and discrete transitions from $(l, v)$ to $(l', v')$. 
-%The delay update for a simple clock $x$ is given by an implicit rate $x′=1$ or an explicit rate $x′=e$ appearing in the invariant of $l$, where $e$ is an expression only depending on the discrete part of the current state.
-The delay density function $\mu_s$ over delays in $\mathbb{R}_{\geq 0}$ for each state $s$ is either a uniform or an exponential distribution, depending on the invariant of location $l$. Let $E_l$ denote the disjunction of guards such that $(l, g, o, -, -) \in E$ for some output $o$. Then, $D(l, v) = \mbox{sup}\{d \in \mathbb{R}_{\geq 0} : v + d \models I(l) \}$ denotes the supremum delay, whereas $d(l, v) = \mbox{inf}\{d \in \mathbb{R}_{\geq 0} : v + d \models  E_l \}$ denotes the infimum delay before enabling an output. If $D(l, v) < \infty$ then the delay density function $\mu_s$ for a given state $s$ is a uniform distribution over the interval $[d(l, v), D(l, v)]$, otherwise it is an exponential distribution with a rate $P(l)$. For every state $s$, the output probability function $\gamma_s$ over $\Sigma_o$ is a uniform distribution over the set $\{o : (l, g, o, -, -) \in E \land v \models g\}$ whenever the set is non empty. 
-
-Under the assumption of input-enabledness, disjointedness of clock sets and output actions, a collection of composable SPTA can be defined as a  \textit{network of SPTA} (NSPTA), via the parallel composition operator ($A1\parallel A2 \parallel ... \parallel An$).
-The states of the NSPTA are defined as a tuple $s = \langle s_1,...,s_n\rangle$, where $s_j$ is a state of $A_j$ of the form $(l, v)$, where $l \in L^j$ and $v \in \mathbb{R}^{X^j}$, where different automata synchronize based on standard broadcast channels. 
-The probabilistic semantics is based on the principle of independence between components.
-Each component decides on its own (based on a given delay density function and the output probability function) how much to delay before producing an output.
-
-For encoding the patterns presented in this paper, we use SPTA with real-valued clocks that evolve with implicit rate 1. These automata are in fact timed automata with stochastic semantics, called \textit{stochastic timed automata} (STA). A \textit{network of STA} (NSTA) is a parallel composition of STA, defined in a similar way as NSPTA. The notion of SPTA is introduced due to the fact that, for analysis we use monitor automata (composed in parallel with the actual system model) that implement the \emph{stop-watch} mechanism, which renders the model a network of stop-watch timed automata, which is a subset of NSPTA.
+UPPAAL SMC is a statistical model checker found in the UPPAAL toolset. It takes in systems that are modeled as a network of stochastic priced timed automata. In this thesis, we use the real-valued clocks $X_j$ that evolve with implicit rate 1, thus the priced automata have only stochastic semantics. In this thesis, the notion of stochastic priced timed automata is used only to model monitor automata (composed in parallel with the actual system model), whic implement the \emph{stop-watch} mechanism.
 
 \subsection*{Properties Specification}
-\uppaalsmc{} uses a probabilistic extension of \textit{weighted metric temporal logic} (WMTL) \cite{bulychev2012rewrite} to provide:
+\uppaalsmc{} employs the probabilistic extension of \textit{weighted metric temporal logic} (WMTL) \cite{bulychev2012rewrite}, i.e., PWMTL, to describe quanitative and qualitative statistical properties, which can be inductively constructed from the following grammar:
+\begin{align}
+\varphi::=P(\Diamond_{c\leq t}\phi)\bowtie p | P(\Box c\leq t)\bowtie p
+\end{align}
+where $c$ is the observer clock of the automaton under analysis, $\phi$ is a state property, $\bowtie \in\{<, \leq, =,\geq, >\}$, and $p \in [0, 1]$.
+
+The following types of properties can be checked in UPPAAL SMC: 
 \begin{itemize}
-	\item \textit{Hypothesis testing}: check if the probability to reach a state $\phi$ within cost $x\leq C$ is greater or equal to a certain threshold $p$ ($Pr[<= bound](\star_{x\leq C}\phi) \geq p$),
-	\item \textit{Probability evaluation}: calculate the probability $Pr[<= bound](\star_{x\leq C}\phi)$ for some NSPTA,
-	\item \textit{Probability comparison}: is $Pr[<= bound](\star_{x\leq C}\phi_1) > Pr[<= bound](\star_{y\leq D}\phi_2)$?,
+	\item \textit{Hypothesis testing} - it is a qualitative method to check if the probability of satisfying a property $\varphi$ is less than or equal to a certain probabilistic threshold $p$ over a network of STA.
+	\item \textit{Probability evaluation} - it is quantitative method to determine the probability of satisfying a certain property $\varphi$ over a network of STA.
+	\item \textit{Probability comparison} - it is qualitative method to compare the probabilities of satisfying two properties $\varphi_1$ and $\varphi_2$ over a network of STA.
 \end{itemize}
-where $\star$ stands for either \textit{future} ($\Diamond$) or \textit{globally} ($\square$) temporal operator, and \textit{[<= bound]} denotes the time bound of the executions.
-\section{Integer-linear Programming (ILP)}
+
+\section{Integer-linear Programming}
 \ilp{} is an optimization problem where the decision variables are integer, and the objective function and the constraints are linear models.  They are problems that can be represented as 
 \begin{align}
 	&Maximize\ \sum_{j=1}^{n}{c_jx_j}\\
@@ -120,4 +118,4 @@ Likewise, in the particle-swarm optimization, the method employs agents (in this
 \label{eqn_pso_position}
 \textbf{p} &\leftarrow \textbf{p} + \textbf{v},
 \end{align}
-where $\omega$ is the weight of the velocity, also known as \textit{inertia coefficient} and controls the convergence of the algorithm. The $c_1, c_2$ constants are acceleration coefficients and control the weight of attraction towards the cognitive and social components, respectively. $Rand()\in U(0,1)$ is a random function along the acceleration coefficients, which is element-wise multiplied with the components to improve diversity of the search by introducing stochastic behavior.
+where $\omega$ is the weight of the velocity, also known as \textit{inertia coefficient} and controls the convergence of the algorithm. The $c_1, c_2$ constants are acceleration coefficients and control the weight of attraction towards the cognitive and social components, respectively. $Rand()\in U(0,1)$ is a random function along the acceleration coefficients, which is element-wise multiplied with the components to improve diversity of the search by introducing stochastic behavior

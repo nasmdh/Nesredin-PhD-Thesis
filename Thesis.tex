@@ -50,12 +50,20 @@
 \usepackage{eucal}
 \usepackage[linesnumbered,lined,boxed,commentsnumbered]{algorithm2e}
 \usepackage{amsfonts}
-%\usepackage{amssymb}
-%\usepackage{anyfontsize}
-% Bibliographic information
-\input{BiblioInfo.tex} % This file should be edited by the author.
+\usepackage{backnaur}
+\usepackage{tikz}
 
+\NewEnviron{elaboration}[1]{
+	\par
+	\begin{tikzpicture}
+	\node[rectangle,minimum width=#1\textwidth] (m) {\begin{minipage}{#1\textwidth}\BODY\end{minipage}};
+	\draw[dashed] (m.south west) rectangle (m.north east);
+	\end{tikzpicture}
+}
+
+\input{BiblioInfo.tex} % This file should be edited by the author.
 \begin{document}
+	
 %\frontmatter
     %\frontmatterMonograph % Monograph authors use this front matter 
     \frontmatterCS % Authors of Comprehensive Summaries use this front matter 
@@ -73,7 +81,7 @@
 % Our proposed domain-specific language and the statistical model checking of Simulink models is evaluated on automotive use cases from Volvo Group Trucks Technology (VGTT), which consist of the adjustable-speed limiter (ASL) and the brake-by-wire (BBW) systems. The proposed power optimization methods are evaluated on automotive benchmark from Bosch.
     % This includes the "Instruction", "Problem and Solutions" and "Example" files. After reading it, remove it from Thesis.tex. 
      %\input{Chapters/Example.tex}
-     \input{Chapters/Introduction.tex}
+    \input{Chapters/Introduction.tex}
     \input{Chapters/Preliminary.tex}
     \input{Chapters/ResearchGoals.tex}
     \input{Chapters/Contributions.tex}

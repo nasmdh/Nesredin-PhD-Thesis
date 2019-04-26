@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+double torqueVal;
+double brakeVal;
+clock x;
+bool brake, pedal;
+
+</declaration>
+	<template>
+		<name x="5" y="5">Brakex</name>
+		<declaration>// Place local declarations here.
+clock x2;</declaration>
+		<location id="id0" x="0" y="0">
+			<label kind="invariant" x="-10" y="17">x2 &lt;= 2</label>
+		</location>
+		<location id="id1" x="-102" y="0">
+		</location>
+		<init ref="id1"/>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id0"/>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id0"/>
+			<label kind="guard" x="68" y="-42">x2 &gt;= 2</label>
+			<label kind="assignment" x="68" y="8">x2 = 0, brake =  true</label>
+			<nail x="51" y="-34"/>
+			<nail x="51" y="25"/>
+		</transition>
+	</template>
+	<template>
+		<name>Gas</name>
+		<location id="id2" x="-17" y="0">
+			<name x="-27" y="-34">Init</name>
+			<label kind="exponentialrate" x="-27" y="34">10</label>
+		</location>
+		<init ref="id2"/>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id2"/>
+			<label kind="assignment" x="34" y="-8">pedal = true</label>
+			<nail x="25" y="-25"/>
+			<nail x="25" y="25"/>
+		</transition>
+	</template>
+	<template>
+		<name>Brake</name>
+		<declaration>clock y;
+clock x2;</declaration>
+		<location id="id3" x="-17" y="0">
+			<name x="-27" y="-34">Init</name>
+			<label kind="exponentialrate" x="-25" y="17">2</label>
+		</location>
+		<init ref="id3"/>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id3"/>
+			<label kind="assignment" x="34" y="-8">brakeVal=10.0+random(100.0),
+brake = true</label>
+			<nail x="25" y="-25"/>
+			<nail x="25" y="25"/>
+		</transition>
+	</template>
+	<template>
+		<name>SpeedingBraking</name>
+		<location id="id4" x="0" y="-25">
+			<name x="-59" y="-59">LowSpeed</name>
+			<label kind="exponentialrate" x="-25" y="-8">1000</label>
+		</location>
+		<location id="id5" x="153" y="-85">
+			<name x="110" y="-136">Accelerating</name>
+			<label kind="invariant" x="127" y="-119">x &lt;= 5</label>
+		</location>
+		<location id="id6" x="306" y="-25">
+			<name x="297" y="-59">HighSpeed</name>
+			<label kind="exponentialrate" x="323" y="-34">1000</label>
+		</location>
+		<location id="id7" x="153" y="34">
+			<name x="127" y="68">Braking</name>
+			<label kind="invariant" x="127" y="51">x &lt;= 5</label>
+		</location>
+		<init ref="id4"/>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id5"/>
+			<label kind="guard" x="76" y="-34">pedal==true</label>
+			<nail x="127" y="-25"/>
+		</transition>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id7"/>
+			<label kind="guard" x="144" y="-59">brake==true</label>
+			<nail x="178" y="-25"/>
+		</transition>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id4"/>
+			<label kind="guard" x="59" y="25">x &gt;= 5</label>
+		</transition>
+		<transition>
+			<source ref="id6"/>
+			<target ref="id7"/>
+			<label kind="guard" x="255" y="0">brake==true</label>
+			<label kind="assignment" x="212" y="25">x = 0,
+brake=false</label>
+		</transition>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id6"/>
+			<label kind="guard" x="187" y="-93">x &gt;= 5</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id5"/>
+			<label kind="guard" x="0" y="-76">pedal==true</label>
+			<label kind="assignment" x="42" y="-110">x = 0,
+pedal=false</label>
+		</transition>
+	</template>
+	<template>
+		<name>Torque</name>
+		<declaration>clock x3;
+void calcTorque()
+{
+    torqueVal = brakeVal*random(1.0)*5;
+}</declaration>
+		<location id="id8" x="17" y="17">
+			<name x="-25" y="8">Init</name>
+			<label kind="invariant" x="-25" y="34">x3&lt;=4</label>
+		</location>
+		<init ref="id8"/>
+		<transition>
+			<source ref="id8"/>
+			<target ref="id8"/>
+			<label kind="guard" x="60" y="-8">x3&gt;=4</label>
+			<label kind="assignment" x="8" y="59">calcTorque(),
+x3=0</label>
+			<nail x="111" y="17"/>
+			<nail x="111" y="68"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+adjustingPro = SpeedingBraking();
+brakingPro = Brake();
+gasingPro = Gas();
+torquePro = Torque();
+// List one or more processes to be composed into a system.
+system adjustingPro, brakingPro, gasingPro,torquePro;
+    </system>
+	<queries>
+		<query>
+			<formula>simulate[&lt;=20] { brakeVal,torqueVal }</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>A[] not deadlock</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>
