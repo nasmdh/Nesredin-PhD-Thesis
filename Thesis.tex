@@ -45,13 +45,19 @@
 
 % enumerate inline
 \usepackage[inline]{enumitem}
-\usepackage{subfig}
+
 \usepackage{amsmath}
 \usepackage{eucal}
 \usepackage[linesnumbered,lined,boxed,commentsnumbered]{algorithm2e}
 \usepackage{amsfonts}
 \usepackage{backnaur}
 \usepackage{tikz}
+\usepackage{subfig}
+\usetikzlibrary{spy}
+\usepackage{lineno}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+
 
 \NewEnviron{elaboration}[1]{
 	\par
@@ -84,11 +90,11 @@
     \input{Chapters/Introduction.tex}
     \input{Chapters/Preliminary.tex}
     \input{Chapters/ResearchGoals.tex}
-    \input{Chapters/Contributions.tex}
     \input{Chapters/ResearchMethod.tex}
+    \input{Chapters/Contributions.tex}
     \input{Chapters/RelatedWork.tex}
     \input{Chapters/ConclusionsFutureWork.tex}
-\backmatter
+    
 
     % References
     % No restriction is set to the reference styles
@@ -96,5 +102,9 @@
     %\nocite{*} % Remove this for your own citations
     \bibliographystyle{plain}
     \bibliography{references}
+    \part{Included Papers}
+This part of the document presents the scientific papers included in the thesis.
+
+    \backmatter
 
 \end{document}
